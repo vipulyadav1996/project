@@ -1,0 +1,118 @@
+%\documentclass[a4paper,12pt,oneside]{report}
+%\linespread{1.3}
+%\usepackage{layout}
+%\usepackage{enumerate}
+%\usepackage[a4paper,total={170mm,257mm},left=20mm,top=30mm,bottom=30mm]{geometry}
+%\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{tabularx}
+%\begin{document}
+\chapter{Introduction}
+\section{Introduction}
+The dynamic vibration absorber (DVA) or tuned-mass damper (TMD) is a widely used passive vibration control device. Dynamic Vibration Absorbers (DVA) are based on the concept of attaching a secondary mass to a primary vibrating system such that the secondary mass dissipates the energy and thus reduce the amplitude of vibration of the primary system. A simple DVA consists of a mass and a spring. When a mass spring system or a primary system is excited by a harmonic force, its vibration can be suppressed by attaching a DVA as shown in Fig.\ref{dva}.\\
+However, adding a DVA to a one-degree-of-freedom (dof) system results in a new 2-dof system. If the exciting frequency coincides with one of the two natural frequencies of the new system, the system will be at resonance. To overcome this problem, a damper is added to DVA. Figure \ref{dva} shows a primary system attached by a damped DVA.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{"figures/dva"}
+\caption{A simple dynamic vibration absorber}
+\label{dva}
+\end{figure}
+Equations of motion of the system are given as:
+\begin{align*}
+&m_1\ddot{x_1}+k_1x_1+k_2(x_1-x_2)+c_2(\dot{x_1}-\dot{x_2})=F_0sin(\omega *t) \\
+&m_2\ddot{x_2}+k_2(x_2-x_1)+c_{2}(\dot{x_{2}}-\dot{x_{1}})=0
+\end{align*}
+
+However, adding a Dynamic Vibration Absorber (DVA) to a one-degree-of-freedom (dof) system results in a new two-degree-of-freedom system. If the exciting frequency coincides one of the two natural frequencies of the new system, the system will be at resonance.
+
+The vibration response of a single DOF system is compared with a system having a DVA without a damper, as shown in Fig \ref{changeInGraph} and a graph showing the effect of mass ratio(absorber mass by main mass) on the creation of two new natural frequencies is shown in Fig \ref{massRatio}. It can be seen that as mass ratio increases the two new frequencies are pushed further apart.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{"figures/changeInGraph"}
+\caption{Change in response on addition of DVA without a damper}
+\label{changeInGraph}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.3]{"figures/massRatio"}
+\caption{Effect of mass ratio on natural frequencies}
+\label{massRatio}
+\end{figure}
+
+\section{Applications:}
+Tuned mass dampers are largely used in vibration control of crankshafts, hand-held devices and
+transmission cables.
+\subsection{Damping of hand-held devices}
+Hair clipper, dry shavers, and hand-held devices alike use electromagnetic motors to power themselves. Usually, the motor operates at a fixed frequency such as 60Hz. 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.9]{"figures/eclipper"}
+\caption{A typical electrical hair clipper}
+\label{eclipper}
+\end{figure}
+The figure \ref{eclipper} shows a typical electric hair clipper. In such hair-clippers, an electro-magnet is used to develop vibrating force for cutting. However, this also generates an unpleasant vibration of
+the housing. This vibration is neutralized by the application of a pair of mass dampers fixed to the
+housing at two different points.
+
+\subsection{Floor vibration control}
+Wide column spans along with the use of high strength material (less of which would provide the needed structural integrity) tend to make modern composite floors flexible and oscillatory. Human activities (walking, running, dancing, etc.) and operating machines can induce high levels of vibration in such floors. \\
+Floor vibration in a building are considered harmful due to several reasons:
+\begin{enumerate}
+\item Impair the operation of sensitive instruments
+\item Affect human psychology for acceleration level even greater than 0.005g
+\item Motion having peak amplitude greater than 1 mm is not desirable in active environments
+\end{enumerate} 
+Traditional methods for improving the environment include:
+\begin{enumerate}
+\item  Adding extra columns
+\item  Adding extra thickness to the floors and
+\item  Increasing structural stiffening
+\end{enumerate} 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.9]{"figures/floordamp"}
+\caption{Two tuned mass dampers installed underneath a floor}
+\label{floordamp}
+\end{figure}
+Reactive damping, provided by attaching tuned mass dampers (TMDs) to the floor, is commonly used for treating vibrating floors. Negligible weight penalty, low cost, and ease of installation make TMDs the most practical, cost-effective, and least disruptive floor vibration control solution for both new and existing floor systems.
+
+\subsection{Houdaille damper}
+A tuned viscous torsional damper referred to as the Houdaille damper or viscous Lanchester damper can be used to reduce the torsional oscillations of the crankshaft.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1.3]{"figures/hdamp"}
+\caption{Figure showing Houdaille damper}
+\label{hdamp}
+\end{figure}
+ A Houdaille damper can be used to reduce the vibration in rotating systems, such as in engine installations where the operation speed may vary over a wide range. As shown in figure \ref{hdamp}, the damper consists of a disk. The disc is free to rotate inside a housing which is attached to the rotating shaft, and the housing and the rotating shaft are assumed to have equivalent mass moment of inertia. The space between the housing and the disk is filled with viscous fluid. In most cases, the fluid is a silicon oil whose viscosity is of similar magnitude to oil but which does not change significantly when the temperature changes. The damping effect is produced by the viscosity of the oil and is proportional to the relative angular velocity between the housing and the disk.
+ 
+\subsection{Vibration control of structures}
+Mass damper is a device mounted on structures such as buildings or bridges to reduce the amplitude of the structures due to the vibrational motions induced by periodic or non-periodic dynamic loading. It operates effectively to prevent internal discomfort and damage as well as the outright structural failures. The installed mass damper moves in opposition to the resonance frequency oscillations of the structure by means of pendulum, spring or fluid. Mass damper that counter-reacts the movement of building guarantees the safety of buildings when subjected to strong wind blow or light seismic wave.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.25]{"figures/tmdbuild"}
+\caption{Tuned mass damper atop Taipei 101}
+\label{taipei}
+\end{figure}
+These passive vibration control systems have been widely utilized in many high-rise building structures particularly those located at seismically active zone. These include Taipei 101 at Taiwan and One Rincon Hill at U.S.A.
+
+\subsection{Wind turbines}
+A standard tuned mass damper for wind turbines consists of an auxiliary mass which is attached to the main structure by means of springs and dashpot elements. The natural frequency of the tuned mass damper is basically defined by its spring constant and the damping ratio determined by the dashpot. The tuned parameter of the tuned mass damper enables the auxiliary mass to oscillate with a phase shift with respect to the motion of the structure. In a typical configuration an auxiliary mass hung below the nacelle of a wind turbine supported by dampers or friction plates.
+
+\subsection{Optical Disk Drives}
+Demands for higher read/write speeds of optical disk drives (ODDs) have resulted in an increase in the rotational speed of the drive, which has led to greater vibration from the spindle motor. This, in turn, requires a higher servo gain of the pickup actuator, which leads to write failures in CDs and DVDs. The increased vibration also produces an unpleasant sensation for users of mobile equipment with integrated ODDs. Thus, additional mechanisms, such as dynamic vibration absorber (DVA), mass balancer, or auto-ball balancer, are required to decrease the vibration. The DVA is the most popular of these because of its low price and its effectiveness in reducing vibration.
+
+\section{Suitable name for what is done in thesis}
+There are four design variables involved while designing a DVA, objective being to minimize the vibration amplitude of the main mass over the operating frequency.The four design variables involved are the mass ratio($\mu$), stiffness of the spring($k_2$), the damping between primary mass and the absorber mass($\zeta_2$) and the damping in the primary mass($\zeta_1$) which is usually independent and is specified over which designer doesn't have much control over.\\
+
+The basic outline of this thesis is:
+\begin{enumerate}[1.]
+\item In the absence of damper in the primary system,the optimum design parameters for the DVA. Den Hartog proposed a closed form solution for this case,Den Hartog’s derivation is based on a very peculiar observation that for different values of secondary mass damping the curve always passes through 2 fixed points.
+\item In second case when DVA is present in both primary and absorber mass,a search for optimal parameters is done.But in this case a closed form solution cannot be obtained,hence numerical methods are adapted for selection of optimized parameters.
+\item In the third instance the effect of configuration of attachment of secondary damper as proposed by Kifu Liu and Jie Liu has been considered.
+\item In previous instances,damping is usually viscous but we have considered the addition of coulomb damper between the primary mass and he absorber mass.A numerical search was done to find the optimum frictional force and the FRF generated in this case was compared with the FRF of optimum viscous damper. 
+\end{enumerate}
+
+%\end{document}
+                       

@@ -1,0 +1,35 @@
+%\documentclass[11pt]{report}
+%\usepackage{color}
+%\usepackage[a4paper,total={170mm,257mm},left=20mm,top=20mm,bottom=30mm]%{geometry}
+%\usepackage{graphicx}
+%\usepackage{tabularx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{color}
+%\usepackage{enumerate}
+%\begin{document}
+\chapter{Introduction of Non-linearity in the system}
+The characteristics of the non linear primary system attached by the linear absorber change only slightly in terms of the values of its new linearizied natural frequency, damping coefficient and frequency interval for primary resonance, because the vibration absorber is a small attachment and does not contribute significantly to the change of these parameters (linear stiffness and damping coefficient). Two ratios, namely attenuation ratio and desensitisation ratio, will be defined to indicate the effectiveness of the linear absorber in Suppressing the primary resonance vibrations. The attenuation ratio will be defined by the ratio of the maximum Amplitude of vibrations of the non linear primary system after and before adding the linear vibration absorber under a given value of the amplitude of excitation.The desensitisation ratio will be given by the ratio of the critical values of the amplitude of external excitations presented in the non linear primary system after and before the linear vibration absorber is attached. The critical value of the excitation amplitude refers to here as a certain value of external excitation that results in the occurrence of saddle-node bifurcations and jump phenomena in the frequency–response curve. Below this critical value, the frequency–response curve of the primary resonance vibrations does not show saddle-node bifurcations (and jump phenomena) and will exhibit saddle-node bifurcations and jump phenomena if the amplitude of excitation exceeds the critical value.
+
+The forced oscillations of a two degree-of-freedom non linear system having cubic non linearities have been studied by many researchers The attention of these studies has focused on the case of   internal resonances when $\omega_1 = \omega_2 or \omega_3 = \omega_1$. Specifically, Nayfeh and Mook considered the forced oscillations of cubically non linear systems without linear coupling terms under internal resonances $\omega_2=3\omega_1$.  Natsiavas  studied the steady-state oscillations and stability of the non linear system having cubic non linearities under one-to-one internal resonances $\omega_1=\omega_2$. It was shown that the presence of one-to one internal resonances in the nonlinear system of dynamic vibration absorber may result in instability of the periodic response and quasi-periodic oscillations with much higher amplitudes.
+The non-linear system considered is as shown in figure
+\begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/non-lineardiag"}
+  \caption{non-linearity is added in primary system.}
+  \label{fig:33}
+  \end{figure}
+  Below we included the figures of FRF when a hardening spring(cubic stiffness is positive) is included in the system.In figure \ref{fig:34} the FRF's are drawn without absorber and then to this system a cubic hardening spring is included without the absorber (green line),it is seen that FRF shifts towards right,it is seen that as non-linearity increases more the shift occurs.\\Similar effects are seen when the non-linearity is introduced in the absorber system,in this case also the graphs lean to right at both first and second peak and with increase in non-linearity same leaning effect is seen.
+  
+  \begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/33"}
+  \caption{non-linearity is added in secondary system.}
+  \label{fig:33}
+  \end{figure}
+  \begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/34"}
+  \caption{2-DOF non linear system.}
+  \label{fig:34}
+  \end{figure}
+  Given the fairly limited literature concerning the nonlinear dynamic vibration absorber (NDVA), the specific objectives of the study were as follows: 
+To develop a complete analytical expression and verify the numerical solutions that describe the performance of the particular NDVA under harmonic excitation. Subsequently, investigate the response and its sensitivity to the various physical parameters of the absorber namely the absorber mass, damping and stiffness. The latter possesses restoring force contributions which are both linear and nonlinear cubic powers of the displacement. 
+%\end{document}

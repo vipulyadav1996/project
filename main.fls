@@ -1,0 +1,205 @@
+PWD C:/Users/PC/Desktop/Project
+INPUT C:/Users/PC/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT main.tex
+OUTPUT main.log
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/report.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/report.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/layout.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/layout.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/enumerate.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/enumerate.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/tabularx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/tabularx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT main.aux
+INPUT main.aux
+OUTPUT main.aux
+INPUT C:/Program Files/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Program Files/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
+INPUT Introduction.tex
+INPUT Introduction.tex
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT figures/dva.jpg
+INPUT ./figures/dva.jpg
+OUTPUT main.pdf
+INPUT ./figures/dva.jpg
+INPUT ./figures/dva.jpg
+INPUT ./figures/dva.jpg
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT figures/changeInGraph.png
+INPUT ./figures/changeInGraph.png
+INPUT ./figures/changeInGraph.png
+INPUT ./figures/changeInGraph.png
+INPUT ./figures/changeInGraph.png
+INPUT figures/massRatio.jpg
+INPUT ./figures/massRatio.jpg
+INPUT ./figures/massRatio.jpg
+INPUT ./figures/massRatio.jpg
+INPUT ./figures/massRatio.jpg
+INPUT woPrimaryDamping.tex
+INPUT woPrimaryDamping.tex
+INPUT figures/4.jpg
+INPUT ./figures/4.jpg
+INPUT ./figures/4.jpg
+INPUT ./figures/4.jpg
+INPUT ./figures/4.jpg
+INPUT wPrimaryDamping.tex
+INPUT wPrimaryDamping.tex
+INPUT figures/withPrimaryMassDamping.png
+INPUT ./figures/withPrimaryMassDamping.png
+INPUT ./figures/withPrimaryMassDamping.png
+INPUT ./figures/withPrimaryMassDamping.png
+INPUT ./figures/withPrimaryMassDamping.png
+INPUT figures/point.pdf
+INPUT ./figures/point.pdf
+INPUT ./figures/point.pdf
+INPUT ./figures/point.pdf
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
+INPUT figures/surface.pdf
+INPUT ./figures/surface.pdf
+INPUT ./figures/surface.pdf
+INPUT ./figures/surface.pdf
+INPUT figures/optimum.pdf
+INPUT ./figures/optimum.pdf
+INPUT ./figures/optimum.pdf
+INPUT ./figures/optimum.pdf
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT NLinPS.tex
+INPUT NLinPS.tex
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT figures/nonlinearity_primaryymass_3_effect of secondaryspring.pdf
+INPUT ./figures/nonlinearity_primaryymass_3_effect of secondaryspring.pdf
+INPUT ./figures/nonlinearity_primaryymass_3_effect of secondaryspring.pdf
+INPUT ./figures/nonlinearity_primaryymass_3_effect of secondaryspring.pdf
+INPUT figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimums.pdf
+INPUT ./figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimums.pdf
+INPUT ./figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimums.pdf
+INPUT ./figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimums.pdf
+INPUT figures/linear.pdf
+INPUT ./figures/linear.pdf
+INPUT ./figures/linear.pdf
+INPUT ./figures/linear.pdf
+INPUT figures/nonlinear.pdf
+INPUT ./figures/nonlinear.pdf
+INPUT ./figures/nonlinear.pdf
+INPUT ./figures/nonlinear.pdf
+INPUT figures/change.pdf
+INPUT ./figures/change.pdf
+INPUT ./figures/change.pdf
+INPUT ./figures/change.pdf
+INPUT figures/nonlinearity_primaryymass_1.pdf
+INPUT ./figures/nonlinearity_primaryymass_1.pdf
+INPUT ./figures/nonlinearity_primaryymass_1.pdf
+INPUT ./figures/nonlinearity_primaryymass_1.pdf
+INPUT NLinSS.tex
+INPUT NLinSS.tex
+INPUT figures/nonlinearity_secondary_1.pdf
+INPUT ./figures/nonlinearity_secondary_1.pdf
+INPUT ./figures/nonlinearity_secondary_1.pdf
+INPUT ./figures/nonlinearity_secondary_1.pdf
+INPUT figures/nonlinearity_secondary_2.pdf
+INPUT ./figures/nonlinearity_secondary_2.pdf
+INPUT ./figures/nonlinearity_secondary_2.pdf
+INPUT ./figures/nonlinearity_secondary_2.pdf
+INPUT figures/nonlinearity_secondary_3.pdf
+INPUT ./figures/nonlinearity_secondary_3.pdf
+INPUT ./figures/nonlinearity_secondary_3.pdf
+INPUT ./figures/nonlinearity_secondary_3.pdf
+INPUT main.aux
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb

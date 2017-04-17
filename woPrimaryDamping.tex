@@ -1,0 +1,39 @@
+\chapter{Linear Dynamic Vibration Absorber}
+\section{Dynamic vibration absorber without primary mass damping}
+The first mathematical theory on the damped DVA was presented by Ormondroyd and Den Hartog.The mathematical model of a primary mass system attached with a damped DVA is given by-\begin{align}
+&m_1\ddot{x_1}+k_1x_1+k_2(x_1-x_2)+c_2(\dot{x_1}-\dot{x_2})=F_0sin(\omega *t) \\
+&m_2\ddot{x_2}+k_2(x_2-x_1)+c_{2}(\dot{x_{2}}-\dot{x_{1}})=0
+\end{align}
+
+Den Hartog derived closed form expressions for optimum damper parameters. He assumed no damping to be present in the main mass to facilitate the derivations.Den Hartog’s derivation is based on a very peculiar observation that for different values of secondary mass damping the curve always passes through 2 fixed points as can be seen from \ref{fig:4}.
+\begin{figure}[h]
+\includegraphics[width=16cm,height=10cm]{"figures/4"}
+\caption{For three values of $C_{2}$ it can be shown that FRF's pass through 2 fixed points}
+  \label{fig:4}
+\end{figure}
+Firstly,the closed form solution for the vibration response of  primary system was derived and this was later used to obtain closed form optimal solution.\\The closed form solution was obtained in the non-dimensional parameters as it helped in understanding how the vibrational response depended on various parameters,for example-the effect on $x_1$ if $F_0$ is doubled and also by introducing non-dimensional parameters,the number of variable can be reduced.
+$$
+\dfrac{x_1}{x_{st}} = \sqrt{\dfrac{(2\dfrac{c}{c_c}g)^2 + (g^2 - f^2)^2}{(2\dfrac{c}{c_c}g)^2 (g^2 -1 + \mu g^2)^2 + [\mu f^2 g^2 - (g^2 -1)(g^2-f^2)]^2}} 
+$$
+where 
+$\mu = $ m/M =  absorber mass / main mass \\
+$w_a = $ k/m =  natural frequency of absorber \\
+$\Omega_n^2 $ =K/M = natural frequency of main system\\
+$f =w_a/\Omega_n$= frequency ratio(natural frequency)\\
+$g = w/\Omega_n$ = forced frequency ratio \\
+$x_{st} = P_0/K$ = static deflection system \\
+$c_c = 2m\Omega_n $=``critical''   damping\\
+
+That is the amplitude ratio $\dfrac{x_1}{x_{st}}$ of the main mass is a function of four variables $\mu$  f , g and  $\dfrac{c}{c_c} $
+It is interesting to follow what happens for increasing damping.When the damping becomes infinite, the two masses are virtually clamped together and we have a single-degree-of-freedom system.
+In adding the absorber to the system, the objective is to bring the resonant peak of the amplitude down to its lowest possible value. With $c_2$ = 0, the peak is infinite at the resonant frequency(g=1); with c = $\infty$ it is again infinite. Somewhere in between there must be a value of c for which the peak becomes a minimum.
+As can be seen from \ref{fig:4},irrespective of damping the FRF always pass through two points and this is no accident. If we can calculate their location, our problem is practically solved, because the most favourable curve is the one which passes with a horizontal tangent through the highest of the two fixed points P or Q. The best obtainable "resonant amplitude" (at optimum damping) is the ordinate of that point.
+Even this is not all that can be done. By changing the relative tuning f = $frac{\omega_a}{\omega_n}$ of the damper with respect to the main system, the two fixed points P and Q can be shifted up and down
+the curve for c = 0. By changing f, one point goes up and the other down. Clearly the most favourable case is such that first by a proper choice of f the two fixed points are adjusted to equal heights, and second by a proper choice of $\frac{c}{c_c}$ the curve is adjusted
+to pass with a horizontal tangent through one of them.
+By adapting the above said procedure,the frequency ratio,damping co-efficient and amplitude ratio is given by:
+\begin{center}
+f = $\dfrac{1}{1+\mu}$\\
+
+$\dfrac{x_1}{x_{st}}= \sqrt{\dfrac{2}{1+\mu}}$
+\end{center}

@@ -1,0 +1,29 @@
+%\documentclass[11pt]{report}
+%\usepackage{color}
+%\usepackage[a4paper,total={170mm,257mm},left=20mm,top=20mm,bottom=30mm]{geometry}
+%\usepackage{graphicx}
+%\usepackage{tabularx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{color}
+%\usepackage{enumerate}
+%\begin{document}
+\section{Skyhook and Groundhook dampers}
+Studies in the field of DVA has tried to reduce the vibration of primary system,that is by  looking for possibilities such as changing the type of damping or spring that is used.Benchmark being the optimum solution for FRF as suggested by Den Hartog without primary mass damping,which was later extended to system with primary mass damping,as discussed in earlier sections.
+
+In 2004 Kefu Liu and jie Liu came up with an optimum FRF for a system that was better than the Optimum FRF as suggested by Den Hartog.They worked on the two configuration of damper,instead of introducing a damper between the primary mass and the secondary mass,they attached the damper between ground and the secondary mass as shown in \ref{fig:8}.This configuration of attachment is called as skyhook damper and groundhook damper based on the inertial frame where the other end of the damper is attached.
+
+\begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/8"}
+\caption{Configuration of skyhook and ground hook damper}
+  \label{fig:8}
+\end{figure}
+They studied the groundhook and skyhook damper and compared the optimal value for vibration suppression with the Den-hartog optimal value for a simple DVA.They used the same concept of fixed point theory for deriving analytical solution.It was found out that,overall by changing the configuration,the results were better as shown in \ref{fig:9}
+\begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/9"}
+\caption{Comparision of FRF's}
+  \label{fig:9}
+  In this thesis our work follows along the same line,we have explored the effect that coulomb damper has on the vibration of primary mass and compared the optimum FRF's of coulomb and viscous dampers,then we had introduced cubic non-linear spring in both primary and secondary system,obtained their optimum FRF's.We have explored the various parameters that a designer can exploit to suppress vibration as much as possible.
+\end{figure}
+
+%\end{document}

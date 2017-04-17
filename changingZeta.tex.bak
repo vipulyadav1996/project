@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,total={170mm,257mm},left=20mm,top=30mm,bottom=30mm]{geometry}
+%\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\begin{document}
+\section{Reducing disturbance caused by inclusion of Non-linearity in the Primary system}
+The initial system is having all its components to be linear. When the linear system is designed having optimum parameters, its Frequency Response Characteristic is as shown below.\\[0.2in]
+\includegraphics[width=0.9\textwidth]{"figures/linear"}\\[0.1in]
+The two peaks have almost same value and they are at the minimum possible value. Hence, the system as a whole is said to have the best or optimum response over a range of frequency.
+
+If now we add a non-linearity in the primary mass,
+%change this
+the FRF changes with a reduction in maximum value of left peak and increase in maximum value of right peak.
+%till here
+%System parameters
+\begin{align*}
+&m_1 = 10kg\quad m_2 = 0.6kg\quad \\
+&k_1=44 N/m\quad
+k_{1N} = 1000 N/m^3\quad k_2 = 2.347 N/m \quad \\
+&c_1 = 0.1 N\cdot s/m \quad
+c_2 = 0.344 N\cdot s/m 
+\end{align*}
+\begin{figure}[h!]
+\includegraphics[width=0.9\textwidth]{"figures/nonlinear"}
+\end{figure}
+
+\newpage
+\begin{table}
+\centering
+\begin{tabular}{|r|r|r|r|}
+\hline
+ & Linear & Non-Linear & Difference \\ \hline
+Peak 1 & 5.726 & 5.004 & 0.722\\
+Peak 2 & 5.724  & 6.412 & 0.688\\ \hline
+\end{tabular}
+\caption{Comparing maximum values of  }
+\end{table}
+Once it is established that addition of non-linearity to the primary mass disturbs the linear system under optimal conditions, we studied the effect of changing the secondary mass damping, on the system.\\
+The graph show under is plotted with varying values of secondary mass damping ($\zeta_2$). The linear plot is retained for comparison purpose.Since we are concerned with getting the best response from the system, we need to minimize its maximum amplitude over the whole range. This is achieved when both the peaks have approximately the same maximum value.\\[0.2in]
+\includegraphics[width=0.9\textwidth]{"figures/change"}\\[0.2in] 
+
+From the above figure, the following points are to be noted:
+\begin{itemize}
+\item If non-linearity is decreased, the right peak increases whereas the left peak comes down and vice-versa when non-linearity is increased.
+
+\item The value of $c_{2} = 0.38 N \cdot s/m$ gives the best case scenario when we are changing the secondary mass damping. It is certainly not the best case, if we were also allowed to vary other system parameters. However, the maximum of the two peaks are close to each other.
+\item The value $c_{2} = 0.38 N \cdot s/m$ is not too offset from the linear system's optimal secondary mass damping value $c_{2} = 0.344 N \cdot s/m$. In the non-linear case, however, the response is better near the first peak and worse off near the second peak, as compared to the linear system.
+\end{itemize}
+\end{document}

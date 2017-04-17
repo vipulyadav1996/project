@@ -1,0 +1,39 @@
+\section{Non-linear spring in the secondary system:optimum solution}
+\subsection{Effect of varying stiffness of spring of the absorber }
+In the sections below we would analyse and tabulate the effects of varying stiffness,damping and try to find the optimum solution when a cubic spring is present in between the main mass and the absorber mass.The procedure adapted in this section is similar to previous sections, qualitative results are presented on varying the independent parameters.
+\begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/nonlinearity_secondary_1"}
+  \caption{Effect of increasing non-linear stiffness of absorber.}
+  \label{fig:non-linear secondary 1}
+  \end{figure}
+
+It is to be noted that for secondary mass system,we have control over the amount of non-linearity that is to be introduced and the linear stiffness and damping.For a designer one more design variable is introduced.So we will start with the effect of non-linearity,from \ref{fig:non-linear secondary 1} it can be qualitatively seen that as the cubic non-linearity increases the the mode-I or first peak goes on increasing whereas the mode-II peak decreases and both Mode-I and II are shifted towards right.\\
+
+Now for $k2_n=7.32 N/m^3$ we would change the linear stiffness value of the secondary spring and note the effects.
+\begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/nonlinearity_secondary_2"}
+  \caption{Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}
+  \label{fig:non-linear secondary 2}
+  \end{figure}
+  \begin{itemize}
+  \item On increasing the linear stiffness $K_2$ mode-I peak goes up whereas mode-II goes down.
+  \item The effect is similar to the cubic stiffness,so increasing both linear and non-linear stiffness would have an adverse effect.
+  \item Bandwidth between 2 peaks is essentially same as we vary linear stiffness.
+  \item To obtain an optimum solution,the two peaks should be equal,so if we increase $K_{2n}$,we need to reduce the value of linear stiffness.
+  \end{itemize}
+  \subsection{Effect of varying the damping of secondary system }
+  We would be keeping $K_{2n}=7.34 N/m^3 $ and $k_2 =2.34 N/m^3$ but we note the effects of varying the damping in the secondary system.The idea is to combine the effects that are noted for change in spring stiffness and the damping,to obtain an optimum solution in case when non-linearity is introduced in the secondary mass and compare it with the linear optimum solution,this excercise gives us an idea of whether we can further reduce the vibrational amplitude of primary mass.
+  The observations made on varying the damping are:
+  \begin{itemize}
+  \item The variation damping has a major effect on the Mode-I peak.
+  \item On increasing the damping Mode-I peak decreases
+  \item Increase of damping decreases the mode-II peak but the rate of decrease is much smaller,if damping is increase beyond certain level mode-II peaks dies out.
+  \item From the above two points,it is wrong to infer that more the damping lesser the vibration.
+  \item As can be seen in \ref{fig:non-linear secondary 3} for $C_2=0.6$ only one peak remains but the maximum amplitude in FRF is greater than for $C_2=0.4$.So after certain point,increasing damping would be counter productive.
+  \end{itemize}
+  \begin{figure}[h!]
+  \includegraphics[width=16cm,height=10cm]{"figures/nonlinearity_secondary_3"}
+  \caption{Effect of increasing damping if cubic non-linearity is present in absorber.}
+  \label{fig:non-linear secondary 3}
+  \end{figure}
+  \subsection{Comparison of optimum solution when non-linearity is introduced with the linear optimum solution}

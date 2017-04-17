@@ -1,0 +1,37 @@
+%\documentclass[11pt]{report}
+%\usepackage{color}
+%\usepackage[a4paper,total={170mm,257mm},left=20mm,top=20mm,bottom=30mm]{geometry}
+%\usepackage{graphicx}
+%\usepackage{tabularx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{color}
+%\usepackage{enumerate}
+%\begin{document}
+\chapter{Conclusion}
+Many researchers are interested in and have investigated the linear vibration absorber. This thesis has been concerned with the way in which other parameters such as coulomb damping, configuration or attachment of damping and nonlinearity produced by the nonlinear absorber stiffness can be put to good use in a vibration absorber. The reasons for the preference of this passive approach are to be found in the cost, simplicity, and reliability of this type of absorbers. The effect of the nonlinear vibration absorber parameters on the vibration response was investigated and the effects of such a change were noted and tabulated. The results of this research are summarized in the following. 
+\begin{itemize}
+\item We started of with optimum solution proposed by Den-hartog using two point theory for a DVA without a primary mass damping.Then we had presented a max-min search when damping is introduced,as closed form solution becomes difficult to obtain,even though researchers such as Ghosh et al have extended the two point theory to this type of such systems with limitations that it can be applied to low-moderate damping only.
+
+\item For a hardening stiffness nonlinear absorber design, the limitation on the value of the nonlinear stiffness parameter should be identified first. In order to produce an effective vibration bandwidth, the limitation on the value of the damping and the mass were determined. The larger the damping and the heavier the mass in the nonlinear absorber, a much wider effective vibration bandwidth will be produced compared to using a linear absorber with the same damping and mass levels. 
+
+\item Most of the research in the field of DVA is concerned with the viscous damping,in this thesis we have evaluated the effects when the viscous damping is replaced with coulomb damping.It was found that only over a certain range of frequency (in the lower and upper band) coulomb damping offered a better vibration reduction than viscous damping.Overall the maximum vibration response of viscous is lower than the coulomb damping.Also,sometimes very high frictional force is required to achieve the required reduction,which in some cases is practically impossible to achieve and large frictional force leads to wear and tear of mechanical system.
+
+\item The nonlinear absorber has a much wider effective bandwidth compared to a conventional linear absorber. Compared to the linear absorber, the nonlinearity has the effect of shifting the second resonance peak to a higher frequency away from the effective tuned frequency, improving the robustness of the device to mistune and on adding the cubic hardening spring in the primary system,the second peak goes up and first peak comes down and both these peaks shift towards right.
+
+\item The lower the damping in the nonlinear absorber, the effective bandwidth is slightly increased compared to the linear absorber with the same level of damping. However, larger damping in the nonlinear absorber generally produces a wider frequency vibration reduction bandwidth compared to the linear absorber. When damping in the nonlinear absorber is further increased above a certain value though, there appears to be no effective vibration bandwidth. In engineering applications, it is desirable to have a large vibration reduction bandwidth, so that the damping in the absorber needs to be quite small.
+
+\item It was seen that the parameters such as stiffness($k_2$)and secondary damping($c_2$) obtained for optimum linear system changes especially $k_2$ when a cubic non-linear spring is introduced but the damping $c_2$ almost remains same.
+
+\item By introducing non-linearity,we can reduce the vibration of primary system.The optimum non-linear FRF lies below the linear FRF.But as said earlier the spring stiffness to obtain optimum FRF is different.Also the FRF as a whole shifts towards right.
+
+\item For a low nonlinear stiffness in the primary system, the absorber parameters can be chosen such that it produces an FRF that is better than linear optimum FRF case. But for high nonlinear stiffness, the nonlinear absorber would have higher mean square primary system displacement compared to a linear absorber. The use of a high stiffness nonlinearity does not improve the vibration reduction compared to the linear absorber case. 
+\end{itemize}
+
+\section{Future Work}
+\begin{itemize}
+\item The numerical results for the vibration reduction bandwidth and effective tuned frequency have been obtained . However, the mathematical expressions for the vibration reduction bandwidth and effective tuned frequency have not been investigated. A recommendation is to determine the effect of NVDA parameters on the vibration reduction bandwidth and effective tuned frequency with, if possible, analytical expressions. 
+
+\item Analytical work,when a non-linearity is added to the system has tried to derive the mathematical expression for a vibration response at a particular frequency but more could be done to derive the optimum parameters for a non-linear system.
+\end{itemize}
+%\end{document}

@@ -1,0 +1,95 @@
+\section{Dynamic vibration absorber with primary mass damping}
+When we add a viscous damper in the primary system, alongside the viscous damper in DVA,  the response of the system changes. The resultant system is shown in Fig
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{"figures/withPrimaryMassDamping"}
+\caption{The main mass and the DVA, both are damped}
+\label{damped}
+\end{figure}
+
+
+The govering equations yield the solution: \\
+\begin{align*}
+\dfrac{X_1}{X_{st}} &= \dfrac{\sqrt{(1-r_{f2}^2)^2 + 4(\zeta_2 r_{f2})^2}}{\Delta} \\
+\dfrac{X_2}{X_{st}} &= \dfrac{\sqrt{\strut 1 + 4(\zeta_2 r_{f2})^2}}{\Delta} \\
+\text{where}\quad \Delta &= 
+\left\lbrace
+\left[
+r_{f_1}^2 r_{f_2}^2 - 
+( r_{f_2}^2 + r_{f_1}^2 
+(1 + \mu)
++ 4 \zeta_1 \zeta_2 r_{f_1} r_{f_2} 
+) 
+ + 1
+\right] ^2 \right.\\
+&\phantom{=} \left. + 4 
+\left[
+ \zeta_1 r_{f_1} + \zeta_1 r_{f_1} -
+ (
+ \zeta_1 r_{f_1} r_{f_2}^2 + \zeta_2 r_{f_2} r_{f_1}^2 
+ (1+\mu)
+)^2
+\right]
+\strut \right\rbrace^\frac{1}{2} \\
+r_{f_1} &= \frac{\omega}{\sqrt{K_1 / m_1}}\\
+r_{f_2} &= \frac{\omega}{\sqrt{K_2 / m_2}}\\
+\mu &= \frac{m_2}{m_1} \\
+\zeta_1 &= \frac{c_1}{2\sqrt{K_1/m_1}} \\
+\zeta_2 &= \frac{c_2}{2\sqrt{K_2/m_2}}
+\end{align*}
+
+As we can expect the addition of viscous damping in main mass bring additional terms involving main mass damping ($\zeta_1$) in the solution. If we set these terms to zero ($\zeta_1 = 0$), we obtain the previously mentioned analytical solution when primary mass damping is zero.
+
+Using the analytical solution obtained above, Frequency Response Function (FRF) is plotted which is shown in Fig. \ref{point}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.55]{"figures/point"}
+\caption{The graphs are not passing through a fixed
+\label{point}
+ point}
+\end{figure}
+\par
+The most important observation from the plot is that: the 
+%Could you call graphs something better?
+graphs are not passing through a fixed point. Hence, we cannot use `fixed point theory' for finding analytically, the optimal parameters to the system, as we had done earlier for the case with damping present only in DVA.
+
+In absence of an analytical solution, a numerical approach is adopted. The basic premise of the numerical technique is to evaluate the response of the system over a range of frequency ratio (\emph{f}) and secondary mass damping($\zeta_2$). The primary mass damping ($\zeta_1$) is kept constant because real life systems do not provide control over their damping. Hence, we have to work with whatever damping is present in the primary system. Mass ratio is also kept constant.\\
+The numerical search is visually shown through the surface generated as shown in Fig. \ref{surface}. The lowest point on the surface represents optimal solution for the given system whose parameters are given in Table \ref{system}, along with optimum values of $f$ and $\zeta_2$ obtained from numerical search.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{"figures/surface"}
+\caption{Numerical search. Lowest point on the surface represents optimal solution}
+\label{surface}
+\end{figure}
+\begin{table}[h]
+\centering
+\label{system}
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+PARAMETER & VALUE \\ \hline
+Main Mass & 1 kg \\
+Mass of Absorber & 0.25kg \\
+Stiffness in main mass & $10^3 N/m$ \\
+Optimum frequency ratio($f_{opt}$) & 0.8 \\
+Optimum secondary mass damping($\zeta_2$) & 0.04
+\end{tabular*}
+\caption{System parameters with optimum values from numerical search}
+\end{table}
+\begin{figure}
+\includegraphics[scale=0.55]{"figures/optimum"}
+\caption{Frequency Response Function for optimum values found by numerical search}
+\label{optimum}
+\end{figure}
+\par
+The optimum frequency response function obtained has the following characteristics:
+\begin{itemize}
+\item The two maximum amplitudes obtained in the FRF are approximately equal. Table \ref{maxamp} shows the forcing frequency ratio at which the maximum amplitudes occur.
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+Forcing Frequency ratio & Amplitude \\ \hline
+0.7 & 2.951 \\ \hline
+1.11 & 2.991 \\ \hline
+\end{tabular}
+\end{table}
+\end{itemize}

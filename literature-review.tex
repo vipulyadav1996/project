@@ -1,0 +1,104 @@
+%\documentclass[11pt]{report}
+%\usepackage{color}
+%\usepackage[a4paper,total={170mm,257mm},left=20mm,top=20mm,bottom=30mm]{geometry}
+%\usepackage{graphicx}
+%\usepackage{tabularx}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{color}
+%\usepackage{enumerate}
+%\usepackage{mwe}
+%\begin{document}
+\chapter{Literature Review}
+\section{Linear Dynamic Vibration Absorber}
+\subsection{Randall and Taylor (1981) - Journal of Mechanical Design}
+\begin{itemize}
+\item Randall and Taylor in this paper proposed a numerical search of optimal parameters when primary mass damping  is present.
+
+\item The maximum amplitude response is a function of frequency and four design parameters f($\zeta_1, \zeta_2,\mu,f)$ ,$\zeta_1 $is an independent parameter specified by the primary system. 
+
+\item Of the three remaining parameters ($\zeta_2,\mu,f)$ the mass ratio is the most probable to be specified in a design and will therefore is considered as a second independent parameter and search for optimal $\zeta_2 $ and f is carried out.
+
+\end{itemize}
+As shown below in fig \ref{11},Randall and Taylor did a 3-dimensional search for optimal values and the results are shown below-
+\begin{figure}[h!]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{"figures/11"}
+        \caption{optimal f and $\zeta_1$ as a function of $\mu $}
+        \label{11}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{"figures/12"}
+        \caption{Maximum vibrational amplitude for optimum $\zeta_1$ }
+    \end{minipage}
+    
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{"figures/14"}
+        \caption{optimal $\zeta_2$ and $\zeta_1$ as a function of $\mu $}
+        
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{"figures/13"}
+        \caption{FRF}
+    \end{minipage}
+    
+\end{figure}
+
+\subsection{Rana and Soong(1998) - Engineering Structures, Elsevier}
+This paper takes into account both primary and secondary mass damping.They studied the effects of detuning of some of the optimal DVA parameters on the performance of the vibration absorber.\\
+
+Some of the conclusions are:
+
+\begin{itemize}
+\item The detuning effect of natural frequency of absorber is more pronounced than that of absorber damping.
+
+ \item With increasing damping of the main mass, the effect of detuning becomes less severe.
+
+\item  With increasing mass ratio also, the effect of detuning becomes less severe.
+
+\end{itemize}
+
+\subsection{R.L. Mayes And N. A. Mowbray (1974) - Earthquake Engineering and Structural Dynamics}
+Paper takes a combination of Coulomb friction and viscous damping and equates the work done per cycle of coloumb friction  to equivalent viscous damper,this is the method that we had adapted while working with Coulomb damper.\\
+
+Some of the conclusions are:
+\begin{itemize}
+\item This paper gives us a method to determine the fraction of viscous and coulomb damping present in the structure and compares the effect of taking equivalent viscous damping.
+
+\item The effect on response of structure by combined damping is 10-48 percent higher than the result obtained through equivalent damping.
+\end{itemize}
+
+\subsection{Kifu Liu and Jie Liu(2004) - Journal of Sound and Vibration}
+Studies in the field of DVA has tried to reduce the vibration of primary system,that is by  looking for possibilities such as changing the type of damping or spring that is used.Benchmark being the optimum solution for FRF as suggested by Den Hartog without primary mass damping,which was later extended to system with primary mass damping,as discussed in earlier sections.
+
+In 2004 Kifu Liu and Jie Liu came up with an optimum FRF for a system that was better than the Optimum FRF as suggested by Den Hartog.They worked on the two configuration of damper,instead of introducing a damper between the primary mass and the secondary mass,they attached the damper between ground and the secondary mass as shown in \ref{fig:8}.This configuration of attachment is called as skyhook damper and groundhook damper based on the inertial frame where the other end of the damper is attached.
+
+\begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/8"}
+\caption{Configuration of skyhook and ground hook damper}
+  \label{fig:8}
+\end{figure}
+They studied the groundhook and skyhook damper and compared the optimal value for vibration suppression with the Den Hartog optimal value for a simple DVA.They used the same concept of fixed point theory for deriving analytical solution.It was found out that,overall by changing the configuration,the results were better as shown in \ref{fig:9}
+\begin{figure}[h!]
+\includegraphics[width=16cm,height=10cm]{"figures/9"}
+\caption{Comparision of FRF's}
+  \label{fig:9}
+  In this thesis our work follows along the same line,we have explored the effect that coulomb damper has on the vibration of primary mass and compared the optimum FRF's of coulomb and viscous dampers,then we had introduced cubic non-linear spring in both primary and secondary system,obtained their optimum FRF's.We have explored the various parameters that a designer can exploit to suppress vibration as much as possible.
+\end{figure}
+\section{Non-linearity in the System}
+\subsection{J.C. Ji, N.Zhang(2009) - Journal of Sound and Vibration}
+The paper presented found that the primary resonance response of a nonlinear oscillator can be suppressed by a linear vibration absorber which consists of a relatively light mass attached to the nonlinear oscillator by a linear damper and a linear spring. The small attachment of light mass can absorb vibrational energy without significantly modifying the nonlinear oscillator and adversely affecting its performance. The stiffness of the linked spring is much lower than the linear stiffness of the nonlinear oscillator itself.
+The contributions of the absorber stiffness and damping to the linear stiffness and damping of the nonlinear primary system can be considered as a perturbation. Thus the linearized natural frequencies of the nonlinear primary oscillator before and after addition of vibration absorber change only slightly.
+
+The effects of the parameters of the mass–spring–damper absorber on the vibration suppression of the nonlinear oscillator have been studied. It has been found that a larger coupling damping results in a larger reduction of primary resonance vibrations.
+
+\subsection{R.A. Borges, V.Steffen (2007) - 19th International Congress of Mechanical Engineering, Brasilia}
+%\end{document}
