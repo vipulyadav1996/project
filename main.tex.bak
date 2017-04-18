@@ -15,6 +15,7 @@
 \input{"coloumbdamping"}
 \input{"non-linear-literature"}
 \input{"NLinPS"}
+\input{"othercases"}
 \input{"NLinSS"}
 \input{"hbm"}
 \input{"conclusion"}

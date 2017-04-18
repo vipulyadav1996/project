@@ -1,0 +1,53 @@
+\subsection{Other Cases}
+\subsubsection{Case 1}
+Mass of primary system, $m_1$= 20kg\\
+Mass of secondary system, $m_2$ = 1.6kg\\
+Mass ratio, $\mu$ = 0.08\\
+Primary mass stiffness $k_1$= 8000 N/m\\
+Primary mass damping ratio $\zeta_1$ = 0.02\\
+Optimum Frequency ratio, $f_{opt}$ = 0.914\\
+Optimum secondary mass damping, $\zeta_{2opt}$ = 0.013\\
+Stiffness of secondary mass spring, $k_2$ = 534.65 N/m \\
+Stiffness of non-linear spring, $k_{1n}$ = 10420 N/m$^3$\\
+Optimum stiffness of secondary mass spring with added non-linearity = 566 N/m
+\begin{figure}[h!]
+\includegraphics[width=\textwidth, height = 0.5\textwidth]{"figures/2addingNonlinearity"}
+\caption{Effect of adding non-linearity in the primary system}
+\end{figure}
+
+\begin{figure}[h!]
+\includegraphics[width=\textwidth, height = 0.5\textwidth]{"figures/2changingk2"}
+\caption{Effect of changing stiffness of absorber}
+\end{figure}
+
+\begin{figure}[h!]
+\includegraphics[width=\textwidth, height = 0.5\textwidth]{"figures/2comparing"}
+\caption{Comparison of non-linear and linear optimal solution}
+\end{figure}
+
+\subsubsection{Case 2}
+Mass of primary system, $m_1$= 50kg\\
+Mass of secondary system, $m_2$ = 5kg\\
+Mass ratio, $\mu$ = 0.1\\
+Primary mass stiffness $k_1$= 11250 N/m\\
+Primary mass damping ratio $\zeta_1$ = 0.02\\
+Optimum Frequency ratio, $f_{opt}$ = 0.914\\
+Optimum secondary mass damping, $\zeta_{2opt}$ = 0.017\\
+Stiffness of secondary mass spring, $k_2$ = 913.27 N/m \\
+Stiffness of non-linear spring, $k_{1n}$ = 14238 N/m$^3$\\
+Optimum stiffness of secondary mass spring with added non-linearity = 1010 N/m
+
+\begin{figure}[h!]
+\includegraphics[width=\textwidth, height = 0.5\textwidth]{"figures/addingNonlinearity"}
+\caption{Effect of adding non-linearity in the primary system}
+\end{figure}
+
+\begin{figure}[h!]
+\includegraphics[width=\textwidth, height = 0.5\textwidth]{"figures/2changingk2"}
+\caption{Effect of changing stiffness of absorber}
+\end{figure}
+
+\begin{figure}[h!]
+\includegraphics[width=\textwidth, height = 0.5\textwidth]{"figures/2comparing"}
+\caption{Comparison of non-linear and linear optimal solution}
+\end{figure}

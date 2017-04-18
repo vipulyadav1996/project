@@ -1,5 +1,5 @@
-\section{Non-linear spring in primary system:optimum solution}
-\subsection{Optimum solution by varying stiffness of spring of the absorber } 
+\section{Non-linear spring in primary system:\\ Optimum solution}
+\subsection{Effect of varying stiffness of spring of the absorber } 
 Initially an FRF for the linear paraameters $$ m1=10 kg\quad m2=0.6kg\quad k1=44 N/m\quad c1=0.1 Ns/m $$ is drawn.In this case it can be seen that the two peaks are equal.Now a non-linearity is added in the primary system by addition of a cubic spring with $k1n=44 N/m^3$.After the addition of a cubic spring,the effect of change in the stiffness of the spring of absorber on the two peaks in the FRF and the bandwidth is to be studied.
 \begin{figure}[h!]
 \includegraphics[width=16cm,height=10cm]{"figures/nonlinearity_primaryymass_3_effect of secondaryspring"}
@@ -18,7 +18,7 @@ By conducting \textcolor{red}{name of the search} the optimal solution was found
 
 It is to be noted that  the optimum case of non-linearity is obtained in this case by varying only the stiffness of spring attached to the secondary mass.We were able to obtain an FRF that was as good as the FRF for optimized linear case and as stated earlier there is not much change in the bandwidth.
 
-\subsection{Optimum solution by varying damping of the absorber}
+\subsection{Effect of varying damping of the absorber}
 The initial system is having all its components to be linear. When the linear system is designed having optimum parameters, its Frequency Response Characteristic is as shown below.\\[0.2in]
 \begin{figure}[h!]
 \includegraphics[width=0.9\textwidth]{"figures/linear"}\\[0.1in]
@@ -63,7 +63,7 @@ From the above figure, the following points are to be noted:
 \item The value $c_{2} = 0.38 N \cdot s/m$ is not too offset from the linear system's optimal secondary mass damping value $c_{2} = 0.344 N \cdot s/m$. In the non-linear case, however, the response is better near the first peak and worse off near the second peak, as compared to the linear system.
 \end{itemize}
 
-\subsection{Optimum FRF for non linear cubic spring in primary system}
+\subsection{Optimum Frequency Response Function for Nonlinear spring in Primary system}
 
 In this section the combined effects of variation secondary mass spring stiffness and damping co-efficient is used to obtain the best possible solution and is used to compare with the optimal linear solution,to see if there is a reductionn in the maximum amplitude of vibration of the primary mass system and how the bandwidth between mode -I and mode-II of the optimal linear and non-linear FRF differs.
 \begin{figure}[h!]

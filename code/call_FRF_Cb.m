@@ -6,7 +6,7 @@ colour = ['r','g','b','y' ,'k'];
 j = 1;p=1000;% p=10000
 for F0 =[1000] %[0.42]
 
-    for k2 = 1005:2:1015 %2.347 is optimum linear parameters.
+    for k2 = 1010 %2.347 is optimum linear parameters.
                    %for secondary non-linearity k2opt=2.19,c2opt=0.34
     for c2= 25.5
         i = 1;
@@ -21,7 +21,7 @@ for F0 =[1000] %[0.42]
             k2opt = k2
             c2opt = c2
     end
-    %plot(wf./(w_n),ssv)
+    plot(wf./(w_n),ssv)
     j = j+1;
 end
     end

@@ -1,4 +1,4 @@
-\section{Non-linear spring in the secondary system:optimum solution}
+\section{Non-linear spring in the Secondary system:\\ Optimum solution}
 \subsection{Effect of varying stiffness of spring of the absorber }
 In the sections below we would analyse and tabulate the effects of varying stiffness,damping and try to find the optimum solution when a cubic spring is present in between the main mass and the absorber mass.The procedure adapted in this section is similar to previous sections, qualitative results are presented on varying the independent parameters.
 \begin{figure}[h!]
@@ -37,3 +37,6 @@ Now for $k2_n=7.32 N/m^3$ we would change the linear stiffness value of the seco
   \label{fig:non-linear secondary 3}
   \end{figure}
   \subsection{Comparison of optimum solution when non-linearity is introduced with the linear optimum solution}
+  \begin{figure}
+  \includegraphics[scale=0.6]{"figures/nonlinerassoptimal"}
+  \end{figure}

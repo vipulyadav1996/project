@@ -113,6 +113,8 @@ vibration absorber is studied. The nonlinear effect is introduced in the system 
 \subsection{Yung-Sheng Hsu, Neil S Ferguson (2013) - Conference and Exposition on Structural Dynamics}
 The aforementioned paper investigates the physical behaviour and effectiveness of a nonlinear dynamic vibration absorber(NLDVA). The nonlinear absorber considered involves a nonlinear hardening spring which was designed and attached to a cantilever beam excited by a shaker. The cantilever beam can be considered at low frequencies as a linear single degree-of-freedom system. The nonlinear attachment is designed to behave as a hardening Duffing oscillator.
 It investigated the potential for vibration reduction of the system. Analytical and numerical results are presented and compared. From the measured results it was observed that the NLDVA had a much wider effective bandwidth compared to a linear absorber. The frequency response curve of the NLDVA has the effect of moving the second resonant peak to a higher frequency away from the tuned frequency so that the device is robust to mistuning.
+Experimental results have been presented to compare with
+the model derived.
 
 \subsection{S. Natsiavas (1992) - Journal of Sound and Vibration}
 The paper presents an analysis for determining the steady state response of dynamic vibration absorbers, for which both the machine and the absorber are assumed
@@ -130,12 +132,5 @@ It is shown that absorbers with
 hardening/softening springs may result in considerable reduction of the vibration amplitudes
 in frequency ranges greater/less than the original resonance. The present study is useful in
 trying to eliminate instability effects systematically, without losing the advantages brought
-about by the non-linearities, by properly adjusting the parameters of the system. The
-nonlinearity resulted in a much wider effective bandwidth compared to that for a linear absorber with similar mass
-and damping. It was found that the frequency response
-curve of the NLDVA has the effect of moving the second
-resonant peak to a higher frequency away from the tuned
-frequency, so that the device is robust to mistuning.
-Experimental results have been presented to compare with
-the model derived.
+about by the non-linearities, by properly adjusting the parameters of the system. 
 %\end{document}
