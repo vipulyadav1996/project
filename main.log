@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.17)  18 APR 2017 19:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.17)  18 APR 2017 19:52
 entering extended mode
 **./main.tex
 (main.tex
@@ -824,16 +824,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: "figures/nonlinerassoptimal".pdf Graphic file (type pdf)
 
 <use "figures/nonlinerassoptimal".pdf>
-Package pdftex.def Info: "figures/nonlinerassoptimal".pdf used on input line 41
+Package pdftex.def Info: "figures/nonlinerassoptimal".pdf used on input line 42
 .
 (pdftex.def)             Requested size: 493.7886pt x 225.5022pt.
 
-Overfull \hbox (10.09177pt too wide) in paragraph at lines 41--42
+Overfull \hbox (10.09177pt too wide) in paragraph at lines 42--43
 [][] 
  []
 
-[36 <./figures/nonlinearity_secondary_2.pdf>]) (hbm.tex [37 <./figures/nonlinea
-rity_secondary_3.pdf>] [38 <./figures/nonlinerassoptimal.pdf>]
+) (hbm.tex [36 <./figures/nonlinearity_secondary_2.pdf>] [37 <./figures/nonline
+arity_secondary_3.pdf>] [38 <./figures/nonlinerassoptimal.pdf>]
 Chapter 5.
 [39
 
@@ -881,7 +881,7 @@ nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (45 pages, 1371361 bytes).
+Output written on main.pdf (45 pages, 1384217 bytes).
 PDF statistics:
  347 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
