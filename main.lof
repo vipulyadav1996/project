@@ -1,38 +1,44 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces A simple dynamic vibration absorber}}{5}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Change in response on addition of DVA without a damper}}{6}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Effect of mass ratio on natural frequencies}}{6}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces A typical electrical hair clipper}}{7}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Two tuned mass dampers installed underneath a floor}}{8}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Figure showing Houdaille damper}}{8}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Tuned mass damper atop Taipei 101}}{9}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A simple dynamic vibration absorber}}{8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Change in response on addition of DVA without a damper}}{9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Effect of mass ratio on natural frequencies}}{9}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces A typical electrical hair clipper}}{10}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Two tuned mass dampers installed underneath a floor}}{11}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Figure showing Houdaille damper}}{11}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Tuned mass damper atop Taipei 101}}{12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces optimal f and $\zeta _1$ as a function of $\mu $}}{13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Maximum vibrational amplitude for optimum $\zeta _1$ }}{13}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces optimal $\zeta _2$ and $\zeta _1$ as a function of $\mu $}}{13}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces FRF}}{13}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Configuration of skyhook and ground hook damper}}{14}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparision of FRF's}}{15}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Effect of $\zeta _1$ and $\zeta _2$ on the system response}}{16}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces optimal f and $\zeta _1$ as a function of $\mu $}}{16}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Maximum vibrational amplitude for optimum $\zeta _1$ }}{16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces optimal $\zeta _2$ and $\zeta _1$ as a function of $\mu $}}{16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces FRF}}{16}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Configuration of skyhook and ground hook damper}}{17}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparision of FRF's}}{18}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Effect of $\zeta _1$ and $\zeta _2$ on the system response}}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces For three values of $C_{2}$ it can be shown that FRF's pass through 2 fixed points}}{19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The main mass and the DVA, both are damped}}{20}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The graphs are not passing through a fixed point}}{22}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Numerical search. Lowest point on the surface represents optimal solution}}{23}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Frequency Response Function for optimum values found by numerical search}}{24}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces FRF in case of coloumb damping.}}{24}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Search for best possible coloumb damping.}}{25}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of Optimum viscous with the best FRF in case of coloumb damping .}}{25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces For three values of $C_{2}$ it can be shown that FRF's pass through 2 fixed points}}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The main mass and the DVA, both are damped}}{23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The graphs are not passing through a fixed point}}{25}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Numerical search. Lowest point on the surface represents optimal solution}}{26}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Frequency Response Function for optimum values found by numerical search}}{27}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces FRF in case of coloumb damping.}}{27}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Search for best possible coloumb damping.}}{28}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of Optimum viscous with the best FRF in case of coloumb damping .}}{28}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces non-linearity is added in primary system.}}{28}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces non-linearity is added in secondary system.}}{29}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 2-DOF non linear system.}}{29}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of varying stiffnes of absorber.}}{30}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparision of optimum FRF of linear and non-linear spring .}}{31}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparision of optimum FRF's for linear and cubic spring.}}{34}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{35}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{36}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{38}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Non-linearity added in the primary system.}}{31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces non-linearity is added in secondary system.}}{32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 2-DOF non linear system.}}{32}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of varying stiffnes of absorber.}}{33}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparision of optimum FRF of linear and non-linear spring .}}{34}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparision of optimum FRF's for linear and cubic spring.}}{37}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Effect of adding non-linearity in the primary system}}{38}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Effect of changing stiffness of absorber}}{39}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparison of non-linear and linear optimal solution}}{39}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Effect of adding non-linearity in the primary system}}{40}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Effect of changing stiffness of absorber}}{41}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparison of non-linear and linear optimal solution}}{41}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{42}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{43}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{44}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Response by harmonic balance method.}}{41}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Response by harmonic balance method.}}{48}
 \addvspace {10\p@ }

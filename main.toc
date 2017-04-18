@@ -1,39 +1,43 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}
-\contentsline {section}{\numberline {1.1}Introduction}{5}
-\contentsline {section}{\numberline {1.2}Applications:}{7}
-\contentsline {subsection}{\numberline {1.2.1}Damping of hand-held devices}{7}
-\contentsline {subsection}{\numberline {1.2.2}Floor vibration control}{7}
-\contentsline {subsection}{\numberline {1.2.3}Houdaille damper}{8}
-\contentsline {subsection}{\numberline {1.2.4}Vibration control of structures}{9}
-\contentsline {subsection}{\numberline {1.2.5}Wind turbines}{10}
-\contentsline {subsection}{\numberline {1.2.6}Optical Disk Drives}{10}
-\contentsline {section}{\numberline {1.3}Suitable name for what is done in thesis}{10}
-\contentsline {chapter}{\numberline {2}Literature Review}{12}
-\contentsline {section}{\numberline {2.1}Linear Dynamic Vibration Absorber}{12}
-\contentsline {subsection}{\numberline {2.1.1}Randall and Taylor (1981) - Journal of Mechanical Design}{12}
-\contentsline {subsection}{\numberline {2.1.2}Rana and Soong(1998) - Engineering Structures, Elsevier}{12}
-\contentsline {subsection}{\numberline {2.1.3}R.L. Mayes And N. A. Mowbray (1974) - Earthquake Engineering and Structural Dynamics}{13}
-\contentsline {subsection}{\numberline {2.1.4}Kifu Liu and Jie Liu(2004) - Journal of Sound and Vibration}{14}
-\contentsline {section}{\numberline {2.2}Non-linearity in the System}{15}
-\contentsline {subsection}{\numberline {2.2.1}J.C. Ji, N.Zhang(2009) - Journal of Sound and Vibration}{15}
-\contentsline {subsection}{\numberline {2.2.2}R.A. Borges, V.Steffen (2007) - 19th International Congress of Mechanical Engineering, Brasilia}{16}
-\contentsline {subsection}{\numberline {2.2.3}A.Soom, Ming-san Lee(1983) - Journal of Vibration, Acoustics, Stress, and Reliability in Design}{17}
-\contentsline {subsection}{\numberline {2.2.4}S. Natsiavas (1992) - Journal of Sound and Vibration}{17}
-\contentsline {chapter}{\numberline {3}Linear Dynamic Vibration Absorber}{18}
-\contentsline {section}{\numberline {3.1}Dynamic vibration absorber without primary mass damping}{18}
-\contentsline {section}{\numberline {3.2}Dynamic vibration absorber with primary mass damping}{20}
-\contentsline {section}{\numberline {3.3}Coloumb Damping}{22}
-\contentsline {chapter}{\numberline {4}Introduction of Non-linearity in the system}{27}
-\contentsline {section}{\numberline {4.1}Non-linear spring in primary system:optimum solution}{30}
-\contentsline {subsection}{\numberline {4.1.1}Optimum solution by varying stiffness of spring of the absorber }{30}
-\contentsline {subsection}{\numberline {4.1.2}Optimum solution by varying damping of the absorber}{31}
-\contentsline {subsection}{\numberline {4.1.3}Optimum FRF for non linear cubic spring in primary system}{34}
-\contentsline {section}{\numberline {4.2}Non-linear spring in the secondary system:optimum solution}{35}
-\contentsline {subsection}{\numberline {4.2.1}Effect of varying stiffness of spring of the absorber }{35}
-\contentsline {subsection}{\numberline {4.2.2}Effect of varying the damping of secondary system }{37}
-\contentsline {subsection}{\numberline {4.2.3}Comparison of optimum solution when non-linearity is introduced with the linear optimum solution}{37}
-\contentsline {chapter}{\numberline {5}Analytical study of non-linearity in single DOF system }{39}
-\contentsline {section}{\numberline {5.1}Harmonic balance method applied to a DVA}{42}
-\contentsline {subsection}{\numberline {5.1.1}First order Harmonic balance}{42}
-\contentsline {chapter}{\numberline {6}Conclusion}{43}
-\contentsline {section}{\numberline {6.1}Future Work}{44}
+\contentsline {chapter}{\numberline {1}Introduction}{8}
+\contentsline {section}{\numberline {1.1}Introduction}{8}
+\contentsline {section}{\numberline {1.2}Applications:}{10}
+\contentsline {subsection}{\numberline {1.2.1}Damping of hand-held devices}{10}
+\contentsline {subsection}{\numberline {1.2.2}Floor vibration control}{10}
+\contentsline {subsection}{\numberline {1.2.3}Houdaille damper}{11}
+\contentsline {subsection}{\numberline {1.2.4}Vibration control of structures}{12}
+\contentsline {subsection}{\numberline {1.2.5}Wind turbines}{13}
+\contentsline {subsection}{\numberline {1.2.6}Optical Disk Drives}{13}
+\contentsline {section}{\numberline {1.3}Thesis Outline}{13}
+\contentsline {chapter}{\numberline {2}Literature Review}{15}
+\contentsline {section}{\numberline {2.1}Linear Dynamic Vibration Absorber}{15}
+\contentsline {subsection}{\numberline {2.1.1}Randall and Taylor (1981) - Journal of Mechanical Design}{15}
+\contentsline {subsection}{\numberline {2.1.2}Rana and Soong(1998) - Engineering Structures, Elsevier}{15}
+\contentsline {subsection}{\numberline {2.1.3}R.L. Mayes And N. A. Mowbray (1974) - Earthquake Engineering and Structural Dynamics}{16}
+\contentsline {subsection}{\numberline {2.1.4}Kifu Liu and Jie Liu(2004) - Journal of Sound and Vibration}{17}
+\contentsline {section}{\numberline {2.2}Non-linearity in the System}{18}
+\contentsline {subsection}{\numberline {2.2.1}J.C. Ji, N.Zhang(2009) - Journal of Sound and Vibration}{18}
+\contentsline {subsection}{\numberline {2.2.2}R.A. Borges, V.Steffen (2007) - 19th International Congress of Mechanical Engineering, Brasilia}{19}
+\contentsline {subsection}{\numberline {2.2.3}Yung-Sheng Hsu, Neil S Ferguson (2013) - Conference and Exposition on Structural Dynamics}{20}
+\contentsline {subsection}{\numberline {2.2.4}S. Natsiavas (1992) - Journal of Sound and Vibration}{20}
+\contentsline {chapter}{\numberline {3}Linear Dynamic Vibration Absorber}{21}
+\contentsline {section}{\numberline {3.1}Dynamic vibration absorber without primary mass damping}{21}
+\contentsline {section}{\numberline {3.2}Dynamic vibration absorber with primary mass damping}{23}
+\contentsline {section}{\numberline {3.3}Coloumb Damping}{25}
+\contentsline {chapter}{\numberline {4}Non-linearity in the System}{30}
+\contentsline {section}{\numberline {4.1}Background}{30}
+\contentsline {section}{\numberline {4.2}Non-linear spring in primary system:\\ Optimum solution}{33}
+\contentsline {subsection}{\numberline {4.2.1}Effect of varying stiffness of spring of the absorber }{33}
+\contentsline {subsection}{\numberline {4.2.2}Effect of varying damping of the absorber}{34}
+\contentsline {subsection}{\numberline {4.2.3}Optimum Frequency Response Function for Nonlinear spring in Primary system}{37}
+\contentsline {subsection}{\numberline {4.2.4}Cases for verification}{38}
+\contentsline {subsubsection}{Case 1}{38}
+\contentsline {subsubsection}{Case 2}{39}
+\contentsline {section}{\numberline {4.3}Non-linear spring in the Secondary system:\\ Optimum solution}{42}
+\contentsline {subsection}{\numberline {4.3.1}Effect of varying stiffness of spring of the absorber }{42}
+\contentsline {subsection}{\numberline {4.3.2}Effect of varying the damping of secondary system }{43}
+\contentsline {subsection}{\numberline {4.3.3}Comparison of optimum solution when non-linearity is introduced with the linear optimum solution}{44}
+\contentsline {chapter}{\numberline {5}Analytical study of non-linearity in single DOF system }{46}
+\contentsline {section}{\numberline {5.1}Harmonic balance method applied to a DVA}{49}
+\contentsline {subsection}{\numberline {5.1.1}First order Harmonic balance}{49}
+\contentsline {chapter}{\numberline {6}Conclusion}{50}
+\contentsline {section}{\numberline {6.1}Future Work}{51}

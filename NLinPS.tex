@@ -8,12 +8,12 @@ Initially an FRF for the linear paraameters $$ m1=10 kg\quad m2=0.6kg\quad k1=44
   \label{fig:varying stiffnes of absorber}
   \end{figure}
 From the Figure \ref{fig:varying stiffnes of absorber} it can be seen that on increasing the stiffness of absorber spring, the 1st peak increases whereas the 2nd  goes on decreasing as k2 is increased.It is difficult to conclusively predict the effect on bandwidth that is the distance between two peaks,as both the peaks are shifted towards right.
-The optimum solution by varying k2,would have both mode I and mode II peaks as equal,also it can be seen that if k2 goes on decreasing the second peak almost disappears and only peak 1 becomes prominent.\\
+The optimum solution by varying k2,would have both left and right peaks as equal,also it can be seen that if k2 goes on decreasing the second peak almost disappears and only peak 1 becomes prominent.\\
 By conducting mini-max search the optimal solution was found to be $k2=2.43$ It can be seen that when a non-linear spring is added the optimal solution changes,in this case only k2 is varied,but in the sections that follow we have explored the effect that secondary damping have on the peaks and the combined the effects of secondary stiffness and damping to provide a best case scenario.\\
   
 
 \begin{figure}[h!]
-  \includegraphics[width=16cm,height=10cm]{"figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimums"}
+  \includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimums"}
   \caption{Comparision of optimum FRF of linear and non-linear spring .}
   \label{fig:optimum stiffness}
 \end{figure}
@@ -69,11 +69,11 @@ From the above figure, the following points are to be noted:
 
 In this section the combined effects of variation secondary mass spring stiffness and damping co-efficient is used to obtain the best possible solution and is used to compare with the optimal linear solution,to see if there is a reduction in the maximum amplitude of vibration of the primary mass system and how the bandwidth between peak 1 and 2 of the optimal linear and non-linear FRF differs.
 \begin{figure}[h!]
-\includegraphics[width=16cm,height=10cm]{"figures/nonlinearity_primaryymass_1"}
+\includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_1"}
 \caption{Comparision of optimum FRF's for linear and cubic spring.}
   \label{fig:optimum FRF}
 \end{figure}
-It is observed that after performing mini-max search by varying both stiffness and damping co-efficient,the non-linear FRF obtained as can be seen from figure \ref{fig:optimum FRF} is better than the optimum linear FRF,both Mode-I and mode-II peaks can be brought down.So if non-linearity is already present in the primary system,designers have an opportunity to bring down the maximum amplitude of vibration further down.Also as seen from figure \ref{fig:optimum FRF} the vibration response at the resonant frequency$(\omega=1)$is also brought down as hardening spring has an effect of shifting the FRF towards right.\\
+It is observed that after performing mini-max search by varying both stiffness and damping co-efficient,the non-linear FRF obtained as can be seen from figure \ref{fig:optimum FRF} is better than the optimum linear FRF,both left and right peaks can be brought down.So if non-linearity is already present in the primary system,designers have an opportunity to bring down the maximum amplitude of vibration further down.Also as seen from figure \ref{fig:optimum FRF} the vibration response at the resonant frequency$(\omega=1)$is also brought down as hardening spring has an effect of shifting the FRF towards right.\\
 As such it is difficult to conclusively predict the difference in bandwidth between peaks of linear and non-linear optimum solution.\\
 Below is the comparison of the parameters:
 \begin{table}[h!]

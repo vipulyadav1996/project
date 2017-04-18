@@ -7,7 +7,19 @@
 \usepackage{amsmath}
 \usepackage{tabularx,color}
 \usepackage{mwe}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\newcommand{\boxit}{\begin{tikzpicture}[overlay,remember picture]
+\draw[line width=2pt]
+($(current page.north west) + (2cm,-2cm)$)
+rectangle
+($(current page.south east) + (-2cm,2cm) $);
+\end{tikzpicture}
+}
+
 \begin{document}
+\input{"front"}
 \input{"Introduction"}
 \input{"literature-review"}
 \input{"woPrimaryDamping"}
