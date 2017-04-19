@@ -17,13 +17,14 @@
 %}
 %
 %\begin{document}
+\layout
 \begin{titlepage}
 \boxit
 \begin{center}
 \textup{ {\bf Mechnanical Engineering Project} \\ Report}\\[0.2in]
 % Title
 \huge \textbf {\color{red}\uppercase{Linear and Non-linear Dynamic Vibration Absorber}}\\[0.1in]
-\Large \textbf{A case study} \\ [0.2in]
+\Large \textbf{} \\ [0in]
        \small \emph{Submitted in partial fulfillment of\\
        the requirements for the award of the degree of}\\[0.1in]
 
@@ -106,21 +107,17 @@ Prof. A. Chatterjee & Dr. A.M. Kuthe \\
 & V.N.I.T. Nagpur)
 \end{tabular*}
 \end{table}
-
 \begin{flushleft}
 Date:
 \end{flushleft}
-
-\vspace*{1cm}
 %This is acknowledgement
 \newpage
-\thispagestyle{empty}
+\pagenumbering{roman}
 \vspace*{1cm}
 \begin{center}
 \huge \uppercase{\textbf{Acknowledgement}}\\[1in]
 \end{center}
 \normalsize Success is never a single man's entity. This dissertation would not have been a real fulfillment without the backing and cooperation from various individuals through various mean. It is our pleasure to thank all those who made this thesis possible.\\[0.5cm]
-In the first place we would like to record our deepest appreciation and gratitude to our project guide Prof. P. V. Kane, Assistant Professor, Department of Mechanical Engineering, VNIT, Nagpur, for his invaluable guidance and support throughout the project work. The present form of the work is all about his expertise in a vast domain and sincere desire to bring out the best of the student’s capabilities. Without his guidance and persistence help this dissertation would have not been possible. We are indebted to him more than he knows.\\[0.5cm]
+In the first place we would like to record our deepest appreciation and gratitude to our project guide Prof. A. Chatterjee, Assistant Professor, Department of Mechanical Engineering, VNIT, Nagpur, for his invaluable guidance and support throughout the project work. The present form of the work is all about his expertise in a vast domain and sincere desire to bring out the best of the student’s capabilities. Without his guidance and persistence help this dissertation would have not been possible. We are indebted to him more than he knows.\\[0.5cm]
 We are also thankful to our fellow B.Tech students, well-wishers and all those who directly or indirectly contributed to the successful realization of this dissertation, and express my apology to not being mentioned personally all of them.\\[0.5cm]
-Special mention goes to {\color{red}Vipul Yadav} who has found his precious time to helpus beautifully typeset this document. Without his help this document wouldn't have this form.
 %\end{document}

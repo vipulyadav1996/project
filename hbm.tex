@@ -7,24 +7,24 @@ m\ddot{x}+\alpha x+c(\dot{x})+\beta x^3=F_0sin(\omega t)
 We will be considering only forced vibration and neglecting the transient vibration which decays after a certain interval of time because of presence of damping in the system.The steady state forced vibrations will have harmonics corresponding to forcing frequency $\omega$ and higher harmonics corresponding to odd multiples of $\omega ,3\omega , 5\omega etc$ The forced vibration will be dominant in first harmonic and decreases rapidly for higher harmonics.
 Here,for harmonic balance method,we would be restricting ourselves to the first harmonic.
 \begin{align}
-\ddot{x}+p^2 x+2 \zeta p (\dot{x})+p^2 \mu x^3=F_0sin(\omega t)\\
-p^2= \alpha /m \\
-\mu = \beta / \alpha \\
-\zeta =c/2mp \\
-\tau = pt \\
-r= \omega /p \\
-x = asin(r\tau )+bcos(r\tau)
+\ddot{x}+p^2 x+2 \zeta p (\dot{x})+p^2 \mu x^3 &=F_0sin(\omega t)\\
+p^2 &= \alpha /m \\
+\mu & = \beta / \alpha \\
+\zeta &=c/2mp \\
+\tau &= pt \\
+r &= \omega /p \\
+x &= asin(r\tau )+bcos(r\tau)
 \end{align}
 We use harmonic balance method in which each harmonic is balanced by separating out the terms in LHS and RHS.The third harmonic and higher order harmonics are neglected.
 Equating the co-efficients of $cos(r \tau) and sin(r \tau)$ we get:
 \begin{align}
--ar^2-2\zeta br+a+ 3/4\mu a^3+3/4\mu ab^2=0 \\
--br^2-2\zeta ar+b+ 3/4\mu b^3+3/4\mu a^2b=0\\
-X^2=a^2+b^2
+-ar^2-2\zeta br+a+ 3/4\mu a^3+3/4\mu ab^2&=0 \\
+-br^2-2\zeta ar+b+ 3/4\mu b^3+3/4\mu a^2b&=0\\
+X^2&=a^2+b^2
 \end{align}
 rearranging the above equations-
 \begin{align}
-9/16(\mu )^2X^6+3/2\mu (1-r^2)X^4+()r^4-2r^2+1)X^2-X_{st}^2=0 \\
+9/16(\mu )^2X^6+3/2\mu (1-r^2)X^4+()r^4-2r^2+1)X^2-X_{st}^2=0
 \end{align}
 For constant force excitation,FRF is plotted by varying r and for $\mu =9 , X_{st}=10 ,\zeta=0.1 $
 \begin{figure}[h!]
@@ -54,15 +54,15 @@ z=Csin(\omega t)+Dcos(\omega t)
 \end{align*}
 where $z=x-x_2$,this two equations are substituted into equation of motion.
 \begin{align*}
-m_1\ddot{x_1}+k_1x_1+k_2z+c_2(\dot{z})+c_2(\dot{x})+k_{1N}x^3=F_0sin(\omega *t) \\
-m_2\ddot{z}+k_2z+c_{2}\dot{z}=m_2\ddot{x}
+m_1\ddot{x_1}+k_1x_1+k_2z+c_2(\dot{z})+c_2(\dot{x})+k_{1N}x^3&=F_0sin(\omega *t) \\
+m_2\ddot{z}+k_2z+c_{2}\dot{z}&=m_2\ddot{x}
 \end{align*}
 By neglecting higher order harmonics and equating the co-efficient of cosine and sine in both the equations,we get 4  equations in 4 variables A,B,C,D as given below:
 \begin{align*}
--m2*C*\omega^2 + k2*C - c2*D*\omega + m2*A*\omega^2 = 0
--m2*D*\omega^2 + k2*D - c2*C*\omega + B*m2*\omega^2 = 0
--A*m1*\omega^2 + k1*A + k2*C + 0.75*k1N*A^3 + 0.25*k1N*A*B^2 - B*c1*\omega - D*c2*\omega = F0
--B*m1*\omega^2 + k1*B + k2*D + 0.75*k1N*B^3 + 0.25*k1N*B*A^2 + c1*A*\omega + c2*C*\omega = 0
+-m2*C*\omega^2 + k2*C - c2*D*\omega + m2*A*\omega^2 = 0\\
+-m2*D*\omega^2 + k2*D - c2*C*\omega + B*m2*\omega^2 = 0\\
+-A*m1*\omega^2 + k1*A + k2*C + 0.75*k1N*A^3 + 0.25*k1N*A*B^2 \\- B*c1*\omega - D*c2*\omega = F0\\
+-B*m1*\omega^2 + k1*B + k2*D + 0.75*k1N*B^3 + 0.25*k1N*B*A^2 \\ + c1*A*\omega + c2*C*\omega = 0\\
 \end{align*}
 The response of primary mass is given by:$$\sqrt{A^2+B^2}$$
 
