@@ -128,8 +128,13 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{47}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+<<<<<<< HEAD
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Present work}{44}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Future Work}{46}}
+=======
 \@writefile{toc}{\contentsline {section}{\numberline {6.1}Present work}{47}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.2}Future Work}{49}}
+>>>>>>> e98f853bd8af85819f7e4454b0351c4e95afe42d
 \bibcite{randall}{1}
 \bibcite{liu}{2}
 \bibcite{zhang}{3}

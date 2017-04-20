@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.30)  21 APR 2017 03:26
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.17)  21 APR 2017 03:27
->>>>>>> e98f853bd8af85819f7e4454b0351c4e95afe42d
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.30)  21 APR 2017 03:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -550,18 +546,18 @@ LaTeX Warning: Label `fig:hbm' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -665,17 +661,17 @@ Package pdftex.def Info: "figures/vnitLogo".png used on input line 46.
 NG copy)>]
 File: "figures/vnitLogo".png Graphic file (type png)
  <use "figures/vnitLogo".png>
-Package pdftex.def Info: "figures/vnitLogo".png used on input line 63.
+Package pdftex.def Info: "figures/vnitLogo".png used on input line 66.
 (pdftex.def)             Requested size: 145.11052pt x 145.11882pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
 [1]
 File: "figures/vnitLogo".png Graphic file (type png)
  <use "figures/vnitLogo".png>
-Package pdftex.def Info: "figures/vnitLogo".png used on input line 85.
+Package pdftex.def Info: "figures/vnitLogo".png used on input line 88.
 (pdftex.def)             Requested size: 145.11052pt x 145.11882pt.
  [2]
 Missing character: There is no â in font cmr12!
@@ -1216,31 +1212,33 @@ Package pdftex.def Info: "figures/hbm".pdf used on input line 31.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [41] [42 <./figures/hbm.pdf>]
-Overfull \hbox (49.3089pt too wide) in paragraph at lines 74--74
+Overfull \hbox (49.3089pt too wide) in paragraph at lines 73--73
 [] 
  []
 
-[43] [44]
-<"figures/nonlinearity_primaryymass_3rdorder_2".png, id=349, 1029.09468pt x 295
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+
+ []
+
+[44]
+<"figures/nonlinearity_primaryymass_3rdorder_2".png, id=346, 1029.09468pt x 295
 .1025pt>
 File: "figures/nonlinearity_primaryymass_3rdorder_2".png Graphic file (type png
 )
  <use "figures/nonlinearity_primaryymass_3rdorder_2".png>
 Package pdftex.def Info: "figures/nonlinearity_primaryymass_3rdorder_2".png use
-d on input line 104.
+d on input line 101.
 (pdftex.def)             Requested size: 483.70596pt x 241.85051pt.
 
-<"figures/nonlinearity_primaryymass_3rdorder".png, id=350, 1029.09468pt x 295.1
+<"figures/nonlinearity_primaryymass_3rdorder".png, id=347, 1029.09468pt x 295.1
 025pt>
 File: "figures/nonlinearity_primaryymass_3rdorder".png Graphic file (type png)
  <use "figures/nonlinearity_primaryymass_3rdorder".png>
 Package pdftex.def Info: "figures/nonlinearity_primaryymass_3rdorder".png used 
-on input line 111.
+on input line 109.
 (pdftex.def)             Requested size: 483.70596pt x 241.85051pt.
 ) (conclusion.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [45 <./figures/nonlinearity_primaryymass_3rdorder_2.png>] [46 <./figures/nonlin
 earity_primaryymass_3rdorder.png (PNG copy)>]
 Chapter 6.
@@ -1251,34 +1249,16 @@ Missing character: There is no Â in font cmr12!
 Missing character: There is no · in font cmr12!
  [50
 
-<<<<<<< HEAD
-] [45]) (bibilography.tex [46]
-Missing character: There is no Â in font cmr12!
-Missing character: There is no · in font cmr12!
- [47
-=======
 ]) [51] (main.aux)
-
-LaTeX Warning: There were undefined references.
->>>>>>> e98f853bd8af85819f7e4454b0351c4e95afe42d
-
-]) [48] (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 13728 strings out of 493333
- 266400 string characters out of 3139203
+ 13738 strings out of 493333
+ 266908 string characters out of 3139203
  413378 words of memory out of 3000000
- 16893 multiletter control sequences out of 15000+200000
-=======
- 13466 strings out of 493333
- 263434 string characters out of 3139179
- 408272 words of memory out of 3000000
- 16633 multiletter control sequences out of 15000+200000
->>>>>>> e98f853bd8af85819f7e4454b0351c4e95afe42d
+ 16901 multiletter control sequences out of 15000+200000
  11123 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,54p,1572b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1295,15 +1275,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb>
-<<<<<<< HEAD
-Output written on main.pdf (57 pages, 1497249 bytes).
+Output written on main.pdf (60 pages, 1516891 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
-=======
-Output written on main.pdf (61 pages, 1528084 bytes).
-PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
->>>>>>> e98f853bd8af85819f7e4454b0351c4e95afe42d
+ 417 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
