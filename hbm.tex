@@ -65,4 +65,50 @@ By neglecting higher order harmonics and equating the co-efficient of cosine and
 -B*m1*\omega^2 + k1*B + k2*D + 0.75*k1N*B^3 + 0.25*k1N*B*A^2 \\ + c1*A*\omega + c2*C*\omega = 0\\
 \end{align}
 The response of primary mass is given by:$$\sqrt{A^2+B^2}$$
+\subsection{Third order Harmonic balance}
 
+For the third order harmonic balance method the  assumption is that the response of the primary system and the absorber is predominantly has a response which is in the form as given below-
+\begin{align}
+x=Asin(\omega t)+Bcos(\omega t)+Csin(3\omega t)+Dcos(3\omega t)
+z=Lsin(\omega t)+Mcos(\omega t)+Nsin(3\omega t)+Pcos(3\omega t)
+\end{align}
+Similar to approach adapted in the previous section,on substituting the above equations in to governing differential equation,and by neglecting higher order harmonics and equating the co-efficient of first order and third order cosine and sine in both the governing equations,we get 8 equations in 8 variables A,B,C,D,L,M,N,P as given below:
+\begin{multline}
+-m1\omega^2*A+k1*A+k2*L-B*c1*\omega+M*c2*\omega\\+0.75*K_{1n}*A^3+0.25*K_{1n}*A*B^2+ 0.75*K_{1n}*(A^2+B^2)*C-\\ 1.5*K_{1n}*A*B*D+1.5*K_{1n}*A*(D^2-C^2)=F0 
+\end{multline}
+\begin{multline}
+ m1*-\omega^2*B+(k1*B+k2*M)+(A*c1*\omega+L*c2*\omega)+\\(0.75*K_{1n}*B^3+0.25*K_{1n}*B*A^2+0.75*K_{1n}*(A^2+B^2)*D\\-1.5*K_{1n}*A*B*C+1.5*K_{1n}*B*(D^2-C^2))=0 \\
+\end{multline}
+
+\begin{multline}
+-9*M*C*\omega^2+k1*C+k2*N-3*D*c1*\omega\\-3*P*c2*\omega-0.25*K_{1n}*A^3+0.25*K_{1n}*A*B^2+0.75*K_{1n}*C^3+\\0.25*K_{1n}*C*D^2+1.5*K_{1n}*(B^2-A^2)*C=0
+\end{multline}
+
+\begin{multline}
+-9*M*D*\omega^2+k1*D+k2*P+3*C*c1*\omega-3*N*c2*\omega\\+0.25*K_{1n}*B^3-0.25*K_{1n}*B*A^2+0.75*K_{1n}*D^3+\\0.25*K_{1n}*D*C^2+1.5*K_{1n}*(B^2-A^2)*D=0
+\end{multline}
+
+\begin{align}
+k2*L+A*m2*\omega^2-L*m2*\omega^2-c2*M*\omega=0 \\
+k2*M+B*m2*\omega^2-M*m2*\omega^2+c2*L*\omega=0 \\
+k2*N+9*C*m2*\omega^2-9*m2*N*\omega^2-3*c2*P*\omega=0 \\
+k2*P+9*D*m2*\omega^2-9*m2*P*\omega^2+3*c2*N*\omega=0
+\end{align}
+
+Using these 8 equations values of 8 variables is found using numerical solver(fsolve) in matlab,but the limitation of using numerical method is that an initial value of A,B,C,D,L,M,N,P has to be supplied,about which the solver tries to find the solution,so we would get only the local solution in these cases.\\
+The vibration response or FRF is obtained by getting the maximum value of $Asin(\omega t)+Bcos(\omega t)+Csin(3\omega t)+Dcos(3\omega t) $ at each frequency.
+We had given the 2 initial values:\\
+\textbf{1)} [0 0 0 0 0 0 0 0] all the 8 variables A,B,C,D,L,M,N and P are given a zero initial value at all the frequency,In the graph that is shown below,we have compared this solution with the response obtained through RK-4.
+
+\begin{figure}[h!]
+\includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_3rdorder_2"}
+\caption{ comparision of one of the solutions of third order HBM.}
+  \label{fig:hbm}
+\end{figure}
+
+\textbf{2)} The second initial condition that we had supplied was that for each frequency initial values of A,B,C,D,L,M,N and P was the solution of A,B,C,D,L,M,N and P obtained for the previous frequency.For example $A_{initial}$ for $\omega$ = 0.2 rad/s is equal to A for $\omega$=0.1rad/s.The solution obtained in this case is as shown below.
+\begin{figure}[h!]
+\includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_3rdorder"}
+\caption{ comparision  of the second solutions obtained through third order HBM.}
+  \label{fig:hbm}
+\end{figure}
