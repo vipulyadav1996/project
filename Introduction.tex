@@ -19,10 +19,10 @@ However, adding a DVA to a one-degree-of-freedom (dof) system results in a new 2
 \label{dva}
 \end{figure}
 Equations of motion of the system are given as:
-\begin{align*}
+\begin{align}
 &m_1\ddot{x_1}+k_1x_1+c_1 \dot x_1 +k_2(x_1-x_2)+c_2(\dot{x_1}-\dot{x_2})=F_0sin(\omega *t) \\
 &m_2\ddot{x_2}+k_2(x_2-x_1)+c_{2}(\dot{x_{2}}-\dot{x_{1}})=0
-\end{align*}
+\end{align}
 
 However, adding a Dynamic Vibration Absorber (DVA) to a one-degree-of-freedom (dof) system results in a new two-degree-of-freedom system. If the exciting frequency coincides one of the two natural frequencies of the new system, the system will be at resonance.
 
@@ -108,10 +108,14 @@ There are four design variables involved while designing a DVA, objective being 
 
 The basic outline of this thesis is:
 \begin{enumerate}[1.]
-\item In the absence of damper in the primary system,the optimum design parameters for the DVA. Den Hartog proposed a closed form solution for this case,Den Hartog’s derivation is based on a very peculiar observation that for different values of secondary mass damping the curve always passes through 2 fixed points.
-\item In second case when DVA is present in both primary and absorber mass,a search for optimal parameters is done.But in this case a closed form solution cannot be obtained,hence numerical methods are adapted for selection of optimized parameters.
-\item In the third instance the effect of configuration of attachment of secondary damper as proposed by Kifu Liu and Jie Liu has been considered.
-\item In previous instances,damping is usually viscous but we have considered the addition of coulomb damper between the primary mass and he absorber mass.A numerical search was done to find the optimum frictional force and the FRF generated in this case was compared with the FRF of optimum viscous damper. 
+\item In chapter 2 we have discussed the effect in the absence of damper in the primary system,the optimum design parameters for the DVA. We have explored the two-point theory proposed by Den Hartog for closed form solution,Den Hartog’s derivation is based on a very peculiar observation that for different values of secondary mass damping the curve always passes through 2 fixed points.In second case when DVA is present in both primary and absorber mass,a search for optimal parameters is done.But in this case a closed form solution cannot be obtained,hence numerical methods are adapted for selection of optimized parameters.
+
+
+\item In the Chapter 3 we have considered the addition of coulomb damper between the primary mass and he absorber mass.A numerical search was done to find the optimum frictional force and the FRF generated in this case was compared with the FRF of optimum viscous damper 
+
+\item In Chapter 4 we had added cubic non-linearity in both primary mass and secondary mass and obtained the parameters for obtaining an optimum FRF and compared it with the linear case. We had also tabulated effects of various parameters on the response of primary system.
+
+\item In Chapter 5 we have used an analytical method called the Harmonic Balance Method for solving non linear differential equations present before us when non linearity is present in the system.   
 \end{enumerate}
 
 %\end{document}

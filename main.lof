@@ -15,30 +15,30 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Comparision of FRF's}}{11}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Effect of $\zeta _1$ and $\zeta _2$ on the system response}}{12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces For three values of $C_{2}$ it can be shown that FRF's pass through 2 fixed points}}{15}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The main mass and the DVA, both are damped}}{16}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The graphs are not passing through a fixed point}}{18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Numerical search. Lowest point on the surface represents optimal solution}}{19}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Frequency Response Function for optimum values found by numerical search}}{20}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces FRF in case of coloumb damping.}}{20}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Search for best possible coloumb damping.}}{21}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of Optimum viscous with the best FRF in case of coloumb damping .}}{21}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces For three values of $C_{2}$ it can be shown that FRF's pass through 2 fixed points}}{16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The main mass and the DVA, both are damped}}{17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The graphs are not passing through a fixed point}}{19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Numerical search. Lowest point on the surface represents optimal solution}}{20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Frequency Response Function for optimum values found by numerical search}}{21}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces FRF in case of coloumb damping.}}{21}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Search for best possible coloumb damping.}}{22}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of Optimum viscous with the best FRF in case of coloumb damping .}}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Non-linearity added in the primary system.}}{24}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces non-linearity is added in secondary system.}}{25}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 2-DOF non linear system.}}{25}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of varying stiffnes of absorber.}}{26}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparision of optimum FRF of linear and non-linear spring .}}{27}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparision of optimum FRF's for linear and cubic spring.}}{30}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Effect of adding non-linearity in the primary system}}{31}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Effect of changing stiffness of absorber}}{32}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparison of non-linear and linear optimal solution}}{32}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Effect of adding non-linearity in the primary system}}{33}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Effect of changing stiffness of absorber}}{34}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparison of non-linear and linear optimal solution}}{34}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{35}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{36}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{37}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Non-linearity added in the primary system.}}{25}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces non-linearity is added in secondary system.}}{26}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 2-DOF non linear system.}}{26}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of varying stiffnes of absorber.}}{27}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparision of optimum FRF of linear and non-linear spring .}}{28}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparision of optimum FRF's for linear and cubic spring.}}{31}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Effect of adding non-linearity in the primary system}}{32}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Effect of changing stiffness of absorber}}{33}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparison of non-linear and linear optimal solution}}{33}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Effect of adding non-linearity in the primary system}}{34}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Effect of changing stiffness of absorber}}{35}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparison of non-linear and linear optimal solution}}{35}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{36}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{37}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{38}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Response by harmonic balance method.}}{41}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Response by harmonic balance method.}}{42}
 \addvspace {10\p@ }

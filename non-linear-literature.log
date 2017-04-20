@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.30)  17 APR 2017 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.17)  20 APR 2017 16:12
 entering extended mode
 **./non-linear-literature.tex
 (non-linear-literature.tex
-LaTeX2e <2016/03/31> patch level 3
+LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ! Undefined control sequence.
 l.11 \chapter
-             {Introduction of Non-linearity in the system}
+             {Vibration Absorber with Non-linearity}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -20,25 +20,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \chapter{I
-               ntroduction of Non-linearity in the system}
+l.11 \chapter{V
+               ibration Absorber with Non-linearity}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -52,17 +59,25 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
-Missing character: There is no i in font nullfont!
+! Undefined control sequence.
+l.12 \section
+             {Background}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1366,7 +1381,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 11--13
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--14
 []
  []
 
@@ -1377,7 +1392,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 T
+l.15 T
       he forced oscillations of a two degree-of-freedom non linear system ha...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1569,9 +1584,9 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 14.
+(Font)              <7> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
+(Font)              <5> on input line 15.
 Missing character: There is no . in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -2091,7 +2106,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 \begin{figure}
+l.17 \begin{figure}
                    [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2102,8 +2117,8 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.17 \includegraphics
-                     [width=16cm,height=10cm]{"figures/non-lineardiag"}
+l.18 \includegraphics
+                     [width=\textwidth,height=8cm]{"figures/non-lineardiag"}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2117,11 +2132,18 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no , in font nullfont!
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   h
+l.18 \includegraphics[width=\textwidth,h
+                                        eight=8cm]{"figures/non-lineardiag"}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -2129,8 +2151,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no ] in font nullfont!
@@ -2165,12 +2186,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18   \caption
-               {non-linearity is added in primary system.}
+l.19   \caption
+               {Non-linearity added in the primary system.}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no n in font nullfont!
+Missing character: There is no N in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no - in font nullfont!
@@ -2183,8 +2204,6 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -2192,6 +2211,9 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -2213,7 +2235,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20   \end{figure}
+l.21   \end{figure}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2328,7 +2350,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...g: Reference `fig:34' on page \thepage 
                                                   \space undefined\on@line .
-l.21 ...luded in the system.In figure \ref{fig:34}
+l.22 ...luded in the system.In figure \ref{fig:34}
                                                    the FRF's are drawn witho...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2337,7 +2359,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:34' on page  undefined on input line 21.
+LaTeX Warning: Reference `fig:34' on page  undefined on input line 22.
 
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -2725,47 +2747,47 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 14--22
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--23
 []
  []
 
 
-Overfull \hbox (21.26617pt too wide) in paragraph at lines 14--22
+Overfull \hbox (21.26617pt too wide) in paragraph at lines 15--23
 \OML/cmm/m/it/10 ![] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (41.61343pt too wide) in paragraph at lines 14--22
+Overfull \hbox (41.61343pt too wide) in paragraph at lines 15--23
 \OML/cmm/m/it/10 ![]or![] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (10.71066pt too wide) in paragraph at lines 14--22
+Overfull \hbox (10.71066pt too wide) in paragraph at lines 15--23
 \OML/cmm/m/it/10 ![]$
  []
 
 
-Overfull \hbox (21.26617pt too wide) in paragraph at lines 14--22
+Overfull \hbox (21.26617pt too wide) in paragraph at lines 15--23
 \OML/cmm/m/it/10 ![] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (15.71068pt too wide) in paragraph at lines 14--22
+Overfull \hbox (15.71068pt too wide) in paragraph at lines 15--23
 \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ![]$
  []
 
 
-Overfull \hbox (21.26617pt too wide) in paragraph at lines 14--22
+Overfull \hbox (21.26617pt too wide) in paragraph at lines 15--23
 \OML/cmm/m/it/10 ![] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (10.71066pt too wide) in paragraph at lines 14--22
+Overfull \hbox (10.71066pt too wide) in paragraph at lines 15--23
 \OML/cmm/m/it/10 ![]$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 14--22
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 15--23
 []
  []
 
@@ -2776,7 +2798,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23   \begin{figure}
+l.24   \begin{figure}
                      [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2789,7 +2811,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23   \begin{figure}[
+l.24   \begin{figure}[
                       h!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2799,7 +2821,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.24 \includegraphics
+l.25 \includegraphics
                      [width=16cm,height=10cm]{"figures/33"}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2850,7 +2872,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25   \caption
+l.26   \caption
                {non-linearity is added in secondary system.}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2900,7 +2922,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27   \end{figure}
+l.28   \end{figure}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2913,7 +2935,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28   \begin{figure}
+l.29   \begin{figure}
                      [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2924,7 +2946,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.29 \includegraphics
+l.30 \includegraphics
                      [width=16cm,height=10cm]{"figures/34"}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2975,7 +2997,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30   \caption
+l.31   \caption
                {2-DOF non linear system.}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3008,7 +3030,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32   \end{figure}
+l.33   \end{figure}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3530,8 +3552,8 @@ Missing character: There is no . in font nullfont!
  
 Here is how much of TeX's memory you used:
  14 strings out of 493333
- 233 string characters out of 3139203
- 54242 words of memory out of 3000000
+ 233 string characters out of 3139179
+ 54255 words of memory out of 3000000
  3643 multiletter control sequences out of 15000+200000
  3948 words of font info for 15 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191

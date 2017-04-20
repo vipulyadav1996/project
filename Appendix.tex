@@ -1,0 +1,94 @@
+%\section{Appendix}
+\documentclass[12pt]{article}
+\linespread{1.3}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+%\usepackage{fullpage}
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\newpage
+\appendix			
+\chapter{Runge Kutta method}
+For the present simulation Range Kutta method of 4th order has been used to solve the simultaneous differential equations for a dynamic model with appropriate stiffness. In this section a brief explanation has been given of this method.\\
+To review the problem at hand: we wisth to approximate the solution to a first order differential equation given by
+$${{dy(t)} \over {dt}} = y'(t) = f(y(t),t), \quad \quad {\rm{with\;}} y(t_0)=y_0$$
+(starting from some known initial condition, y(t₀)=y₀). The development of the Fourth Order Runge-Kutta method closely follows those for the Second Order, and will not be covered in detail here. As with the second order technique there are many variations of the fourth order method, and they all use four approximations to the slope. We will use the following slope approximations to estimate the slope at some time t₀ (assuming we only have an approximation to y(t₀) (which we call y*(t₀)).
+\begin{align}
+& {k_1} = f({y^*}({t_0}),{t_0}) \cr 
+& {k_2} = f\left( {{y^*}({t_0}) + {k_1}{h \over 2},{t_0} + {h \over 2}} \right) \cr 
+& {k_3} = f\left( {{y^*}({t_0}) + {k_2}{h \over 2},{t_0} + {h \over 2}} \right) \cr 
+& {k_4} = f\left( {{y^*}({t_0}) + {k_3}h,{t_0} + h} \right) \cr
+\end{align}
+Each of these slope estimates can be described verbally.
+$k_1$ is the slope at the beginning of the time step (this is the same as $k_1$ in the first and second order methods).
+If we use the slope $k_1$ to step halfway through the time step, then $k_2$ is an estimate of the slope at the midpoint. This is the same as the slope, k2, from the second order midpoint method. This slope proved to be more accurate than $k_1$ for making new approximations for y(t).
+If we use the slope $k_2$ to step halfway through the time step, then $k_3$ is another estimate of the slope at the midpoint.
+Finally, we use the slope, $k_3$, to step all the way across the time step (to t₀+h), and $k_4$ is an estimate of the slope at the endpoint.
+We then use a weighted sum of these slopes to get our final estimate of y*(t₀+h)
+\begin{align}
+{y^*}({t_0} + h) &= {y^*}({t_0}) + {{{k_1} + 2{k_2} + 2{k_3} + {k_4}} \over 6}h = {y^*}({t_0}) + \left( {{1 \over 6}{k_1} + {1 \over 3}{k_2} + {1 \over 3}{k_3} + {1 \over 6}{k_4}} \right)h \cr 
+&= {y^*}({t_0}) + mh\quad \quad {\rm{where\;}}m{\rm{\;is\;a\;weighted\;average\; slope\; approximation}} \cr
+\end{align}
+\section{Alternate form of RK-4 method}
+For a first order ordinary differential equation defined by
+$${{dy(t)} \over {dt}} = f(y(t),t)$$
+to progress from a point at t=t₀, y*(t₀), by one time step, h, follow these steps (repetitively).
+\begin{align}
+{k_1} &= f({y^*}({t_0}),{t_0}) \cr 
+{k_2} &= f\left( {{y^*}({t_0}) + {k_1}{h \over 3},\;{t_0} + {h \over 3}} \right) \cr 
+{k_3} &= f\left( {{y^*}({t_0}) - {k_1}{h \over 3} + {k_2}h,\;{t_0} + {2 \over 3}h} \right) \cr 
+{k_4} &= f\left( {{y^*}({t_0}) + {k_1}h - {k_2}h + {k_3}h,\;{t_0} + h} \right) \cr 
+{y^*}({t_0} + h) &= {y^*}({t_0}) + {{{k_1} + 3{k_2} + 3{k_3} + {k_4}} \over 8}h \cr
+\end{align}
+
+
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+
+\subsection*{Matlab Code}
+
+\lstinputlisting{runge_kutta.m}
+\section{Fourier approxiamtion}
+The initial introduction of the fourier approximation has been given in the chapter of Present work. Here the Matlab program has been included for this fourier approximation. The program written is in a function form which takes some simulation parameters as input and gives coefficients of corresponding harmonics as output. The MatLab function written also gives inverse fourier tranform as  an output.\\
+\section*{Matlab Code}
+\lstinputlisting{fourier_approx.m}
+\section{Matlab code for forward simulation}
+The following Matlab program takes pressure waveform as input gives total torque and speed waveform as outputs. In between the simulation misfire can be introduced in any cylinder, But the corresponding data has to imported through excel file. This excel file is given at the end of the appendix.
+\lstinputlisting{four_cyl_theta.m}
+\section{Matlab code for torsional model}
+This Matlab program is for forward simulation i.e taking pressure as input and giving torque and speed waveform as outputs. The model used here considers stiffness in between the lumped masses.In this program the function runge kutta has been used which was mentioned in the earlier section.
+\lstinputlisting{allpressure_considering_stiffness.m}
+\section{Matlab code for reconstruction}
+For reconstruction of pressure curve program, speed waveform is taken as an input and output is the pressure waveform. Following subsections contain two programs. First one is when pressure is approximated thermodynamically for the required portion of crnkshaft rotation. Second program is when the pressure is assumed to be significant only in one cylinder at a particular time. For both the programs rigid model has been assumed.
+\subsection{Thermodynamic approximation of pressure}
+\lstinputlisting{reconstruction_pressure_curve_rigid.m}
+In the above program appropriate $\theta s$ have been assumed at which spark ignites and exhaust valve opens. These $\theta s$ decide the portion of crankshaft where we have to thermodynamically approximate the pressure.
+\subsection{Another method of approximation}
+\lstinputlisting{reconstruction_using_rigid_misfire.m}
+In the above two programs the appropriate input speed signal can be given to simulate the kind of uneven firing in any cylinder. This uneven firing can be misfire, late combustion or pre-ignition.
+\section{Matlab code for analysis using fourier approximation}
+Separate code for getting the suitable number of harmonics of torque waveform or speed waveform has been written. The function written in Matlab (described in the  section of Fourier approximation ) has been included in the program.
+ \lstinputlisting{all_pressure_by_fourier_method.m}
+ In this program the original waveforms and synthetic waveforms are compared and the required number of harmonics is evaluated.
+ \section{Digitalized data of pressure waveform}
+ The original pressure waveform has been obtained by digitalizing an actual pressure vs theta curve of a four stroke engine. For four cylinder the appropriate phase difference has been introduced for each cylinder.\\
+ For uneven firing like misfire or precombustion  the corresponding data has been taken of a particular cylinder and for other cylinders same data has been used with a suitable phase difference.
+ 
+ 
