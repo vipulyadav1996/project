@@ -9,6 +9,7 @@
 %\usepackage{enumerate}
 %\begin{document}
 \chapter{Conclusion}
+\section{Present work}
 Many researchers are interested in and have investigated the linear vibration absorber. This thesis has been concerned with the way in which other parameters such as coulomb damping, configuration or attachment of damping and nonlinearity produced by the nonlinear absorber stiffness can be put to good use in a vibration absorber. The reasons for the preference of this passive approach are to be found in the cost, simplicity, and reliability of this type of absorbers. The effect of the nonlinear vibration absorber parameters on the vibration response was investigated and the effects of such a change were noted and tabulated. The results of this research are summarized in the following. 
 \begin{itemize}
 \item We started of with optimum solution proposed by Den-hartog using two point theory for a DVA without a primary mass damping.Then we had presented a max-min search when damping is introduced,as closed form solution becomes difficult to obtain,even though researchers such as Ghosh et al have extended the two point theory to this type of such systems with limitations that it can be applied to low-moderate damping only.

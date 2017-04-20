@@ -2,9 +2,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces System parameters with optimum values from numerical search}}{19}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Maximum amplitude of the Frequency Response Function}}{19}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Comparing maximum values of <write something here> }}{30}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Comparing maximum values of FRF for linear and non-linear case}}{34}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Comparing maximum values of FRF for linear and non-linear case}}{35}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparing maximum values of linear and non-linear FRF}}{30}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF}}{32}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparing maximum values of linear and non-linear FRF : Case A}}{32}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF: Case A}}{32}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Comparing maximum values of linear and non-linear case FRF: Case B}}{34}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF: Case B}}{36}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -14,10 +14,10 @@ Friction is difficult to model in multi-degree of freedom mechanical systems.Exp
 One of the drawbacks is that Friction between contacting surfaces can dissipate energy and cause damage by wear in
 many engineering systems.The purpose of the present study is to explore the possibility of equivalent friction modal damping for a dynamic vibration absorber and to compare its performance with the viscous damping.
 The equation of motion when coloumb damping is present is given by-
-\begin{align*}
+\begin{align}
 &m_1\ddot{x_1}+k_1x_1+k_2(x_1-x_2)+c_1(\dot{x_1}) =F_0sin(\omega *t) \\
 &m_2\ddot{x_2}+k_2(x_2-x_1)+del*signum(\dot{x_2} -\dot{x_1})=0
-\end{align*}
+\end{align}
 where del is the frictional force acting on the absorber mass.\\
 In figure \ref{fig:25} as frictional force is varied between 0 to 200 N,it can be seen that the FRF retains some of the essential characteristics of a viscous damper,for 2-DOF system and for a smaller frictional force there are 2 local peaks and as in case of viscous damping if it is increased after a certain point,one of the peaks dies out.FRF's would be smother if the resolution of $\omega$ used is smaller for numerical solution.
 \begin{figure}[h!]

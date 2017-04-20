@@ -7,6 +7,7 @@
 \usepackage{amsmath}
 \usepackage{tabularx,color}
 \usepackage{mwe}
+\usepackage{titlesec}
 \usepackage{tikz}
 \usetikzlibrary{calc}
 
@@ -18,11 +19,14 @@ rectangle
 \end{tikzpicture}
 }
 
+\renewcommand\contentsname{Table of Contents}
+
+
 \begin{document}
 \input{"front"}
 \tableofcontents
 \listoffigures
-
+\listoftables
 \newpage
 \pagenumbering{arabic}
 \input{"Introduction"}
@@ -36,5 +40,6 @@ rectangle
 \input{"NLinSS"}
 \input{"hbm"}
 \input{"conclusion"}
+\input{bibilography}
 \end{document}
 

@@ -1,4 +1,4 @@
-\chapter{Analytical study of non-linearity in single DOF system }
+\chapter{Analytical study of non-linearity in single degree of freedom system:\\Harmonic Balance Method}
 Harmonic balance method is selected for analytical study because it is not restricted to weakly nonlinear problems and, for smooth systems, the assumed harmonic solutions always converge to the exact solution. The mathematical analysis can be conducted relatively easily due to it not producing complicated mathematical expressions for higher order terms. However, the HBM has some limitations in accuracy. In the interpretation considered here, one chooses just to use the response at the excitation frequency, i.e., by assuming that sub and super harmonics are negligible compared to the fundamental harmonic and that the system is only under periodic excitation. In addition, the stability characteristics require a separate analysis. 
 We will be considering the non-linear system governed by duffing equation.Here we will be considering the forced vibration of a single degree of freedom system with viscous damping.the eqation of motion of such a system is given by
 \begin{align}
@@ -24,7 +24,7 @@ X^2&=a^2+b^2
 \end{align}
 rearranging the above equations-
 \begin{align}
-9/16(\mu )^2X^6+3/2\mu (1-r^2)X^4+()r^4-2r^2+1)X^2-X_{st}^2=0 \\
+9/16(\mu )^2X^6+3/2\mu (1-r^2)X^4+()r^4-2r^2+1)X^2-X_{st}^2=0
 \end{align}
 For constant force excitation,FRF is plotted by varying r and for $\mu =9 , X_{st}=10 ,\zeta=0.1 $
 \begin{figure}[h!]
@@ -48,21 +48,21 @@ From \ref{fig:hbm} it can be seen that there are three solutions to the given pr
 \section{Harmonic balance method applied to a DVA}
 \subsection{First order Harmonic balance}
 To investigate the dynamic behaviour of the primary system with the nonlinear spring and an absorber attached, the HBM is used, as this enables mathematical expressions to be derived and the analysis to be conducted relatively easily. The fundamental assumption in the HBM approach used for the first order solution is that the response of the primary system and the absorber is predominantly harmonic at the harmonic excitation frequency. Applying the HBM, it is assumed that a solution exists of the form:
-\begin{align*}
+\begin{align}
 x=Asin(\omega t)+Bcos(\omega t)
 z=Csin(\omega t)+Dcos(\omega t)
-\end{align*}
+\end{align}
 where $z=x-x_2$,this two equations are substituted into equation of motion.
-\begin{align*}
+\begin{align}
 m_1\ddot{x_1}+k_1x_1+k_2z+c_2(\dot{z})+c_2(\dot{x})+k_{1N}x^3&=F_0sin(\omega *t) \\
 m_2\ddot{z}+k_2z+c_{2}\dot{z}&=m_2\ddot{x}
-\end{align*}
+\end{align}
 By neglecting higher order harmonics and equating the co-efficient of cosine and sine in both the equations,we get 4  equations in 4 variables A,B,C,D as given below:
-\begin{align*}
+\begin{align}
 -m2*C*\omega^2 + k2*C - c2*D*\omega + m2*A*\omega^2 = 0\\
 -m2*D*\omega^2 + k2*D - c2*C*\omega + B*m2*\omega^2 = 0\\
 -A*m1*\omega^2 + k1*A + k2*C + 0.75*k1N*A^3 + 0.25*k1N*A*B^2 \\- B*c1*\omega - D*c2*\omega = F0\\
 -B*m1*\omega^2 + k1*B + k2*D + 0.75*k1N*B^3 + 0.25*k1N*B*A^2 \\ + c1*A*\omega + c2*C*\omega = 0\\
-\end{align*}
+\end{align}
 The response of primary mass is given by:$$\sqrt{A^2+B^2}$$
 

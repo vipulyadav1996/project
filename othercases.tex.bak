@@ -1,5 +1,5 @@
 \subsection{Cases for verification}
-\subsubsection{Case 1}
+\subsubsection{Case A}
 Mass of primary system, $m_1$= 20kg\\
 Mass of secondary system, $m_2$ = 1.6kg\\
 Mass ratio, $\mu$ = 0.08\\
@@ -27,14 +27,17 @@ Optimum stiffness of secondary mass spring with added non-linearity = 566 N/m
 
 \begin{table}[h!]
 \centering
+\caption{Comparing maximum values of linear and non-linear FRF : Case A}
 \begin{tabular}{|r|r|r|r|}
 \hline
  & Linear & Non-Linear & Difference \\ \hline
 Peak 1& 4.075 & 3.838 & -0.237\\
 Peak 2 & 4.076  & 3.827 & -0.249\\ \hline
 \end{tabular}
-\caption{Comparing maximum values of FRF for linear and non-linear case}
-=======
+\end{table}
+\begin{table}
+\centering
+\caption{Maximum amplitude and bandwidth of linear and non-linear FRF: Case A}
 \begin{tabular}{|m{6cm}|m{2cm}|m{2cm}|}
 \hline
 Case& $\left(\dfrac{X_{1}}{X_{stat}}\right)_{max}$ & Bandwidth \\
@@ -50,7 +53,8 @@ Non-Linear optimum FRF & 3.838 & 0.22
 \end{tabular}
 \end{table}
 
-\subsubsection{Case 2}
+\vspace*{1in}
+\subsubsection{Case B}
 Mass of primary system, $m_1$= 50kg\\
 Mass of secondary system, $m_2$ = 5kg\\
 Mass ratio, $\mu$ = 0.1\\
@@ -79,16 +83,18 @@ Optimum stiffness of secondary mass spring with added non-linearity = 1010 N/m
 
 \begin{table}[h!]
 \centering
+\caption{Comparing maximum values of linear and non-linear case FRF: Case B}
 \begin{tabular}{|r|r|r|r|}
 \hline
  & Linear & Non-Linear & Difference \\ \hline
 Peak 1& 3.993 & 3.636 & -0.357\\
 Peak 2 & 3.989  & 3.634 & -0.355\\ \hline
 \end{tabular}
-\caption{Comparing maximum values of FRF for linear and non-linear case}
 \end{table}
 
-\begin{table}
+\begin{table}[h!]
+\centering
+\caption{Maximum amplitude and bandwidth of linear and non-linear FRF: Case B}
 \begin{tabular}{|m{6cm}|m{2cm}|m{2cm}|}
 \hline
 Case& $\left(\dfrac{X_{1}}{X_{stat}}\right)_{max}$ & Bandwidth \\
@@ -103,4 +109,3 @@ Non-Linear optimum FRF & 3.636 & 0.267
 \hline
 \end{tabular}
 \end{table}
-

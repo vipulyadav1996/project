@@ -1,6 +1,7 @@
 \chapter{Linear Dynamic Vibration Absorber}
 \section{Dynamic vibration absorber without primary mass damping}
-The first mathematical theory on the damped DVA was presented by Ormondroyd and Den Hartog.The mathematical model of a primary mass system attached with a damped DVA is given by-\begin{align}
+The first mathematical theory on the damped DVA was presented by Ormondroyd and Den Hartog.The mathematical model of a primary mass system attached with a damped DVA is given by-
+\begin{align}
 &m_1\ddot{x_1}+k_1x_1+c_1 \dot x_1 + k_2(x_1-x_2)+c_2(\dot{x_1}-\dot{x_2})=F_0sin(\omega *t) \\
 &m_2\ddot{x_2}+k_2(x_2-x_1)+c_{2}(\dot{x_{2}}-\dot{x_{1}})=0
 \end{align}
@@ -12,9 +13,9 @@ Den Hartog derived closed form expressions for optimum damper parameters. He ass
   \label{fig:4}
 \end{figure}
 Firstly,the closed form solution for the vibration response of  primary system was derived and this was later used to obtain closed form optimal solution.\\The closed form solution was obtained in the non-dimensional parameters as it helped in understanding how the vibrational response depended on various parameters,for example-the effect on $x_1$ if $F_0$ is doubled and also by introducing non-dimensional parameters,the number of variable can be reduced.
-$$
+\begin{align}
 \dfrac{x_1}{x_{st}} = \sqrt{\dfrac{(2\dfrac{c}{c_c}g)^2 + (g^2 - f^2)^2}{(2\dfrac{c}{c_c}g)^2 (g^2 -1 + \mu g^2)^2 + [\mu f^2 g^2 - (g^2 -1)(g^2-f^2)]^2}} 
-$$
+\end{align}
 where 
 $\mu = $ m/M =  absorber mass / main mass \\
 $w_a = $ k/m =  natural frequency of absorber \\
@@ -32,8 +33,9 @@ Even this is not all that can be done. By changing the relative tuning f = $frac
 the curve for c = 0. By changing f, one point goes up and the other down. Clearly the most favourable case is such that first by a proper choice of f the two fixed points are adjusted to equal heights, and second by a proper choice of $\frac{c}{c_c}$ the curve is adjusted
 to pass with a horizontal tangent through one of them.
 By adapting the above said procedure,the frequency ratio,damping co-efficient and amplitude ratio is given by:
-\begin{center}
-f = $\dfrac{1}{1+\mu}$\\
 
-$\dfrac{x_1}{x_{st}}= \sqrt{\dfrac{2}{1+\mu}}$
-\end{center}
+\begin{align}
+f = \dfrac{1}{1+\mu}\\
+\dfrac{x_1}{x_{st}}= \sqrt{\dfrac{2}{1+\mu}}
+\end{align}
+

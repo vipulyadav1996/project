@@ -8,7 +8,7 @@
 %\usepackage{color}
 %\usepackage{enumerate}
 %\begin{document}
-\chapter{Non-linearity in the System}
+\chapter{Vibration Absorber with Non-linearity}
 \section{Background}
 The characteristics of the non linear primary system attached by the linear absorber change only slightly in terms of the values of its new linearizied natural frequency, damping coefficient and frequency interval for primary resonance, because the vibration absorber is a small attachment and does not contribute significantly to the change of these parameters (linear stiffness and damping coefficient). Two ratios, namely attenuation ratio and desensitisation ratio, will be defined to indicate the effectiveness of the linear absorber in Suppressing the primary resonance vibrations. The attenuation ratio will be defined by the ratio of the maximum Amplitude of vibrations of the non linear primary system after and before adding the linear vibration absorber under a given value of the amplitude of excitation.The desensitisation ratio will be given by the ratio of the critical values of the amplitude of external excitations presented in the non linear primary system after and before the linear vibration absorber is attached. The critical value of the excitation amplitude refers to here as a certain value of external excitation that results in the occurrence of saddle-node bifurcations and jump phenomena in the frequency–response curve. Below this critical value, the frequency–response curve of the primary resonance vibrations does not show saddle-node bifurcations (and jump phenomena) and will exhibit saddle-node bifurcations and jump phenomena if the amplitude of excitation exceeds the critical value.
 

@@ -11,26 +11,13 @@ When we add a viscous damper in the primary system, alongside the viscous damper
 The govering equations yield the solution: \\
 \begin{align}
 \dfrac{X_1}{X_{st}} &= \dfrac{\sqrt{(1-r_{f2}^2)^2 + 4(\zeta_2 r_{f2})^2}}{\Delta} \\
-\dfrac{X_2}{X_{st}} &= \dfrac{\sqrt{\strut 1 + 4(\zeta_2 r_{f2})^2}}{\Delta} \\
-\text{where}\quad \Delta &= 
-\left\lbrace
-\left[
-r_{f_1}^2 r_{f_2}^2 - 
-( r_{f_2}^2 + r_{f_1}^2 
-(1 + \mu)
-+ 4 \zeta_1 \zeta_2 r_{f_1} r_{f_2} 
-) 
- + 1
-\right] ^2 \right.\\
-&\phantom{=} \left. + 4 
-\left[
- \zeta_1 r_{f_1} + \zeta_1 r_{f_1} -
- (
- \zeta_1 r_{f_1} r_{f_2}^2 + \zeta_2 r_{f_2} r_{f_1}^2 
- (1+\mu)
-)^2
-\right]
-\strut \right\rbrace^\frac{1}{2} \\
+\dfrac{X_2}{X_{st}} &= \dfrac{\sqrt{\strut 1 + 4(\zeta_2 r_{f2})^2}}{\Delta}
+\end{align}
+\begin{multline}
+\text{where}\quad \Delta = \lbrace\left[r_{f_1}^2 r_{f_2}^2 - ( r_{f_2}^2 + r_{f_1}^2 (1 + \mu)+ 4 \zeta_1\zeta_2 r_{f_1} r_{f_2} )  + 1\right] ^2 \\
++  4 \left[ \zeta_1 r_{f_1} + \zeta_1 r_{f_1} - ( \zeta_1 r_{f_1} r_{f_2}^2 + \zeta_2 r_{f_2} r_{f_1}^2  (1+\mu))^2\right] \rbrace ^\frac{1}{2}
+\end{multline}
+\begin{align}
 r_{f_1} &= \frac{\omega}{\sqrt{K_1 / m_1}}\\
 r_{f_2} &= \frac{\omega}{\sqrt{K_2 / m_2}}\\
 \mu &= \frac{m_2}{m_1} \\
@@ -61,19 +48,22 @@ The numerical search is visually shown through the surface generated as shown in
 \caption{Numerical search. Lowest point on the surface represents optimal solution}
 \label{surface}
 \end{figure}
-\begin{table}[h]
+
+\begin{table}[h!]
 \centering
 \label{system}
-\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-PARAMETER & VALUE \\ \hline
-Main Mass & 1 kg \\
-Mass of Absorber & 0.25kg \\
-Stiffness in main mass & $10^3 N/m$ \\
-Optimum frequency ratio($f_{opt}$) & 0.8 \\
-Optimum secondary mass damping($\zeta_2$) & 0.04
-\end{tabular*}
 \caption{System parameters with optimum values from numerical search}
+\begin{tabular*}{\textwidth}{|l| @{\extracolsep{\fill}} r|}
+\hline
+PARAMETER & VALUE \\ \hline
+Main Mass & 1 kg \\ \hline
+Mass of Absorber & 0.25kg \\ \hline
+Stiffness in main mass & $10^3 N/m$ \\ \hline
+Optimum frequency ratio($f_{opt}$) & 0.8 \\ \hline
+Optimum secondary mass damping($\zeta_2$) & 0.04 \\ \hline
+\end{tabular*}
 \end{table}
+
 \begin{figure}
 \includegraphics[scale=0.55]{"figures/optimum"}
 \caption{Frequency Response Function for optimum values found by numerical search}
@@ -85,6 +75,8 @@ The optimum frequency response function obtained has the following characteristi
 \item The two maximum amplitudes obtained in the FRF are approximately equal. Table \ref{maxamp} shows the forcing frequency ratio at which the maximum amplitudes occur.
 \begin{table}[h]
 \centering
+\label{maxamp}
+\caption{Maximum amplitude of the Frequency Response Function}
 \begin{tabular}{|c|c|}
 \hline
 Forcing Frequency ratio & Amplitude \\ \hline
