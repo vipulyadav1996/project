@@ -12,7 +12,7 @@
 \chapter{Literature Review}
 \section{Linear Dynamic Vibration Absorber}
 \begin{enumerate}[i)]
-\item {Randall and Taylor (\textbf{1981}) - Journal of Mechanical Design}\\
+\item {Randall and Taylor (\textbf{1981})}
 \begin{itemize}
 \item Randall and Taylor in this paper proposed a numerical search of optimal parameters when primary mass damping  is present.
 
@@ -53,11 +53,9 @@ As shown below in fig \ref{11},Randall and Taylor did a 3-dimensional search for
     
 \end{figure}
 
-\item {Rana and Soong(\textbf{1998}) - Engineering Structures, Elsevier}\\
+\item {Rana and Soong(\textbf{1998})}\\
 This paper takes into account both primary and secondary mass damping.They studied the effects of detuning of some of the optimal DVA parameters on the performance of the vibration absorber.\\
-
 Some of the conclusions are:
-
 \begin{itemize}
 \item The detuning effect of natural frequency of absorber is more pronounced than that of absorber damping.
 
@@ -67,9 +65,8 @@ Some of the conclusions are:
 
 \end{itemize}
 
-\item {R.L. Mayes And N. A. Mowbray (\textbf{1974}) - Earthquake Engineering and Structural Dynamics}
+\item {R.L. Mayes And N. A. Mowbray (\textbf{1974})}\\
 Paper takes a combination of Coulomb friction and viscous damping and equates the work done per cycle of coloumb friction  to equivalent viscous damper,this is the method that we had adapted while working with Coulomb damper.\\
-
 Some of the conclusions are:
 \begin{itemize}
 \item This paper gives us a method to determine the fraction of viscous and coulomb damping present in the structure and compares the effect of taking equivalent viscous damping.
@@ -77,23 +74,26 @@ Some of the conclusions are:
 \item The effect on response of structure by combined damping is 10-48 percent higher than the result obtained through equivalent damping.
 \end{itemize}
 
-\item {Kifu Liu and Jie Liu(\textbf{2004}) - Journal of Sound and Vibration}\\
+\item {Kifu Liu and Jie Liu(\textbf{2004})}\\
 Studies in the field of DVA has tried to reduce the vibration of primary system,that is by  looking for possibilities such as changing the type of damping or spring that is used.Benchmark being the optimum solution for FRF as suggested by Den Hartog without primary mass damping,which was later extended to system with primary mass damping,as discussed in earlier sections.
 
 In 2004 Kifu Liu and Jie Liu came up with an optimum FRF for a system that was better than the Optimum FRF as suggested by Den Hartog.They worked on the two configuration of damper,instead of introducing a damper between the primary mass and the secondary mass,they attached the damper between ground and the secondary mass as shown in \ref{fig:8}.This configuration of attachment is called as skyhook damper and groundhook damper based on the inertial frame where the other end of the damper is attached.
 
 \begin{figure}[h!]
-\includegraphics[width=16cm,height=10cm]{"figures/8"}
+\centering
+\includegraphics[width=0.7\textwidth,height=0.5\textwidth]{"figures/8"}
 \caption{Configuration of skyhook and ground hook damper}
   \label{fig:8}
 \end{figure}
 They studied the groundhook and skyhook damper and compared the optimal value for vibration suppression with the Den Hartog optimal value for a simple DVA.They used the same concept of fixed point theory for deriving analytical solution.It was found out that,overall by changing the configuration,the results were better as shown in \ref{fig:9}
 \begin{figure}[h!]
-\includegraphics[width=16cm,height=10cm]{"figures/9"}
+\includegraphics[width=0.7\textwidth,height=0.4\textwidth]{"figures/9"}
+\centering
 \caption{Comparision of FRF's}
   \label{fig:9}
-  In this thesis our work follows along the same line,we have explored the effect that coulomb damper has on the vibration of primary mass and compared the optimum FRF's of coulomb and viscous dampers,then we had introduced cubic non-linear spring in both primary and secondary system,obtained their optimum FRF's.We have explored the various parameters that a designer can exploit to suppress vibration as much as possible.
 \end{figure}
+  In this thesis our work follows along the same line,we have explored the effect that coulomb damper has on the vibration of primary mass and compared the optimum FRF's of coulomb and viscous dampers,then we had introduced cubic non-linear spring in both primary and secondary system,obtained their optimum FRF's.We have explored the various parameters that a designer can exploit to suppress vibration as much as possible.
+
 \end{enumerate}
 \section{Non-linearity in the System}
 \begin{enumerate}[i)]
@@ -113,31 +113,18 @@ vibration absorber is studied. The nonlinear effect is introduced in the system 
 \label{borges}
 \end{figure}
 
-\item {Yung-Sheng Hsu, Neil S Ferguson (\textbf{2013}) - Conference and Exposition on Structural Dynamics}
+\item {Yung-Sheng Hsu, Neil S Ferguson (\textbf{2013})}
 The aforementioned paper investigates the physical behaviour and effectiveness of a nonlinear dynamic vibration absorber(NLDVA). The nonlinear absorber considered involves a nonlinear hardening spring which was designed and attached to a cantilever beam excited by a shaker. The cantilever beam can be considered at low frequencies as a linear single degree-of-freedom system. The nonlinear attachment is designed to behave as a hardening Duffing oscillator.
-It investigated the potential for vibration reduction of the system. Analytical and numerical results are presented and compared. From the measured results it was observed that the NLDVA had a much wider effective bandwidth compared to a linear absorber. The frequency response curve of the NLDVA has the effect of moving the second resonant peak to a higher frequency away from the tuned frequency so that the device is robust to mistuning.
+It investigated the potential for vibration reduction of the system. Analytical and numerical results are presented and compared. From the measured results it was observed that the NLDVA had a much wider effective bandwidth compared to a linear absorber. The frequency response curve of the NLDVA has the effect of moving the second resonant peak to a higher frequency away from the tuned frequency so that the device is robust to detuning.
 Experimental results have been presented to compare with
 the model derived.
 
-\item {S. Natsiavas (\textbf{1992}) - Journal of Sound and Vibration}\\
-The paper presents an analysis for determining the steady state response of dynamic vibration absorbers, for which both the machine and the absorber are assumed
-to possess a non-linear, Duffing type, stiffness. The harmonic steady state
-response is first determined by assuming weakly non-linear conditions and applying the
-method of averaging.
-The analysis is applied and numerical results are obtained for several combinations
-of the system parameters, in an effort to gain a better understanding of the effect of
-these parameters on the system response. Utilizing information from the amplitude of the
-solutions obtained, as well as their stability characteristics, it is shown that proper selection
-of the system parameters results in substantial improvements of the technical performance
-of non-linear absorbers and avoids dangerous effects that are possible to occur due to the
-presence of the non-linearities.
-It is shown that absorbers with
-hardening/softening springs may result in considerable reduction of the vibration amplitudes
-in frequency ranges greater/less than the original resonance. The present study is useful in
-trying to eliminate instability effects systematically, without losing the advantages brought
-about by the non-linearities, by properly adjusting the parameters of the system.\\
+\item {S. Natsiavas (\textbf{1992})}\\
+The paper presents an analysis for determining the steady state response of dynamic vibration absorbers, for which both the machine and the absorber are assumed to possess a non-linear, Duffing type, stiffness. The harmonic steady state response is first determined by assuming weakly non-linear conditions and applying the method of averaging.
+The analysis is applied and numerical results are obtained for several combinations of the system parameters, in an effort to gain a better understanding of the effect of these parameters on the system response. Utilizing information from the amplitude of the solutions obtained, as well as their stability characteristics, it is shown that proper selection
+of the system parameters results in substantial improvements of the technical performance of non-linear absorbers and avoids dangerous effects that are possible to occur due to the presence of the non-linearities. It is shown that absorbers with hardening/softening springs may result in considerable reduction of the vibration amplitudes in frequency ranges greater/less than the original resonance. The present study is useful in trying to eliminate instability effects systematically, without losing the advantages brought about by the non-linearities, by properly adjusting the parameters of the system.\\
 \end{enumerate}
-\newpage
+
 In this thesis we have concentrated on the effects of non-linearity on the system. Most of the work in this field has either tried analytical, genetic algorithm or neural network to obtain the response of primary system in presence of non-linearity. We have tried to use an alternate approach of solving the non-linear coupled equations using 4th order Runge Kutta method. We have explored the possibility of obtaining an optimum FRF using when cubic non-linear hardening spring is present. We were able to show that when a small amount of non-linearity is present in the spring of primary mass, the optimum design parameters changes and the Frequency Response Function that is obtained is having lower peaks than the optimum Frequency Response Function in case of linear spring.
 Most of the work has also tried to counteract the non-linearity in the primary mass with a non-linear dynamic vibration absorber. A part of our work also concentrates on the possibility of using a linear dynamic vibration absorber along with non-linear stiffness in the primary mass. 
 %\end{document}

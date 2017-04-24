@@ -107,7 +107,7 @@ Demands for higher read/write speeds of optical disk drives (ODDs) have resulted
 There are four design variables involved while designing a DVA, objective being to minimize the vibration amplitude of the main mass over the operating frequency.The four design variables involved are the mass ratio($\mu$), stiffness of the spring($k_2$), the damping between primary mass and the absorber mass($\zeta_2$) and the damping in the primary mass($\zeta_1$) which is usually independent and is specified over which designer doesn't have much control over.\\
 
 The basic outline of this thesis is:
-\begin{enumerate}[1.]
+\begin{enumerate}[i)]
 \item In chapter 2 we have discussed the effect in the absence of damper in the primary system,the optimum design parameters for the DVA. We have explored the two-point theory proposed by Den Hartog for closed form solution,Den Hartog’s derivation is based on a very peculiar observation that for different values of secondary mass damping the curve always passes through 2 fixed points.In second case when DVA is present in both primary and absorber mass,a search for optimal parameters is done.But in this case a closed form solution cannot be obtained,hence numerical methods are adapted for selection of optimized parameters.
 
 

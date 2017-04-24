@@ -1,7 +1,13 @@
 \vspace*{2in}
 \section{Non-linear spring in the Secondary system:\\ Optimum solution}
 \subsection{Effect of varying stiffness of spring of the absorber }
-In the sections below we would analyse and tabulate the effects of varying stiffness,damping and try to find the optimum solution when a cubic spring is present in between the main mass and the absorber mass.The procedure adapted in this section is similar to previous sections, qualitative results are presented on varying the independent parameters.
+In the sections below we would analyse and tabulate the effects of varying stiffness,damping and try to find the optimum solution when a cubic spring is present in between the main mass and the absorber mass.The procedure adapted in this section is similar to previous sections, qualitative results are presented on varying the independent parameters.\\
+The equation of motion when non-linearity is introduced in the absorber system is given by-
+ \begin{align}
+&m_1\ddot{x_1}+k_1x_1+c_1 \dot x_1 + k_2(x_1-x_2)+k_{2N}(x_1-x_2)^3+ c_2(\dot{x_1}-\dot{x_2})=F_0sin(\omega *t) \\
+&m_2\ddot{x_2}+k_2(x_2-x_1)+k_{2N}(x_2-x_1)^3+c_{2}(\dot{x_{2}}-\dot{x_{1}})=0
+\end{align}
+When $K_{2N}$ is the is the cubic non-linear stiffness in between absorber and main mass and all the other terms have the usual meaning that we had used in earlier chapters.\\
 \begin{figure}[h!]
 \includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_secondary_1"}
   \caption{Effect of increasing non-linear stiffness of absorber.}
