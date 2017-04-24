@@ -14,24 +14,24 @@
 \contentsline {chapter}{\numberline {3}Linear Dynamic Vibration Absorber}{15}
 \contentsline {section}{\numberline {3.1}Dynamic vibration absorber without primary mass damping}{16}
 \contentsline {section}{\numberline {3.2}Dynamic vibration absorber with primary mass damping}{18}
-\contentsline {section}{\numberline {3.3}Coloumb Damping}{21}
+\contentsline {section}{\numberline {3.3}Coulomb Damping}{21}
 \contentsline {chapter}{\numberline {4}Vibration Absorber with Non-linearity}{25}
 \contentsline {section}{\numberline {4.1}Background}{26}
 \contentsline {section}{\numberline {4.2}Non-linear spring in primary system:\\ Optimum solution}{28}
 \contentsline {subsection}{\numberline {4.2.1}Effect of varying stiffness of spring of the absorber }{28}
 \contentsline {subsection}{\numberline {4.2.2}Effect of varying damping of the absorber}{30}
 \contentsline {subsection}{\numberline {4.2.3}Optimum Frequency Response Function for Nonlinear spring in Primary system}{32}
-\contentsline {subsection}{\numberline {4.2.4}Cases for verification}{34}
-\contentsline {subsubsection}{Case A}{34}
-\contentsline {subsubsection}{Case B}{36}
+\contentsline {subsection}{\numberline {4.2.4}Cases for verification}{33}
+\contentsline {subsubsection}{Case A}{33}
+\contentsline {subsubsection}{Case B}{35}
 \contentsline {section}{\numberline {4.3}Non-linear spring in the Secondary system:\\ Optimum solution}{38}
 \contentsline {subsection}{\numberline {4.3.1}Effect of varying stiffness of spring of the absorber }{38}
 \contentsline {subsection}{\numberline {4.3.2}Effect of varying the damping of secondary system }{39}
 \contentsline {subsection}{\numberline {4.3.3}Comparison of optimum solution when non-linearity is introduced with the linear optimum solution}{40}
-\contentsline {chapter}{\numberline {5}Analytical study of non-linearity in single degree of freedom system:\\Harmonic Balance Method}{43}
-\contentsline {section}{\numberline {5.1}Harmonic balance method applied to a DVA}{46}
-\contentsline {subsection}{\numberline {5.1.1}First order Harmonic balance}{46}
-\contentsline {subsection}{\numberline {5.1.2}Third order Harmonic balance}{47}
-\contentsline {chapter}{\numberline {6}Conclusion}{50}
-\contentsline {section}{\numberline {6.1}Present work}{51}
-\contentsline {section}{\numberline {6.2}Future Work}{52}
+\contentsline {chapter}{\numberline {5}Analytical study of non-linearity in single degree of freedom system:\\Harmonic Balance Method}{42}
+\contentsline {section}{\numberline {5.1}Harmonic balance method applied to a DVA}{45}
+\contentsline {subsection}{\numberline {5.1.1}First order Harmonic balance}{45}
+\contentsline {subsection}{\numberline {5.1.2}Third order Harmonic balance}{46}
+\contentsline {chapter}{\numberline {6}Conclusion}{49}
+\contentsline {section}{\numberline {6.1}Present work}{50}
+\contentsline {section}{\numberline {6.2}Future Work}{51}

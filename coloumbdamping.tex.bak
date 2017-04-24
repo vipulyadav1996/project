@@ -9,19 +9,19 @@
 %\usepackage{enumerate}
 %\usepackage{mwe}
 %\begin{document}
-\section{Coloumb Damping}
+\section{Coulomb Damping}
 Friction is difficult to model in multi-degree of freedom mechanical systems.Experimental studies of damping in vibrating mechanical systems typically use modal damping factors to represent the damping.Energy lost by friction is included in these factors.
 One of the drawbacks is that Friction between contacting surfaces can dissipate energy and cause damage by wear in
 many engineering systems.The purpose of the present study is to explore the possibility of equivalent friction modal damping for a dynamic vibration absorber and to compare its performance with the viscous damping.
-The equation of motion when coloumb damping is present is given by-
+The equation of motion when coulomb damping is present is given by-
 \begin{align}
 &m_1\ddot{x_1}+k_1x_1+k_2(x_1-x_2)+c_1(\dot{x_1}) =F_0sin(\omega *t) \\
 &m_2\ddot{x_2}+k_2(x_2-x_1)+del*signum(\dot{x_2} -\dot{x_1})=0
 \end{align}
-where del is the frictional force acting on the absorber mass.\\
+where $del$ is the frictional force acting on the absorber mass.\\
 In figure \ref{fig:25} as frictional force is varied between 0 to 200 N,it can be seen that the FRF retains some of the essential characteristics of a viscous damper,for 2-DOF system and for a smaller frictional force there are 2 local peaks and as in case of viscous damping if it is increased after a certain point,one of the peaks dies out.FRF's would be smother if the resolution of $\omega$ used is smaller for numerical solution.
 \begin{figure}[h!]
-\includegraphics[width=16cm,height=10cm]{"figures/25"}
+\includegraphics[width=\textwidth,height=0.6\textwidth]{"figures/25"}
   \caption{FRF in case of coloumb damping.}
   \label{fig:25}
   \end{figure}
@@ -34,24 +34,24 @@ In figure \ref{fig:25} as frictional force is varied between 0 to 200 N,it can b
 \end{itemize}
 The results are as shown in figure \ref{fig:28}.
 \begin{figure}[h!]
-\includegraphics[width=16cm,height=10cm]{"figures/28"}
-  \caption{Search for best possible coloumb damping.}
+\includegraphics[width=\textwidth,height=0.55\textwidth]{"figures/28"}
+  \caption{Search for best possible coulomb damping.}
   \label{fig:28}
   \end{figure}
   Now the FRF when the frictional force is 390 N,the FRF obtained is compared with the optimal viscous FRF.
   \begin{figure}[h!]
-\includegraphics[width=16cm,height=10cm]{"figures/32"}
+\includegraphics[width=\textwidth,height=0.55\textwidth]{"figures/32"}
   \caption{Comparison of Optimum viscous with the best FRF in case of coloumb damping .}
   \label{fig:32}
   \end{figure}
 Important observations:
 \begin{itemize}
 \item It was observed that the optimum value of friction force is close to 400 N(390N to be precise,and this is valid for a particular excitation force(500N))
-\item Over certain range of frequency that is lower band ($\dfrac{\omega}{\omega_n} $ $<0.77 $) and higher band ($\dfrac{\omega}{\omega_n} $ $ >1.19 $), coloumb damping is slightly better than viscous damping. 
+\item Over certain range of frequency that is lower band ($\dfrac{\omega}{\omega_n} $ $<0.77 $) and higher band ($\dfrac{\omega}{\omega_n} $ $ >1.19 $), coulomb damping is slightly better than viscous damping. 
 \item For ($0.77< $ $\dfrac{\omega}{\omega_n} $ $<1.19 $), viscous damping is found to be more suitable.
 \item The above observations are by keeping optimal parameters in case of viscous damping. Further improvement may be possible by changing frequency ratio(f).
 \end{itemize}
   
 Important Note:
-Coulomb damping doesn't offer much benefit over viscous damping,but it is also responsible for wear and tear of mechanical system.Also it can be seen that Search for the best coulomb damping is difficult as no analytical solutions are available,and performing numerical search has its limitations because in case of coulomb damping the response is a function of external force F0 and the frictional force del.Also as shown in figure \ref{fig:28},addition of coulomb damping becomes beneficial only   for somewhat large frictional force,which in addition to causing wear and tear,from a practical perspective it can become difficult to add such an high frictional force.
+Coulomb damping doesn't offer much benefit over viscous damping,but it is also responsible for wear and tear of mechanical system.Also it can be seen that Search for the best coulomb damping is difficult as no analytical solutions are available,and performing numerical search has its limitations because in case of coulomb damping the response is a function of external force $F_0$ and the frictional force $del$.Also as shown in figure \ref{fig:28},addition of coulomb damping becomes beneficial only   for somewhat large frictional force,which in addition to causing wear and tear,from a practical perspective it can become difficult to add such an high frictional force.
 %\end{document}

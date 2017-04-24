@@ -8,7 +8,7 @@ The first mathematical theory on the damped DVA was presented by Ormondroyd and 
 
 Den Hartog derived closed form expressions for optimum damper parameters. He assumed no damping to be present in the main mass to facilitate the derivations.Den Hartog’s derivation is based on a very peculiar observation that for different values of secondary mass damping the curve always passes through 2 fixed points as can be seen from \ref{fig:4}.
 \begin{figure}[h]
-\includegraphics[width=16cm,height=10cm]{"figures/4"}
+\includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/4"}
 \caption{For three values of $C_{2}$ it can be shown that FRF's pass through 2 fixed points}
   \label{fig:4}
 \end{figure}

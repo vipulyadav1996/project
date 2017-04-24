@@ -1,29 +1,38 @@
 \section{Non-linear spring in primary system:\\ Optimum solution}
 \subsection{Effect of varying stiffness of spring of the absorber } 
-Initially an FRF for the linear paraameters $$ m_1=10 kg\quad m_2=0.6kg\quad k_1=44 N/m\quad c_1=0.1 Ns/m $$ is drawn.In this case it can be seen that the two peaks are equal.Now a non-linearity is added in the primary system by addition of a cubic spring with $k_{1n}=44 N/m^3$.After the addition of a cubic spring,the effect of change in the stiffness of the spring of absorber on the two peaks in the FRF and the bandwidth is to be studied.
+Initially an FRF for the linear parameters $$ m_1=10\ kg\quad m_2=0.6kg\quad k_1=44\, N/m\quad c_1=0.1\, Ns/m $$ is drawn.In this case it can be seen that the two peaks are equal.Now a non-linearity is added in the primary system by addition of a cubic spring with $k_{1n}=44 N/m^3$.After the addition of a cubic spring,the effect of change in the stiffness of the spring of absorber on the two peaks in the FRF and the bandwidth is to be studied.\\
+ The equation of motion when a non-linear spring is added in the primary system is given by-
+  \begin{align}
+&m_1\ddot{x_1}+k_1x_1+k_{1N}x_1^3+c_1 \dot x_1 + k_2(x_1-x_2)+c_2(\dot{x_1}-\dot{x_2})=F_0sin(\omega *t) \\
+&m_2\ddot{x_2}+k_2(x_2-x_1)+c_{2}(\dot{x_{2}}-\dot{x_{1}})=0
+\end{align}
+When $K_{1N}$ is the cubic non-linear stiffness in the primary system and all the other terms have the usual meaning that we had used in earlier chapters.\\
 
 \begin{figure}[h!]
 \includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_3_effect of secondaryspring"}
-  \caption{Effect of varying stiffnes of absorber.}
-  \label{fig:varying stiffnes of absorber}
+  \caption{Effect of varying stiffness of absorber.}
+  \label{fig:varying stiffness of absorber}
   \end{figure}
-From the Figure \ref{fig:varying stiffnes of absorber} it can be seen that on increasing the stiffness of absorber spring, the 1st peak increases whereas the 2nd  goes on decreasing as k2 is increased.It is difficult to conclusively predict the effect on bandwidth that is the distance between two peaks,as both the peaks are shifted towards right.
-The optimum solution by varying k2,would have both left and right peaks as equal,also it can be seen that if k2 goes on decreasing the second peak almost disappears and only peak 1 becomes prominent.\\
+From the Figure \ref{fig:varying stiffness of absorber} it can be seen that on increasing the stiffness of absorber spring, the 1st peak increases whereas the 2nd  goes on decreasing as $k_2$ is increased.It is difficult to conclusively predict the effect on bandwidth that is the distance between two peaks,as both the peaks are shifted towards right.
+The optimum solution by varying $k_2$,would have both left and right peaks as equal,also it can be seen that if $k_2$ goes on decreasing the second peak almost disappears and only peak 1 becomes prominent.\\
 By conducting mini-max search the optimal solution was found to be $k2=2.43$ It can be seen that when a non-linear spring is added the optimal solution changes,in this case only k2 is varied,but in the sections that follow we have explored the effect that secondary damping have on the peaks and the combined the effects of secondary stiffness and damping to provide a best case scenario.\\
   
 
 \begin{figure}[h!]
   \includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimums"}
-  \caption{Comparision of optimum FRF of linear and non-linear spring .}
+  \caption{Comparison of optimum FRF of linear and non-linear spring .}
   \label{fig:optimum stiffness}
 \end{figure}
 
 It is to be noted that  the optimum case of non-linearity is obtained in this case by varying only the stiffness of spring attached to the secondary mass.We were able to obtain an FRF that was as good as the FRF for optimized linear case and as stated earlier there is not much change in the bandwidth.
 
 \subsection{Effect of varying damping of the absorber}
-The initial system is having all its components to be linear. When the linear system is designed having optimum parameters, its Frequency Response Characteristic is as shown below.\\[0.2in]
+The initial system is having all its components to be linear. When the linear system is designed having optimum parameters, its Frequency Response Characteristic is as shown in Figure \ref{linearopt}.\\[0.2in]
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{"figures/linear"}\\[0.1in]
+\centering
+\includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/linear"}\\[0.1in]
+\caption{FRF of linear system with optimum parameters}
+\label{linearopt}
 \end{figure}
 The two peaks have almost same value and they are at the minimum possible value. Hence, the system as a whole is said to have the best or optimum response over a range of frequency.
 
@@ -33,14 +42,14 @@ the FRF changes with a reduction in maximum value of left peak and with increase
 %till here
 %System parameters
 \begin{align}
-&m_1 = 10kg\quad m_2 = 0.6kg\quad \\
-&k_1=44 N/m\quad
-k_{1N} = 1000 N/m^3\quad k_2 = 2.347 N/m \quad \\
-&c_1 = 0.1 N\cdot s/m \quad
-c_2 = 0.344 N\cdot s/m 
+&m_1 = 10\,kg\quad m_2 = 0.6\,kg\quad \\
+&k_1=44\, N/m\quad
+k_{1N} = \,1000 N/m^3\quad k_2 = 2.347\, N/m \quad \\
+&c_1 = 0.1 \,N\cdot s/m \quad
+c_2 = 0.344 \,N\cdot s/m 
 \end{align}
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{"figures/nonlinear"}
+\includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinear"}
 \end{figure}
 \begin{table}
 \centering
@@ -55,7 +64,8 @@ Peak 2 & 5.724  & 6.412 & 0.688\\ \hline
 Once it is established that addition of non-linearity to the primary mass disturbs the linear system under optimal conditions, we studied the effect of changing the secondary mass damping, on the system.\\
 The graph show under is plotted with varying values of secondary mass damping ($\zeta_2$). The linear plot is retained for comparison purpose.Since we are concerned with getting the best response from the system, we need to minimize its maximum amplitude over the whole range. This is achieved when both the peaks have approximately the same maximum value.\\[0.2in]
 \begin{figure}[h!]
-\includegraphics[width=0.9\textwidth]{"figures/change"}\\[0.2in] 
+\includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/change"}\\[0.2in] 
+\caption{}
 \end{figure}
 From the above figure, the following points are to be noted:
 \begin{itemize}
