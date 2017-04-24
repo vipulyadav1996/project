@@ -27,6 +27,7 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Non-linearity added in the primary system.}}{27}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces non-linearity is added in secondary system.}}{27}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces 2-DOF non linear system.}}{28}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of varying stiffness of absorber.}}{29}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Comparison of optimum FRF of linear and non-linear spring .}}{30}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces FRF of linear system with optimum parameters}}{31}
@@ -41,6 +42,20 @@
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{38}
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{39}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{40}
+=======
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of varying stiffnes of absorber.}}{29}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparision of optimum FRF of linear and non-linear spring .}}{30}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparision of optimum FRF's for linear and cubic spring.}}{33}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Effect of adding non-linearity in the primary system}}{34}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Effect of changing stiffness of absorber}}{35}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparison of non-linear and linear optimal solution}}{35}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Effect of adding non-linearity in the primary system}}{36}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Effect of changing stiffness of absorber}}{37}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparison of non-linear and linear optimal solution}}{37}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{38}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{39}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{40}
+>>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Response by harmonic balance method.}}{44}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces comparision of one of the solutions of third order HBM.}}{48}
