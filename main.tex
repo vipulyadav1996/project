@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt,oneside]{report}
 \usepackage[a4paper,margin=1in,left=1.5in]{geometry}
 \linespread{1.3}
+\usepackage[Rejne]{fncychap}
 \usepackage{layout}
 \usepackage{enumerate}
 \usepackage{graphicx}
@@ -26,7 +27,7 @@ rectangle
 \renewcommand\contentsname{Table of Contents}
 \titleformat{\chapter}[display]
 {\normalfont\Large\filcenter\sffamily}
-{\vspace*{\fill}
+{\vspace{\fill}
  \titlerule[1pt]%
  \vspace{1pt}%
  \titlerule
@@ -41,7 +42,8 @@ rectangle
   {\titlerule}
   {-7ex}
   {\MakeUppercase}[\vspace{2ex}]
-  
+ 
+
 \begin{document}
 \input{"front"}
 \tableofcontents
@@ -61,6 +63,8 @@ rectangle
 \input{"NLinSS"}
 \input{"hbm"}
 \input{"conclusion"}
+\addcontentsline{toc}{section}{Bibliography}
 \input{bibilography}
+
 \end{document}
 

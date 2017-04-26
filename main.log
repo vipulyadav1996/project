@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.30)  26 APR 2017 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.30)  26 APR 2017 19:16
 entering extended mode
 **./main.tex
 (main.tex
@@ -53,6 +53,16 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\fncychap\fncychap.sty"
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip43
+\mylen=\skip44
+\myhi=\skip45
+\px=\skip46
+\py=\skip47
+\pyy=\skip48
+\pxx=\skip49
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\layout.sty"
 Package: layout 2014/10/28 v1.2c Show layout parameters
 \oneinch=\count91
@@ -121,7 +131,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/06/28 v2.15d AMS math features
-\@mathmargin=\skip43
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -171,8 +181,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \totwidth@=\dimen120
 \lineht@=\dimen121
 \@envbody=\toks20
-\multlinegap=\skip44
-\multlinetaggap=\skip45
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
@@ -185,8 +195,8 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
 \NC@list=\toks22
-\extratabsurround=\skip46
-\backup@length=\skip47
+\extratabsurround=\skip53
+\backup@length=\skip54
 )
 \TX@col@width=\dimen124
 \TX@old@table=\dimen125
@@ -239,8 +249,8 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
-\beforetitleunit=\skip48
-\aftertitleunit=\skip49
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
 \ttl@plus=\dimen129
 \ttl@minus=\dimen130
 \ttl@toksa=\toks24
@@ -545,18 +555,18 @@ LaTeX Warning: Label `fig:hbm' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1234,10 +1244,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13765 strings out of 493333
- 267372 string characters out of 3139203
- 411609 words of memory out of 3000000
- 16925 multiletter control sequences out of 15000+200000
+ 13842 strings out of 493333
+ 268127 string characters out of 3139203
+ 412183 words of memory out of 3000000
+ 16999 multiletter control sequences out of 15000+200000
  12041 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,54p,1571b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1255,7 +1265,7 @@ les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (63 pages, 1535850 bytes).
+Output written on main.pdf (63 pages, 1535866 bytes).
 PDF statistics:
  425 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

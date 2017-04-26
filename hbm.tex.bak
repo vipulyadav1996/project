@@ -1,6 +1,6 @@
-\chapter{Analytical study of non-linearity in single degree of freedom system:\\Harmonic Balance Method}
-Harmonic balance method is selected for analytical study because it is not restricted to weakly nonlinear problems and, for smooth systems, the assumed harmonic solutions always converge to the exact solution. The mathematical analysis can be conducted relatively easily due to it not producing complicated mathematical expressions for higher order terms. However, the HBM has some limitations in accuracy. In the interpretation considered here, one chooses just to use the response at the excitation frequency, i.e., by assuming that sub and super harmonics are negligible compared to the fundamental harmonic and that the system is only under periodic excitation. In addition, the stability characteristics require a separate analysis. 
-We will be considering the non-linear system governed by duffing equation.Here we will be considering the forced vibration of a single degree of freedom system with viscous damping.the eqation of motion of such a system is given by
+\chapter{Analytical study of non-linearity in single degree of freedom system:Harmonic Balance Method}
+Harmonic balance method is selected for analytical study because it is not restricted to weakly nonlinear problems and, for smooth systems the assumed harmonic solutions always converge to the exact solution. The mathematical analysis can be conducted relatively easily due to it not producing complicated mathematical expressions for higher order terms. However, the HBM has some limitations in accuracy. In the interpretation considered here, one chooses just to use the response at the excitation frequency, i.e., by assuming that sub and super harmonics are negligible compared to the fundamental harmonic and that the system is only under periodic excitation. In addition, the stability characteristics require a separate analysis. 
+We will be considering the non-linear system governed by duffing equation.Here we will be considering the forced vibration of a single degree of freedom system with viscous damping,the equation of motion of such a system is given by
 \begin{align}
 m\ddot{x}+\alpha x+c(\dot{x})+\beta x^3=F_0sin(\omega t)
 \end{align}
@@ -16,15 +16,15 @@ r &= \omega /p \\
 x &= asin(r\tau )+bcos(r\tau)
 \end{align}
 We use harmonic balance method in which each harmonic is balanced by separating out the terms in LHS and RHS.The third harmonic and higher order harmonics are neglected.
-Equating the co-efficients of $cos(r \tau) and sin(r \tau)$ we get:
+Equating the co-efficients of $cos(r \tau)$ and $sin(r \tau)$ we get:
 \begin{align}
 -ar^2-2\zeta br+a+ 3/4\mu a^3+3/4\mu ab^2&=0 \\
 -br^2-2\zeta ar+b+ 3/4\mu b^3+3/4\mu a^2b&=0\\
-X^2&=a^2+b^2
+X^2=a^2+b^2
 \end{align}
 rearranging the above equations-
 \begin{align}
-9/16(\mu )^2X^6+3/2\mu (1-r^2)X^4+()r^4-2r^2+1)X^2-X_{st}^2=0
+9/16(\mu )^2X^6+3/2\mu (1-r^2)X^4+(r^4-2r^2+1)X^2-X_{st}^2=0
 \end{align}
 For constant force excitation,FRF is plotted by varying r and for $\mu =9 , X_{st}=10 ,\zeta=0.1 $
 \begin{figure}[h!]
@@ -36,7 +36,7 @@ A comparision of Linear and non-linear system-
 \begin{itemize}
 \item In non-linear system frequency of free vibration depends on amplitude of vibration.
 \item For the linear system, the amplitude-frequency relationship for free vibration is a vertical line on the forced response diagram at the excitation frequency equal to the natural frequency. The forced vibration response occurs to the left and right of this vertical resonance line. For a nonlinear system this relationship for a hardening spring bends to the right and for a softening spring, it bends to the left. The forced response follows above and below the free vibration characteristic, giving rise to the jump phenomenon. 
-\item The forced vibration response in a linear system with harmonic excitation force is also harmonic with the same frequency as the excitation frequency. In a nonlinear system with harmonic excitation, however, the response is nonharmonic but periodic with the first and higher harmonics of the fundamental period. For symmetric stiffness characteristics, only odd harmonics are present.
+\item The forced vibration response in a linear system with harmonic excitation force is also harmonic with the same frequency as the excitation frequency. In a nonlinear system with harmonic excitation, however, the response is non-harmonic but periodic with the first and higher harmonics of the fundamental period. For symmetric stiffness characteristics, only odd harmonics are present.
 \item  For linear systems, the response is directly proportional to the magnitude of the excitation force at a given frequency of excitation. For nonlinear systems, however a sudden upward jump in the amplitude takes place when the force is increased gradually and reaches a specific point. Similarly, if the magnitude of the force is decreased gradually. a sudden downward jump in amplitude of vibration takes place.
 \item In a linear system, the forced vibration response gradually increases until resonance and decreases gradually as the frequency is increased keeping the excitation force constant. The response is unique at all the frequencies of excitation, irrespective of the case whether the frequency is increasing or decreasing. However, in a nonlinear system, as the frequency of excitation is increased for a constant force, the response increases gradually and at a certain frequency sudden downward jump occurs and when the frequency is gradually decreased a sudden upward jump occurs at a particular frequency. 
 \item Some solutions theoretically possible may not be realised for nonlinear systems in practice. Also, some solutions in nonlinear systems may be unstable.
@@ -49,7 +49,7 @@ From \ref{fig:hbm} it can be seen that there are three solutions to the given pr
 \subsection{First order Harmonic balance}
 To investigate the dynamic behaviour of the primary system with the nonlinear spring and an absorber attached, the HBM is used, as this enables mathematical expressions to be derived and the analysis to be conducted relatively easily. The fundamental assumption in the HBM approach used for the first order solution is that the response of the primary system and the absorber is predominantly harmonic at the harmonic excitation frequency. Applying the HBM, it is assumed that a solution exists of the form:
 \begin{align}
-x=Asin(\omega t)+Bcos(\omega t)
+x=Asin(\omega t)+Bcos(\omega t)\\
 z=Csin(\omega t)+Dcos(\omega t)
 \end{align}
 where $z=x-x_2$,this two equations are substituted into equation of motion.
@@ -60,15 +60,19 @@ m_2\ddot{z}+k_2z+c_{2}\dot{z}&=m_2\ddot{x}
 By neglecting higher order harmonics and equating the co-efficient of cosine and sine in both the equations,we get 4  equations in 4 variables A,B,C,D as given below:
 \begin{align}
 -m2*C*\omega^2 + k2*C - c2*D*\omega + m2*A*\omega^2 = 0\\
--m2*D*\omega^2 + k2*D - c2*C*\omega + B*m2*\omega^2 = 0\\
--A*m1*\omega^2 + k1*A + k2*C + 0.75*k1N*A^3 + 0.25*k1N*A*B^2 \\- B*c1*\omega - D*c2*\omega = F0\\
--B*m1*\omega^2 + k1*B + k2*D + 0.75*k1N*B^3 + 0.25*k1N*B*A^2 \\ + c1*A*\omega + c2*C*\omega = 0\\
+-m2*D*\omega^2 + k2*D - c2*C*\omega + B*m2*\omega^2 = 0
 \end{align}
+\begin{multline}
+-A*m1*\omega^2 + k1*A + k2*C + 0.75*k1N*A^3 + 0.25*k1N*A*B^2\\- B*c1*\omega - D*c2*\omega = F0
+\end{multline}
+\begin{multline}
+-B*m1*\omega^2 + k1*B + k2*D + 0.75*k1N*B^3 + 0.25*k1N*B*A^2 \\ + c1*A*\omega + c2*C*\omega = 0
+\end{multline}
 The response of primary mass is given by:$$\sqrt{A^2+B^2}$$
 \subsection{Third order Harmonic balance}
-For the third order harmonic balance method the  assumption is that the response of the primary system and the absorber is predominantly has a response which is in the form as given below-
+For the third order harmonic balance method the  assumption is that the response of the primary system and the absorber  predominantly has a response which is in the form as given below-
 \begin{align}
-x=Asin(\omega t)+Bcos(\omega t)+Csin(3\omega t)+Dcos(3\omega t)
+x=Asin(\omega t)+Bcos(\omega t)+Csin(3\omega t)+Dcos(3\omega t)\\
 z=Lsin(\omega t)+Mcos(\omega t)+Nsin(3\omega t)+Pcos(3\omega t)
 \end{align}
 Similar to approach adapted in the previous section,on substituting the above equations in to governing differential equation,and by neglecting higher order harmonics and equating the co-efficient of first order and third order cosine and sine in both the governing equations,we get 8 equations in 8 variables A,B,C,D,L,M,N,P as given below:
@@ -91,9 +95,9 @@ k2*N+9*C*m2*\omega^2-9*m2*N*\omega^2-3*c2*P*\omega=0 \\
 k2*P+9*D*m2*\omega^2-9*m2*P*\omega^2+3*c2*N*\omega=0
 \end{align}
 
-Using these 8 equations values of 8 variables is found using numerical solver(fsolve) in matlab,but the limitation of using numerical method is that an initial value of A,B,C,D,L,M,N,P has to be supplied,about which the solver tries to find the solution,so we would get only the local solution in these cases.\\
+Using these 8 equations, values of 8 variables is found using numerical solver(fsolve) in matlab,but the limitation of using numerical method is that an initial value of A,B,C,D,L,M,N,P has to be supplied,about which the solver tries to find the solution,so we would get only the local solution in these cases.\\
 The vibration response or FRF is obtained by getting the maximum value of $Asin(\omega t)+Bcos(\omega t)+Csin(3\omega t)+Dcos(3\omega t) $ at each frequency.\\
-We had given the 2 initial values:\\
+We had given the 2 initial values:
 \begin{enumerate}[1)]
 \item All the 8 variables A,B,C,D,L,M,N and P are given a zero initial value at all the frequency,In the graph that is shown below,we have compared this solution with the response obtained through RK-4.
 
@@ -103,7 +107,7 @@ We had given the 2 initial values:\\
   \label{fig:hbm}
 \end{figure}
 
-\item The second initial condition that we had supplied was that for each frequency initial values of A,B,C,D,L,M,N and P was the solution of A,B,C,D,L,M,N and P obtained for the previous frequency.For example $A_{initial}$ for $\omega$ = 0.2 rad/s is equal to A for $\omega$=0.1rad/s.The solution obtained in this case is as shown below.
+\item The second initial condition that we had supplied was that for each frequency initial values of A,B,C,D,L,M,N and P was the solution of A,B,C,D,L,M,N and P obtained for the previous frequency.For example $A_{initial}$ for $\omega$ = 0.2 rad/s is equal to A for $\omega$=0.1rad/s.The solution obtained in this case is as shown in figure \ref{fig:hbm}.
 \end{enumerate}
 \begin{figure}[t]
 \includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_3rdorder"}
