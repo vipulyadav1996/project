@@ -17,8 +17,8 @@
 %}
 %
 %\begin{document}
-\begin{titlepage}
 \boxit
+\thispagestyle{empty}
 \begin{center}
 \textup{ {\bf Mechnanical Engineering Project} \\ Report}\\
 % Title
@@ -49,8 +49,9 @@ Under the guidance of\\
 \textsc{Visvesvaraya National Institute of Technology, Nagpur}\\
 Maharashtra, India -- 440010 \\
 \end{center}
-
-\end{titlepage}
+\begin{center}
+\large May 2017
+\end{center}
 
 %This is declaration
 \newpage

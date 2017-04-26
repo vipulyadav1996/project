@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.30)  25 APR 2017 00:56
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.17)  25 APR 2017 00:42
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.30)  26 APR 2017 17:58
 entering extended mode
 **./main.tex
 (main.tex
-LaTeX2e <2017/01/01> patch level 1
+LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
@@ -56,12 +52,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")
-
-Package geometry Warning: Over-specification in `v'-direction.
-    `height' (731.23582pt) is ignored.
-
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\layout.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\layout.sty"
 Package: layout 2014/10/28 v1.2c Show layout parameters
 \oneinch=\count91
 \cnt@paperwidth=\count92
@@ -103,7 +95,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -114,7 +106,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -128,7 +120,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen112
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -148,20 +140,20 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count123
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count124
 \leftroot@=\count125
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count126
 \DOTSCASE@=\count127
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen115
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count128
 \c@MaxMatrixCols=\count129
 \dotsspace@=\muskip10
@@ -182,14 +174,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
 \NC@list=\toks22
@@ -574,15 +566,15 @@ LaTeX Font Info:    ... okay on input line 45.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* h-part:(L,W,R)=(108.405pt, 416.83289pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69684pt
-* \textheight=674.33032pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-23.91173pt
+* \textwidth=416.83289pt
+* \textheight=700.50687pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -661,30 +653,36 @@ File: "figures/vnitLogo".png Graphic file (type png)
 
 <use "figures/vnitLogo".png>
 Package pdftex.def Info: "figures/vnitLogo".png used on input line 46.
-(pdftex.def)             Requested size: 145.11052pt x 145.11882pt.
+(pdftex.def)             Requested size: 125.05113pt x 125.0549pt.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/vnitLogo.png (P
 NG copy)>]
 File: "figures/vnitLogo".png Graphic file (type png)
  <use "figures/vnitLogo".png>
-Package pdftex.def Info: "figures/vnitLogo".png used on input line 66.
-(pdftex.def)             Requested size: 145.11052pt x 145.11882pt.
+Package pdftex.def Info: "figures/vnitLogo".png used on input line 64.
+(pdftex.def)             Requested size: 125.05113pt x 125.0549pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--72
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
 
  []
 
-[1]
+[2]
 File: "figures/vnitLogo".png Graphic file (type png)
  <use "figures/vnitLogo".png>
-Package pdftex.def Info: "figures/vnitLogo".png used on input line 88.
-(pdftex.def)             Requested size: 145.11052pt x 145.11882pt.
- [2]
+Package pdftex.def Info: "figures/vnitLogo".png used on input line 86.
+(pdftex.def)             Requested size: 125.05113pt x 125.0549pt.
+ [3]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-) [1] (main.toc [2
+) [1] (main.toc
+Overfull \hbox (0.89754pt too wide) in paragraph at lines 23--23
+ [][] []\OT1/cmr/m/n/12 Optimum Fre-quency Re-sponse Func-tion for Non-lin-ear 
+spring 
+ []
+
+[2
 
 ])
 \tf@toc=\write4
@@ -696,8 +694,7 @@ Missing character: There is no ™ in font cmr12!
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
-
-[5] (main.lot)
+ [5] (main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
@@ -727,14 +724,7 @@ File: "figures/massRatio".jpg Graphic file (type jpg)
 <use "figures/massRatio".jpg>
 Package pdftex.def Info: "figures/massRatio".jpg used on input line 38.
 (pdftex.def)             Requested size: 232.47029pt x 151.46703pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2 <./figures/dva.jpg>]
+ [2 <./figures/dva.jpg>]
 <"figures/eclipper".png, id=55, 336.50719pt x 137.7647pt>
 File: "figures/eclipper".png Graphic file (type png)
 
@@ -762,11 +752,7 @@ File: "figures/hdamp".png Graphic file (type png)
 <use "figures/hdamp".png>
 Package pdftex.def Info: "figures/hdamp".png used on input line 84.
 (pdftex.def)             Requested size: 258.3652pt x 141.90512pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./figures/eclipper.png>]
+ [4 <./figures/eclipper.png>]
 <"figures/tmdbuild".jpg, id=67, 1099.10625pt x 791.95876pt>
 File: "figures/tmdbuild".jpg Graphic file (type jpg)
 
@@ -782,9 +768,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-) (literature-review.tex [7]
+[7]) (literature-review.tex [8]
 Chapter 2.
-[8
+[9
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
@@ -794,47 +780,52 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
 
-<"figures/11".jpg, id=81, 341.02406pt x 237.13594pt>
+<"figures/11".jpg, id=84, 341.02406pt x 237.13594pt>
 File: "figures/11".jpg Graphic file (type jpg)
  <use "figures/11".jpg>
 Package pdftex.def Info: "figures/11".jpg used on input line 29.
-(pdftex.def)             Requested size: 195.89455pt x 136.21822pt.
+(pdftex.def)             Requested size: 168.81502pt x 117.38806pt.
 
-<"figures/12".jpg, id=82, 372.64218pt x 236.38312pt>
+<"figures/12".jpg, id=85, 372.64218pt x 236.38312pt>
 File: "figures/12".jpg Graphic file (type jpg)
  <use "figures/12".jpg>
 Package pdftex.def Info: "figures/12".jpg used on input line 35.
-(pdftex.def)             Requested size: 195.89455pt x 124.26169pt.
+(pdftex.def)             Requested size: 168.81502pt x 107.08559pt.
 
-<"figures/14".jpg, id=83, 334.24875pt x 238.64156pt>
+<"figures/14".jpg, id=86, 334.24875pt x 238.64156pt>
 File: "figures/14".jpg Graphic file (type jpg)
  <use "figures/14".jpg>
 Package pdftex.def Info: "figures/14".jpg used on input line 44.
-(pdftex.def)             Requested size: 195.89455pt x 139.8651pt.
+(pdftex.def)             Requested size: 168.81502pt x 120.5294pt.
 
-<"figures/13".jpg, id=84, 358.33875pt x 248.42813pt>
+<"figures/13".jpg, id=87, 358.33875pt x 248.42813pt>
 File: "figures/13".jpg Graphic file (type jpg)
  <use "figures/13".jpg>
 Package pdftex.def Info: "figures/13".jpg used on input line 50.
-(pdftex.def)             Requested size: 195.89455pt x 135.80951pt.
+(pdftex.def)             Requested size: 168.81502pt x 117.03795pt.
 
-[9 <./figures/11.jpg> <./figures/12.jpg> <./figures/14.jpg> <./figures/13.jpg>]
-<"figures/8".jpg, id=88, 407.27156pt x 327.47343pt>
+Overfull \hbox (3.22525pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/12 This pa-per takes into ac-count both pri-mary and sec-ondary ma
+ss damp-ing.They
+ []
+
+[10 <./figures/11.jpg> <./figures/12.jpg> <./figures/14.jpg> <./figures/13.jpg>
+] <"figures/8".jpg, id=92, 407.27156pt x 327.47343pt>
 File: "figures/8".jpg Graphic file (type jpg)
  <use "figures/8".jpg>
 Package pdftex.def Info: "figures/8".jpg used on input line 84.
-(pdftex.def)             Requested size: 338.60081pt x 241.84685pt.
+(pdftex.def)             Requested size: 291.79353pt x 208.41801pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<"figures/9".jpg, id=89, 417.81094pt x 359.84438pt>
+<"figures/9".jpg, id=93, 417.81094pt x 359.84438pt>
 File: "figures/9".jpg Graphic file (type jpg)
  <use "figures/9".jpg>
 Package pdftex.def Info: "figures/9".jpg used on input line 90.
-(pdftex.def)             Requested size: 338.60352pt x 193.48395pt.
+(pdftex.def)             Requested size: 291.79626pt x 166.7329pt.
 
-[10] [11 <./figures/8.jpg> <./figures/9.jpg>]
+[11] [12 <./figures/8.jpg> <./figures/9.jpg>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -842,7 +833,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-<"figures/changeInZetaborges".png, id=97, 331.2375pt x 274.77657pt>
+<"figures/changeInZetaborges".png, id=100, 331.2375pt x 274.77657pt>
 File: "figures/changeInZetaborges".png Graphic file (type png)
 
 <use "figures/changeInZetaborges".png>
@@ -853,90 +844,110 @@ Package pdftex.def Info: "figures/changeInZetaborges".png used on input line 11
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
-[13 <./figures/changeInZetaborges.png>]) (woPrimaryDamping.tex [14]
+[14 <./figures/changeInZetaborges.png>]) (woPrimaryDamping.tex [15]
 Chapter 3.
-[15
+[16
 
 ]
+Overfull \hbox (5.3049pt too wide) in paragraph at lines 2--2
+|[]\OT1/cmr/bx/n/17.28 Dynamic vi-bra-tion ab-sorber with-out pri-mary
+ []
+
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- <"figures/4".jpg, id=111, 1372.12625pt x 411.5375pt>
+<"figures/4".jpg, id=115, 1372.12625pt x 411.5375pt>
 File: "figures/4".jpg Graphic file (type jpg)
-
-<use "figures/4".jpg>
+ <use "figures/4".jpg>
 Package pdftex.def Info: "figures/4".jpg used on input line 11.
-(pdftex.def)             Requested size: 483.70598pt x 241.85052pt.
- [16 <./figures/4.jpg>]
+(pdftex.def)             Requested size: 416.83342pt x 208.41821pt.
+
+[17 <./figures/4.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 18--27
 
  []
 
-) (wPrimaryDamping.tex
-Overfull \hbox (13.71698pt too wide) in paragraph at lines 1--1
-|[]\OT1/cmr/bx/n/17.28 Dynamic vi-bra-tion ab-sorber with pri-mary mass damp-
- []
-
-<"figures/withPrimaryMassDamping".png, id=116, 456.95718pt x 408.77719pt>
+[18]) (wPrimaryDamping.tex
+<"figures/withPrimaryMassDamping".png, id=125, 456.95718pt x 408.77719pt>
 File: "figures/withPrimaryMassDamping".png Graphic file (type png)
 
 <use "figures/withPrimaryMassDamping".png>
 Package pdftex.def Info: "figures/withPrimaryMassDamping".png used on input lin
 e 5.
 (pdftex.def)             Requested size: 228.47803pt x 204.38809pt.
- [17]
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[18 <./figures/withPrimaryMassDamping.png>]
-<"figures/point".pdf, id=128, 834.26683pt x 412.29031pt>
+[19 <./figures/withPrimaryMassDamping.png>]
+<"figures/point".pdf, id=131, 834.26683pt x 412.29031pt>
 File: "figures/point".pdf Graphic file (type pdf)
 
 <use "figures/point".pdf>
 Package pdftex.def Info: "figures/point".pdf used on input line 33.
 (pdftex.def)             Requested size: 458.84818pt x 226.76036pt.
 
-<"figures/surface".pdf, id=129, 872.68031pt x 385.41994pt>
+Overfull \hbox (42.01529pt too wide) in paragraph at lines 33--36
+ [][] 
+ []
+
+<"figures/surface".pdf, id=132, 872.68031pt x 385.41994pt>
 File: "figures/surface".pdf Graphic file (type pdf)
 
 <use "figures/surface".pdf>
 Package pdftex.def Info: "figures/surface".pdf used on input line 47.
 (pdftex.def)             Requested size: 436.3391pt x 192.70949pt.
- [19 <./figures/point.pdf>]
-<"figures/optimum".pdf, id=138, 834.26683pt x 398.43857pt>
+
+Overfull \hbox (19.50621pt too wide) in paragraph at lines 47--48
+ [][] 
+ []
+
+[20 <./figures/point.pdf>]
+<"figures/optimum".pdf, id=141, 834.26683pt x 398.43857pt>
 File: "figures/optimum".pdf Graphic file (type pdf)
 
 <use "figures/optimum".pdf>
 Package pdftex.def Info: "figures/optimum".pdf used on input line 68.
 (pdftex.def)             Requested size: 458.84818pt x 219.14188pt.
-) (coloumbdamping.tex [20 <./figures/surface.pdf>]
-<"figures/25".png, id=151, 1029.09468pt x 490.08093pt>
+
+Overfull \hbox (42.01529pt too wide) in paragraph at lines 68--69
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (coloumbdamping.tex
+Overfull \hbox (29.91943pt too wide) in paragraph at lines 13--17
+\OT1/cmr/m/n/12 Friction is dif-fi-cult to model in multi-degree of free-dom me
+-chan-i-cal sys-tems.Experimental
+ []
+
+[21 <./figures/surface.pdf>]
+<"figures/25".png, id=154, 1029.09468pt x 490.08093pt>
 File: "figures/25".png Graphic file (type png)
  <use "figures/25".png>
 Package pdftex.def Info: "figures/25".png used on input line 24.
-(pdftex.def)             Requested size: 483.70596pt x 290.22955pt.
+(pdftex.def)             Requested size: 416.84387pt x 250.10248pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21 <./figures/optimum.pdf>]
-<"figures/28".png, id=160, 1029.09468pt x 490.08093pt>
+[22 <./figures/optimum.pdf>]
+<"figures/28".png, id=164, 1029.09468pt x 490.08093pt>
 File: "figures/28".png Graphic file (type png)
  <use "figures/28".png>
 Package pdftex.def Info: "figures/28".png used on input line 37.
-(pdftex.def)             Requested size: 483.70596pt x 266.03815pt.
+(pdftex.def)             Requested size: 416.84387pt x 229.25375pt.
 
-<"figures/32".png, id=161, 1029.09468pt x 490.08093pt>
+<"figures/32".png, id=165, 1029.09468pt x 490.08093pt>
 File: "figures/32".png Graphic file (type png)
  <use "figures/32".png>
 Package pdftex.def Info: "figures/32".png used on input line 43.
-(pdftex.def)             Requested size: 483.70596pt x 266.03815pt.
+(pdftex.def)             Requested size: 416.84387pt x 229.25375pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -944,10 +955,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (non-linear-literature.tex [22 <./figures/25.png (PNG copy)>] [23 <./figures/
-28.png (PNG copy)> <./figures/32.png>] [24]
+[23 <./figures/25.png (PNG copy)>]) (non-linear-literature.tex [24 <./figures/2
+8.png (PNG copy)> <./figures/32.png>] [25]
 Chapter 4.
-[25
+[26
 
 ]
 Missing character: There is no â in font cmr12!
@@ -956,41 +967,39 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- <"figures/non-lineardiag".png, id=176, 444.91219pt x 208.52907pt>
+ <"figures/non-lineardiag".png, id=179, 444.91219pt x 208.52907pt>
 File: "figures/non-lineardiag".png Graphic file (type png)
 
 <use "figures/non-lineardiag".png>
 Package pdftex.def Info: "figures/non-lineardiag".png used on input line 18.
-(pdftex.def)             Requested size: 483.69553pt x 227.6358pt.
+(pdftex.def)             Requested size: 416.83258pt x 227.6358pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<"figures/33".png, id=177, 1114.09483pt x 530.25067pt>
+[27] <"figures/33".png, id=183, 1114.09483pt x 530.25067pt>
 File: "figures/33".png Graphic file (type png)
- <use "figures/33".png>
+
+<use "figures/33".png>
 Package pdftex.def Info: "figures/33".png used on input line 25.
-(pdftex.def)             Requested size: 483.70937pt x 266.04704pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<"figures/34".png, id=178, 1114.90686pt x 531.0627pt>
+(pdftex.def)             Requested size: 416.83255pt x 229.26553pt.
+ <"figures/34".png, id=184, 1114.90686pt x 531.0627pt>
 File: "figures/34".png Graphic file (type png)
- <use "figures/34".png>
+
+<use "figures/34".png>
 Package pdftex.def Info: "figures/34".png used on input line 30.
-(pdftex.def)             Requested size: 483.70467pt x 266.0493pt.
+(pdftex.def)             Requested size: 416.83015pt x 229.26009pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (NLinPS.tex [26] [27 <./figures/non-lineardiag.png> <./figures/33.png>]
+) (NLinPS.tex [28 <./figures/non-lineardiag.png> <./figures/33.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[28 <./figures/34.png>]
-<"figures/nonlinearity_primaryymass_3_effect of secondaryspring".pdf, id=192, 8
+[29 <./figures/34.png>]
+<"figures/nonlinearity_primaryymass_3_effect of secondaryspring".pdf, id=195, 8
 29.74997pt x 267.93098pt>
 File: "figures/nonlinearity_primaryymass_3_effect of secondaryspring".pdf Graph
 ic file (type pdf)
@@ -998,12 +1007,7 @@ ic file (type pdf)
 <use "figures/nonlinearity_primaryymass_3_effect of secondaryspring".pdf>
 Package pdftex.def Info: "figures/nonlinearity_primaryymass_3_effect of seconda
 ryspring".pdf used on input line 12.
-(pdftex.def)             Requested size: 483.71155pt x 241.85518pt.
-
-
-LaTeX Warning: Reference `fig:varying stiffness of absorber' on page 29 undefin
-ed on input line 16.
-
+(pdftex.def)             Requested size: 416.83641pt x 208.42113pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
@@ -1011,7 +1015,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
 
 <"figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimums"
-.pdf, id=193, 824.48027pt x 267.93098pt>
+.pdf, id=196, 824.48027pt x 267.93098pt>
 File: "figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only opti
 mums".pdf Graphic file (type pdf)
 
@@ -1019,80 +1023,72 @@ mums".pdf Graphic file (type pdf)
 ums".pdf>
 Package pdftex.def Info: "figures/nonlinearity_primaryymass_3b_effect of second
 aryspring_only optimums".pdf used on input line 22.
-(pdftex.def)             Requested size: 483.69658pt x 241.85518pt.
+(pdftex.def)             Requested size: 416.83102pt x 208.42113pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<"figures/linear".pdf, id=194, 832.76122pt x 393.9217pt>
+<"figures/linear".pdf, id=197, 832.76122pt x 393.9217pt>
 File: "figures/linear".pdf Graphic file (type pdf)
 
 <use "figures/linear".pdf>
 Package pdftex.def Info: "figures/linear".pdf used on input line 33.
-(pdftex.def)             Requested size: 483.70073pt x 241.85469pt.
- [29 <./figures/nonlinearity_primaryymass_3_effect of secondaryspring.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<"figures/change".pdf, id=203, 832.76122pt x 407.77344pt>
+(pdftex.def)             Requested size: 416.83704pt x 208.42287pt.
+ [30 <./figures/nonlinearity_primaryymass_3_effect of secondaryspring.pdf>] [31
+ <./figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only optimum
+s.pdf> <./figures/linear.pdf>]
+<"figures/change".pdf, id=219, 832.76122pt x 407.77344pt>
 File: "figures/change".pdf Graphic file (type pdf)
 
 <use "figures/change".pdf>
 Package pdftex.def Info: "figures/change".pdf used on input line 64.
-(pdftex.def)             Requested size: 483.70073pt x 241.84732pt.
+(pdftex.def)             Requested size: 416.83704pt x 208.41591pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[30 <./figures/nonlinearity_primaryymass_3b_effect of secondaryspring_only opti
-mums.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<"figures/nonlinearity_primaryymass_1".pdf, id=212, 810.9196pt x 252.81451pt>
+[32 <./figures/change.pdf>]
+<"figures/nonlinearity_primaryymass_1".pdf, id=228, 810.9196pt x 252.81451pt>
 File: "figures/nonlinearity_primaryymass_1".pdf Graphic file (type pdf)
 
 <use "figures/nonlinearity_primaryymass_1".pdf>
 Package pdftex.def Info: "figures/nonlinearity_primaryymass_1".pdf used on inpu
 t line 80.
-(pdftex.def)             Requested size: 483.6972pt x 241.84663pt.
+(pdftex.def)             Requested size: 416.83015pt x 208.41637pt.
 
 Overfull \hbox (5.31561pt too wide) in paragraph at lines 92--92
 []|$[][]$| 
  []
 
-) (othercases.tex [31 <./figures/linear.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<"figures/2addingNonlinearity".pdf, id=221, 819.9634pt x 362.81546pt>
+) (othercases.tex [33 <./figures/nonlinearity_primaryymass_1.pdf>]
+<"figures/2addingNonlinearity".pdf, id=238, 819.9634pt x 362.81546pt>
 File: "figures/2addingNonlinearity".pdf Graphic file (type pdf)
 
 <use "figures/2addingNonlinearity".pdf>
 Package pdftex.def Info: "figures/2addingNonlinearity".pdf used on input line 1
 4.
-(pdftex.def)             Requested size: 483.69913pt x 241.845pt.
- [32 <./figures/change.pdf>] [33 <./figures/nonlinearity_primaryymass_1.pdf>]
+(pdftex.def)             Requested size: 416.83705pt x 208.41243pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <"figures/2changingk2".pdf, id=239, 819.9634pt x 378.09254pt>
 File: "figures/2changingk2".pdf Graphic file (type pdf)
 
 <use "figures/2changingk2".pdf>
 Package pdftex.def Info: "figures/2changingk2".pdf used on input line 19.
-(pdftex.def)             Requested size: 483.69913pt x 241.85147pt.
+(pdftex.def)             Requested size: 416.83705pt x 208.41884pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <"figures/2comparing".pdf, id=240, 819.9634pt x 378.09254pt>
 File: "figures/2comparing".pdf Graphic file (type pdf)
 
 <use "figures/2comparing".pdf>
 Package pdftex.def Info: "figures/2comparing".pdf used on input line 24.
-(pdftex.def)             Requested size: 483.69913pt x 241.85147pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(pdftex.def)             Requested size: 416.83705pt x 208.41884pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1102,32 +1098,34 @@ Overfull \hbox (5.31561pt too wide) in paragraph at lines 43--43
 []|$[][]$| 
  []
 
-[34 <./figures/2addingNonlinearity.pdf> <./figures/2changingk2.pdf>] [35 <./fig
-ures/2comparing.pdf>]
-<"figures/addingNonlinearity".pdf, id=263, 819.9634pt x 391.96437pt>
+[34] [35 <./figures/2addingNonlinearity.pdf> <./figures/2changingk2.pdf>]
+<"figures/addingNonlinearity".pdf, id=258, 819.9634pt x 391.96437pt>
 File: "figures/addingNonlinearity".pdf Graphic file (type pdf)
 
 <use "figures/addingNonlinearity".pdf>
 Package pdftex.def Info: "figures/addingNonlinearity".pdf used on input line 70
 .
-(pdftex.def)             Requested size: 483.69913pt x 241.84912pt.
+(pdftex.def)             Requested size: 416.83705pt x 208.41595pt.
 
-<"figures/changingk2".pdf, id=264, 819.9634pt x 362.81546pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<"figures/changingk2".pdf, id=259, 819.9634pt x 362.81546pt>
 File: "figures/changingk2".pdf Graphic file (type pdf)
 
 <use "figures/changingk2".pdf>
 Package pdftex.def Info: "figures/changingk2".pdf used on input line 75.
-(pdftex.def)             Requested size: 483.69913pt x 241.845pt.
+(pdftex.def)             Requested size: 416.83705pt x 208.41243pt.
 
-<"figures/comparing".pdf, id=265, 819.9634pt x 378.09254pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<"figures/comparing".pdf, id=260, 819.9634pt x 378.09254pt>
 File: "figures/comparing".pdf Graphic file (type pdf)
 
 <use "figures/comparing".pdf>
 Package pdftex.def Info: "figures/comparing".pdf used on input line 80.
-(pdftex.def)             Requested size: 483.69913pt x 241.85147pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(pdftex.def)             Requested size: 416.83705pt x 208.41884pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1140,170 +1138,106 @@ Overfull \hbox (5.31561pt too wide) in paragraph at lines 100--100
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-) (NLinSS.tex [36 <./figures/addingNonlinearity.pdf> <./figures/changingk2.pdf>
-] [37 <./figures/comparing.pdf>]
-<"figures/nonlinearity_secondary_1".pdf, id=287, 810.9196pt x 260.34264pt>
-=======
 ) (NLinSS.tex
-<"figures/nonlinearity_secondary_1".pdf, id=272, 810.9196pt x 260.34264pt>
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
+<"figures/nonlinearity_secondary_1".pdf, id=261, 810.9196pt x 260.34264pt>
 File: "figures/nonlinearity_secondary_1".pdf Graphic file (type pdf)
 
 <use "figures/nonlinearity_secondary_1".pdf>
 Package pdftex.def Info: "figures/nonlinearity_secondary_1".pdf used on input l
 ine 6.
-(pdftex.def)             Requested size: 483.6972pt x 241.85793pt.
- [36 <./figures/addingNonlinearity.pdf>]
+(pdftex.def)             Requested size: 416.83015pt x 208.42534pt.
+ [36 <./figures/2comparing.pdf>]
+Overfull \vbox (87.08543pt too high) has occurred while \output is active []
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
- []
-
-[38 <./figures/nonlinearity_secondary_1.pdf>]
-<"figures/nonlinearity_secondary_2".pdf, id=297, 815.44652pt x 260.34264pt>
-=======
-LaTeX Warning: Text page 37 contains only floats.
-
-[37 <./figures/changingk2.pdf> <./figures/comparing.pdf>] [38 <./figures/nonlin
-earity_secondary_1.pdf>]
+[37 <./figures/addingNonlinearity.pdf> <./figures/changingk2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-<"figures/nonlinearity_secondary_2".pdf, id=303, 815.44652pt x 260.34264pt>
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
+[38 <./figures/comparing.pdf> <./figures/nonlinearity_secondary_1.pdf>]
+<"figures/nonlinearity_secondary_2".pdf, id=297, 815.44652pt x 260.34264pt>
 File: "figures/nonlinearity_secondary_2".pdf Graphic file (type pdf)
 
 <use "figures/nonlinearity_secondary_2".pdf>
 Package pdftex.def Info: "figures/nonlinearity_secondary_2".pdf used on input l
 ine 20.
-(pdftex.def)             Requested size: 483.69736pt x 241.85793pt.
+(pdftex.def)             Requested size: 416.8303pt x 208.42534pt.
  [39 <./figures/nonlinearity_secondary_2.pdf>]
-<<<<<<< HEAD
 <"figures/nonlinearity_secondary_3".pdf, id=307, 819.21059pt x 260.34264pt>
-=======
-<"figures/nonlinearity_secondary_3".pdf, id=313, 819.21059pt x 260.34264pt>
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
 File: "figures/nonlinearity_secondary_3".pdf Graphic file (type pdf)
 
 <use "figures/nonlinearity_secondary_3".pdf>
 Package pdftex.def Info: "figures/nonlinearity_secondary_3".pdf used on input l
 ine 41.
-(pdftex.def)             Requested size: 483.70506pt x 241.85793pt.
+(pdftex.def)             Requested size: 416.84186pt x 208.42534pt.
 
-<<<<<<< HEAD
 <"figures/nonlinerassoptimal".pdf, id=308, 822.97466pt x 375.8341pt>
-=======
-<"figures/nonlinerassoptimal".pdf, id=314, 822.97466pt x 375.8341pt>
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
 File: "figures/nonlinerassoptimal".pdf Graphic file (type pdf)
 
 <use "figures/nonlinerassoptimal".pdf>
 Package pdftex.def Info: "figures/nonlinerassoptimal".pdf used on input line 49
 .
-<<<<<<< HEAD
-(pdftex.def)             Requested size: 493.7886pt x 225.5022pt.
-
-Overfull \hbox (10.09177pt too wide) in paragraph at lines 49--50
-[][] 
- []
-
-=======
-(pdftex.def)             Requested size: 483.69232pt x 241.84625pt.
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
+(pdftex.def)             Requested size: 416.82329pt x 208.41835pt.
 ) (hbm.tex [40 <./figures/nonlinearity_secondary_3.pdf>] [41 <./figures/nonline
 rassoptimal.pdf>]
 Chapter 5.
 [42
 
-<<<<<<< HEAD
 ] [43] <"figures/hbm".pdf, id=332, 821.46902pt x 260.34264pt>
-=======
-] [43] <"figures/hbm".pdf, id=338, 821.46902pt x 260.34264pt>
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
 File: "figures/hbm".pdf Graphic file (type pdf)
 
 <use "figures/hbm".pdf>
 Package pdftex.def Info: "figures/hbm".pdf used on input line 31.
-(pdftex.def)             Requested size: 483.7099pt x 241.85793pt.
-<<<<<<< HEAD
- [44 <./figures/hbm.pdf>] [45]
-Overfull \hbox (49.3089pt too wide) in paragraph at lines 73--73
-[] 
- []
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 94--97
-
+(pdftex.def)             Requested size: 416.83784pt x 208.42534pt.
+ [44 <./figures/hbm.pdf>] [45] [46]
+Overfull \hbox (17.45149pt too wide) in paragraph at lines 98--101
+[]\OT1/cmr/m/n/12 Using these 8 equa-tions, val-ues of 8 vari-ables is found us
+-ing nu-mer-i-cal solver(fsolve)
  []
 
 
 <"figures/nonlinearity_primaryymass_3rdorder_2".png, id=348, 1029.09468pt x 295
-=======
- [44 <./figures/hbm.pdf>] [45] [46]
-<"figures/nonlinearity_primaryymass_3rdorder_2".png, id=354, 1029.09468pt x 295
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
 .1025pt>
 File: "figures/nonlinearity_primaryymass_3rdorder_2".png Graphic file (type png
 )
  <use "figures/nonlinearity_primaryymass_3rdorder_2".png>
 Package pdftex.def Info: "figures/nonlinearity_primaryymass_3rdorder_2".png use
 d on input line 105.
-(pdftex.def)             Requested size: 483.70596pt x 241.85051pt.
+(pdftex.def)             Requested size: 416.84387pt x 208.42102pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<<<<<<< HEAD
 <"figures/nonlinearity_primaryymass_3rdorder".png, id=349, 1029.09468pt x 295.1
-=======
-<"figures/nonlinearity_primaryymass_3rdorder".png, id=355, 1029.09468pt x 295.1
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
 025pt>
 File: "figures/nonlinearity_primaryymass_3rdorder".png Graphic file (type png)
  <use "figures/nonlinearity_primaryymass_3rdorder".png>
 Package pdftex.def Info: "figures/nonlinearity_primaryymass_3rdorder".png used 
 on input line 113.
-(pdftex.def)             Requested size: 483.70596pt x 241.85051pt.
+(pdftex.def)             Requested size: 416.84387pt x 208.42102pt.
 ) (conclusion.tex
 [47] [48 <./figures/nonlinearity_primaryymass_3rdorder_2.png> <./figures/nonlin
 earity_primaryymass_3rdorder.png (PNG copy)>]
 Chapter 6.
 [49
 
-] [50]) (bibilography.tex [51]
+] [50] [51]) (bibilography.tex [52]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no · in font cmr12!
- [52
-<<<<<<< HEAD
+ [53
 
-]) [53] (main.aux)
-=======
-
-]) [53] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
+]) [54] (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 13764 strings out of 493333
- 267349 string characters out of 3139203
- 412654 words of memory out of 3000000
- 16924 multiletter control sequences out of 15000+200000
-=======
- 13772 strings out of 493333
- 267569 string characters out of 3139179
- 411751 words of memory out of 3000000
- 16931 multiletter control sequences out of 15000+200000
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
+ 13765 strings out of 493333
+ 267372 string characters out of 3139203
+ 411609 words of memory out of 3000000
+ 16925 multiletter control sequences out of 15000+200000
  12041 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,54p,1571b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1321,15 +1255,9 @@ les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb>
-<<<<<<< HEAD
-Output written on main.pdf (62 pages, 1532221 bytes).
+Output written on main.pdf (63 pages, 1535850 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
-=======
-Output written on main.pdf (62 pages, 1530346 bytes).
-PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
->>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
+ 425 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

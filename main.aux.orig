@@ -3,138 +3,148 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}Introduction}{1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces A simple dynamic vibration absorber}}{1}}
-\newlabel{dva}{{1.1}{1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Change in response on addition of DVA without a damper}}{2}}
-\newlabel{changeInGraph}{{1.2}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Effect of mass ratio on natural frequencies}}{2}}
-\newlabel{massRatio}{{1.3}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Introduction}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces A simple dynamic vibration absorber}}{2}}
+\newlabel{dva}{{1.1}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Change in response on addition of DVA without a damper}}{3}}
+\newlabel{changeInGraph}{{1.2}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Effect of mass ratio on natural frequencies}}{3}}
+\newlabel{massRatio}{{1.3}{3}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}Applications:}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Damping of hand-held devices}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces A typical electrical hair clipper}}{3}}
-\newlabel{eclipper}{{1.4}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Floor vibration control}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Two tuned mass dampers installed underneath a floor}}{4}}
-\newlabel{floordamp}{{1.5}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces A typical electrical hair clipper}}{4}}
+\newlabel{eclipper}{{1.4}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Floor vibration control}{4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Houdaille damper}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Figure showing Houdaille damper}}{4}}
-\newlabel{hdamp}{{1.6}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Two tuned mass dampers installed underneath a floor}}{5}}
+\newlabel{floordamp}{{1.5}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Figure showing Houdaille damper}}{5}}
+\newlabel{hdamp}{{1.6}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4}Vibration control of structures}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces Tuned mass damper atop Taipei 101}}{5}}
-\newlabel{taipei}{{1.7}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces Tuned mass damper atop Taipei 101}}{6}}
+\newlabel{taipei}{{1.7}{6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2.5}Wind turbines}{6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2.6}Optical Disk Drives}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Thesis Outline}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Thesis Outline}{7}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Literature Review}{8}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}Linear Dynamic Vibration Absorber}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Linear Dynamic Vibration Absorber}{9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces optimal f and $\zeta _1$ as a function of $\mu $}}{9}}
 \newlabel{11}{{2.1}{9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Maximum vibrational amplitude for optimum $\zeta _1$ }}{9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces optimal $\zeta _2$ and $\zeta _1$ as a function of $\mu $}}{9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces FRF}}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Configuration of skyhook and ground hook damper}}{10}}
-\newlabel{fig:8}{{2.5}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Configuration of skyhook and ground hook damper}}{11}}
+\newlabel{fig:8}{{2.5}{11}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparision of FRF's}}{11}}
 \newlabel{fig:9}{{2.6}{11}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Non-linearity in the System}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces Effect of $\zeta _1$ and $\zeta _2$ on the system response}}{12}}
-\newlabel{borges}{{2.7}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Non-linearity in the System}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces Effect of $\zeta _1$ and $\zeta _2$ on the system response}}{13}}
+\newlabel{borges}{{2.7}{13}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Linear Dynamic Vibration Absorber}{15}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Dynamic vibration absorber without primary mass damping}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Dynamic vibration absorber without primary mass damping}{16}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces For three values of $C_{2}$ it can be shown that FRF's pass through 2 fixed points}}{16}}
 \newlabel{fig:4}{{3.1}{16}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Dynamic vibration absorber with primary mass damping}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The main mass and the DVA, both are damped}}{17}}
-\newlabel{damped}{{3.2}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Dynamic vibration absorber with primary mass damping}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The main mass and the DVA, both are damped}}{18}}
+\newlabel{damped}{{3.2}{18}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces The graphs are not passing through a fixed  point}}{19}}
 \newlabel{point}{{3.3}{19}}
-\newlabel{system}{{3.2}{19}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces System parameters with optimum values from numerical search}}{19}}
-\newlabel{maxamp}{{3.2}{19}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Maximum amplitude of the Frequency Response Function}}{19}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Coloumb Damping}{19}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Numerical search. Lowest point on the surface represents optimal solution}}{20}}
 \newlabel{surface}{{3.4}{20}}
+\newlabel{system}{{3.2}{20}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces System parameters with optimum values from numerical search}}{20}}
+\newlabel{maxamp}{{3.2}{20}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Maximum amplitude of the Frequency Response Function}}{20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Frequency Response Function for optimum values found by numerical search}}{21}}
 \newlabel{optimum}{{3.5}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces FRF in case of coloumb damping.}}{21}}
-\newlabel{fig:25}{{3.6}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Search for best possible coloumb damping.}}{22}}
-\newlabel{fig:28}{{3.7}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of Optimum viscous with the best FRF in case of coloumb damping .}}{22}}
-\newlabel{fig:32}{{3.8}{22}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Vibration Absorber with Non-linearity}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Coulomb Damping}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces FRF in case of coloumb damping.}}{22}}
+\newlabel{fig:25}{{3.6}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Search for best possible coulomb damping.}}{23}}
+\newlabel{fig:28}{{3.7}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of Optimum viscous with the best FRF in case of coloumb damping .}}{23}}
+\newlabel{fig:32}{{3.8}{23}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Vibration Absorber with Non-linearity}{25}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Background}{24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Non-linearity added in the primary system.}}{25}}
-\newlabel{fig:33}{{4.1}{25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces non-linearity is added in secondary system.}}{26}}
-\newlabel{fig:33}{{4.2}{26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 2-DOF non linear system.}}{26}}
-\newlabel{fig:34}{{4.3}{26}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Non-linear spring in primary system:\\ Optimum solution}{27}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Effect of varying stiffness of spring of the absorber }{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of varying stiffnes of absorber.}}{27}}
-\newlabel{fig:varying stiffnes of absorber}{{4.4}{27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparision of optimum FRF of linear and non-linear spring .}}{28}}
-\newlabel{fig:optimum stiffness}{{4.5}{28}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Effect of varying damping of the absorber}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Background}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Non-linearity added in the primary system.}}{27}}
+\newlabel{fig:33}{{4.1}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces non-linearity is added in secondary system.}}{27}}
+\newlabel{fig:33}{{4.2}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 2-DOF non linear system.}}{28}}
+\newlabel{fig:34}{{4.3}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Non-linear spring in primary system:\\ Optimum solution}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Effect of varying stiffness of spring of the absorber }{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of varying stiffness of absorber.}}{29}}
+\newlabel{fig:varying stiffness of absorber}{{4.4}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparison of optimum FRF of linear and non-linear spring .}}{30}}
+\newlabel{fig:optimum stiffness}{{4.5}{30}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Comparing maximum values of linear and non-linear FRF}}{30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Optimum Frequency Response Function for Nonlinear spring in Primary system}{31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparision of optimum FRF's for linear and cubic spring.}}{31}}
-\newlabel{fig:optimum FRF}{{4.6}{31}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF}}{32}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Cases for verification}{32}}
-\@writefile{toc}{\contentsline {subsubsection}{Case A}{32}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Comparing maximum values of linear and non-linear FRF : Case A}}{32}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF: Case A}}{32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Effect of adding non-linearity in the primary system}}{33}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Effect of changing stiffness of absorber}}{33}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparison of non-linear and linear optimal solution}}{34}}
-\@writefile{toc}{\contentsline {subsubsection}{Case B}{34}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Comparing maximum values of linear and non-linear case FRF: Case B}}{34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Effect of adding non-linearity in the primary system}}{35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Effect of changing stiffness of absorber}}{35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparison of non-linear and linear optimal solution}}{36}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF: Case B}}{36}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Non-linear spring in the Secondary system:\\ Optimum solution}{36}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Effect of varying stiffness of spring of the absorber }{36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{37}}
-\newlabel{fig:non-linear secondary 1}{{4.13}{37}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{37}}
-\newlabel{fig:non-linear secondary 2}{{4.14}{37}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Effect of varying the damping of secondary system }{38}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Comparison of optimum solution when non-linearity is introduced with the linear optimum solution}{38}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{39}}
-\newlabel{fig:non-linear secondary 3}{{4.15}{39}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Analytical study of non-linearity in single degree of freedom system:\\Harmonic Balance Method}{40}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Response by harmonic balance method.}}{42}}
-\newlabel{fig:hbm}{{5.1}{42}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Harmonic balance method applied to a DVA}{43}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}First order Harmonic balance}{43}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Third order Harmonic balance}{43}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces  comparision of one of the solutions of third order HBM.}}{45}}
-\newlabel{fig:hbm}{{5.2}{45}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces  comparision of the second solutions obtained through third order HBM.}}{46}}
-\newlabel{fig:hbm}{{5.3}{46}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{47}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Effect of varying damping of the absorber}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces FRF of linear system with optimum parameters}}{31}}
+\newlabel{linearopt}{{4.6}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces FRF with changing damping of the absorber}}{32}}
+\newlabel{changingzeta}{{4.7}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Optimum Frequency Response Function for Nonlinear spring in Primary system}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Comparision of optimum FRF's for linear and cubic spring.}}{33}}
+\newlabel{fig:optimum FRF}{{4.8}{33}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF}}{33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Cases for verification}{33}}
+\@writefile{toc}{\contentsline {subsubsection}{Case A}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Effect of adding non-linearity in the primary system}}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Effect of changing stiffness of absorber}}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Comparison of non-linear and linear optimal solution}}{35}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Comparing maximum values of linear and non-linear FRF : Case A}}{35}}
+\@writefile{toc}{\contentsline {subsubsection}{Case B}{35}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF: Case A}}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Effect of adding non-linearity in the primary system}}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Effect of changing stiffness of absorber}}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Comparison of non-linear and linear optimal solution}}{37}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Comparing maximum values of linear and non-linear case FRF: Case B}}{37}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Maximum amplitude and bandwidth of linear and non-linear FRF: Case B}}{37}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Non-linear spring in the Secondary system:\\ Optimum solution}{38}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Effect of varying stiffness of spring of the absorber }{38}}
 <<<<<<< HEAD
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Present work}{44}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Future Work}{46}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{38}}
+\newlabel{fig:non-linear secondary 1}{{4.15}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{39}}
+\newlabel{fig:non-linear secondary 2}{{4.16}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Effect of varying the damping of secondary system }{39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{40}}
+\newlabel{fig:non-linear secondary 3}{{4.17}{40}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Comparison of optimum solution when non-linearity is introduced with the linear optimum solution}{40}}
 =======
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Present work}{47}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Future Work}{49}}
->>>>>>> e98f853bd8af85819f7e4454b0351c4e95afe42d
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Effect of increasing non-linear stiffness of absorber.}}{38}}
+\newlabel{fig:non-linear secondary 1}{{4.13}{38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Effect of increasing linear stiffness if cubic non-linearity is present in absorber.}}{39}}
+\newlabel{fig:non-linear secondary 2}{{4.14}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Effect of varying the damping of secondary system }{40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Effect of increasing damping if cubic non-linearity is present in absorber.}}{40}}
+\newlabel{fig:non-linear secondary 3}{{4.15}{40}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Comparison of optimum solution when non-linearity is introduced with the linear optimum solution}{41}}
+>>>>>>> 29d2fd3c3a9c6f03ca112b6fad507b92bd918910
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Analytical study of non-linearity in single degree of freedom system:\\Harmonic Balance Method}{42}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Response by harmonic balance method.}}{44}}
+\newlabel{fig:hbm}{{5.1}{44}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Harmonic balance method applied to a DVA}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}First order Harmonic balance}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Third order Harmonic balance}{46}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces  comparision of one of the solutions of third order HBM.}}{48}}
+\newlabel{fig:hbm}{{5.2}{48}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces  comparision of the second solutions obtained through third order HBM.}}{48}}
+\newlabel{fig:hbm}{{5.3}{48}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{49}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Present work}{50}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Future Work}{51}}
 \bibcite{randall}{1}
 \bibcite{liu}{2}
 \bibcite{zhang}{3}
