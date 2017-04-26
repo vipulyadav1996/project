@@ -1,4 +1,4 @@
-\chapter{Analytical study of non-linearity in single degree of freedom system:Harmonic Balance Method}
+\chapter{Analytical Study of Non-Linearity in Single Degree of Freedom System:\\Harmonic Balance Method}
 Harmonic balance method is selected for analytical study because it is not restricted to weakly nonlinear problems and, for smooth systems the assumed harmonic solutions always converge to the exact solution. The mathematical analysis can be conducted relatively easily due to it not producing complicated mathematical expressions for higher order terms. However, the HBM has some limitations in accuracy. In the interpretation considered here, one chooses just to use the response at the excitation frequency, i.e., by assuming that sub and super harmonics are negligible compared to the fundamental harmonic and that the system is only under periodic excitation. In addition, the stability characteristics require a separate analysis. 
 We will be considering the non-linear system governed by duffing equation.Here we will be considering the forced vibration of a single degree of freedom system with viscous damping,the equation of motion of such a system is given by
 \begin{align}
@@ -98,18 +98,17 @@ k2*P+9*D*m2*\omega^2-9*m2*P*\omega^2+3*c2*N*\omega=0
 Using these 8 equations, values of 8 variables is found using numerical solver(fsolve) in matlab,but the limitation of using numerical method is that an initial value of A,B,C,D,L,M,N,P has to be supplied,about which the solver tries to find the solution,so we would get only the local solution in these cases.\\
 The vibration response or FRF is obtained by getting the maximum value of $Asin(\omega t)+Bcos(\omega t)+Csin(3\omega t)+Dcos(3\omega t) $ at each frequency.\\
 We had given the 2 initial values:
-\begin{enumerate}[1)]
+\begin{enumerate}[i)]
 \item All the 8 variables A,B,C,D,L,M,N and P are given a zero initial value at all the frequency,In the graph that is shown below,we have compared this solution with the response obtained through RK-4.
 
+\item The second initial condition that we had supplied was that for each frequency initial values of A,B,C,D,L,M,N and P was the solution of A,B,C,D,L,M,N and P obtained for the previous frequency.For example $A_{initial}$ for $\omega$ = 0.2 rad/s is equal to A for $\omega$=0.1rad/s.The solution obtained in this case is as shown in figure \ref{fig:hbm}.
+\end{enumerate}
 \begin{figure}[h!]
 \includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_3rdorder_2"}
 \caption{ comparision of one of the solutions of third order HBM.}
   \label{fig:hbm}
 \end{figure}
-
-\item The second initial condition that we had supplied was that for each frequency initial values of A,B,C,D,L,M,N and P was the solution of A,B,C,D,L,M,N and P obtained for the previous frequency.For example $A_{initial}$ for $\omega$ = 0.2 rad/s is equal to A for $\omega$=0.1rad/s.The solution obtained in this case is as shown in figure \ref{fig:hbm}.
-\end{enumerate}
-\begin{figure}[t]
+\begin{figure}[h!]
 \includegraphics[width=\textwidth,height=0.5\textwidth]{"figures/nonlinearity_primaryymass_3rdorder"}
 \caption{ comparision  of the second solutions obtained through third order HBM.}
   \label{fig:hbm}
